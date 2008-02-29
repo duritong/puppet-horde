@@ -1,0 +1,234 @@
+# vacation 2.2 Galician translation.
+#
+# Version inicial de:
+#
+# Rafael Varela <rafael.varela@usc.es>
+# Guillermo Mendez <guille@usc.es>
+# Servicio de atencion a usuarios e sistemas
+# Universidade de Santiago de Compostela
+#
+# Revisada y corregida por:
+# 
+# Servicio de normalizacion linguistica <snlusc@usc.es>
+# Universidade de Santiago de Compostela
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: vacation\n"
+"POT-Creation-Date: 2003-04-04 12:00+0100\n"
+"PO-Revision-Date: 2003-10-24 13:32GMT+1\n"
+"Last-Translator: guille <guille@usc.es>\n"
+"Language-Team: Galego\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.5\n"
+
+msgid ""
+"A vacation notice will automatically reply to any incoming mail you receive "
+"while you are away or unable to attend to your e-mail -- for example while "
+"on vacation or out of town on business."
+msgstr ""
+"A finalidade da notificación de ausencia é advertir (por cortesía) a todos "
+"aqueles que lle escriban de que non pode responder as súas mensaxes (por "
+"exemplo, no caso das vacacións ou dunha viaxe"
+
+msgid ""
+"As an administrator, you can set vacation notices for yourself or for others "
+"(if you know their username and password)."
+msgstr ""
+"Como administrador, vostede pode activar a resposta automática da "
+"notificación de ausencia para outros usuarios (se coñece o seu nome de "
+"usuario e chave de acceso)."
+
+msgid "Change Vacation Notices"
+msgstr "Cambiar o texto da mensaxe de notificación de ausencia"
+
+msgid "Could not create file"
+msgstr "Non se puido crear o arquivo."
+
+msgid "Could not login -- check password!"
+msgstr "Non se puido iniciar a sesión -- comprobe a chave de acceso"
+
+msgid "Could not set forwarding"
+msgstr "Non se puido activar o reenvío"
+
+msgid "Could not write to file"
+msgstr "Non se puido escribir no arquivo."
+
+msgid "Error"
+msgstr "Erro"
+
+msgid "Failure in modifying vacation notice: "
+msgstr "Fallo ó modificar o texto da notificación de ausencia:"
+
+msgid "Failure in removing vacation notice: "
+msgstr "Fallo ó desactivar a notificación de ausencia:"
+
+msgid "File open failed - File exists"
+msgstr "Fallo ó abrir o arquivo - Xa existe"
+
+msgid ""
+"For your protection and safety, you must identify yourself with your login "
+"password to verify this change."
+msgstr ""
+"Por razóns de seguridade, debe introducir a chave de acceso para poder "
+"realizar o cambio."
+
+msgid "Help"
+msgstr "Axuda"
+
+msgid ""
+"It could be used as a courtesy to let others know why you are not answering "
+"their e-mail to you."
+msgstr ""
+"Pode usalo como medida de cortesía para lles facer saber ós demais a razón "
+"pola que non responde ás súas mensaxes."
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "Logout"
+msgstr "Terminar a sesión"
+
+msgid "Message:"
+msgstr "Mensaxe:"
+
+msgid "Nota:"
+msgstr "Nota:"
+
+msgid "Problem?"
+msgstr "¿Problemas?"
+
+msgid "Select your preferred language:"
+msgstr "Seleccione a lingua:"
+
+msgid "Server connection failed"
+msgstr "Fallo ó conectar co servidor"
+
+msgid "Set the language that menu items, explanations, and help are in."
+msgstr "Establece a lingua para os elementos do menú, explicacións e axuda."
+
+msgid "Set/install vacation notice"
+msgstr "Activa o módulo de notificación de ausencia"
+
+msgid "Some of Vacation module's configuration files are missing:"
+msgstr ""
+"Alguns dos arquivos de configuración do módulo de notificación de ausencia "
+"non se dan atopado:"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "Success"
+msgstr "Éxito"
+
+msgid "Then submit the form so that your vacation notice can be updated."
+msgstr ""
+"Prema no botón <b>enviar</b> para actualizar a notificación de ausencia."
+
+msgid ""
+"This file controls the default preferences for Vacation module, and also "
+"controls which preferences users can alter."
+msgstr ""
+"Este arquivo controla as preferencias predeterminadas do módulo de "
+"notificación de ausencia, e tamén cáles pode modificar os usuarios."
+
+msgid ""
+"This file controls the stylesheet that is used to set colors and fonts in "
+"addition to or overriding Horde defaults."
+msgstr ""
+"Este arquivo controla as follas de estilo que establecen as cores e os tipos "
+"de letra que complementan ou modifican os valores predeterminados de Horde."
+
+msgid ""
+"This form lets you install or remove a vacation notice for your e-mail "
+"account.  You should edit the default message to meet your needs."
+msgstr ""
+"<p>Este formulario permite activar ou desactivar a notificación de ausencia "
+"para o seu correo.<p>Edite a mensaxe segundo as súas necesidades, "
+"respectando o <i>Asunto:</i> da primeira liña (o que escriba a continuación "
+"e ata a seguinte liña aparecerá como o tema da mensaxe de aviso).<p>Se "
+"escribe $SUBJECT no corpo da mensaxe, será substituído polo tema orixinal da "
+"mensaxe recibida orixinalmente."
+
+msgid ""
+"This form uses strong encryption to protect your password while in transmit "
+"to the web server."
+msgstr ""
+"Este formulario utiliza a cifraxe forte para protexer o súa chave dde acceso "
+"durante a transmisión cara ó servidor web."
+
+msgid ""
+"This is the main Vacation module configuration file. It contains paths and "
+"options for all Vacation module scripts."
+msgstr ""
+"Este é o arquivo principal de configuración do módulo de notificación de "
+"ausencia. Contén as rutas e opcións para tódolos programas do módulo."
+
+msgid "Unset/remove vacation notice"
+msgstr "Desactiva a notificación de ausencia"
+
+msgid "Vacation module is not properly configured"
+msgstr "O módulo de ausencia non se configurou axeitadamente"
+
+msgid "Vacation notice removed!"
+msgstr "¡Notificación de ausencia desactivada!"
+
+msgid "Vacation notice set!"
+msgstr "¡Notificación de ausencia activada!"
+
+msgid "Warning"
+msgstr "Atención"
+
+msgid "You can not set vacation notices for other user"
+msgstr "Non pode establecer a notificación de ausencia para outros usuarios"
+
+#, c-format
+msgid "You can't change vacation notice for user %s"
+msgstr "Non pode cambiar a notificación de ausencia do usuario %s"
+
+msgid "You must give a vacation message"
+msgstr "Escriba polo menos unha mensaxe de notificación de ausencia"
+
+msgid "You must give your password"
+msgstr "Escriba a chave de acceso"
+
+msgid "You must give your userid"
+msgstr "Escriba o nome de usuario"
+
+msgid "You must specify the mode"
+msgstr "Especifique o modo"
+
+msgid "Your Information"
+msgstr "A súa información"
+
+msgid "Your Userid:"
+msgstr "O seu nome de usuario:"
+
+msgid "Your password:"
+msgstr "A súa chave de acceso:"
+
+msgid "I'm on vacation and will not be reading my mail for a while."
+msgstr ""
+"Este é un aviso xerado de forma automática:Nestes intres non podo atender o "
+"correo. Contestarei a súa mensaxe tan axiña como sexa posible. "
+
+msgid "On vacation message"
+msgstr "Estou fóra"
+
+msgid "Your mail will be dealt with when I return."
+msgstr "Responderei a súa mensaxe tan axiña como sexa posible."
+
+msgid ""
+"Error deleting .forward file -- Maybe you didn't have a vacation notice "
+"installed?"
+msgstr ""
+"Non se puido eliminar o arquivo .forward: Se cadra non tiña activado o "
+"módulo de ausencia"
+
+msgid "Account Manager"
+msgstr "Xestor da conta"
+
+msgid "Alias address to also forward (optional): "
+msgstr "Enderezos de alias que tamén deben respostar á ausencia (opcional):"

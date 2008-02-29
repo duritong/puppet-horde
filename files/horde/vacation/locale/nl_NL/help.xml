@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<!-- $Horde: vacation/locale/nl_NL/help.xml,v 1.1 2003/04/01 08:31:27 jan Exp $ -->
+<help>
+
+<entry id="account-manager">
+    <title>Menu Buttons: Account Manager</title>
+    <heading>Account Manager</heading>
+    <para>
+    De Account Manager knop brengt u terug naar de hoofd account management module.
+    </para>
+</entry>
+
+<entry id="set-install">
+    <title>Instellen van het afwezigheidsbericht</title>
+    <heading>Instellen van het afwezigheidsbericht</heading>
+    <para>
+    Deze checkbox zet (of installeert) een afwezigheidsbericht.  Dat wil zeggen, het vertelt het systeem dat u een nieuw afwezigheidsbericht wilt maken.  Indien er al een bericht bestaat, word deze overschreven.
+    </para>
+</entry>
+
+<entry id="unset-remove">
+    <title>Verwijderen van het afwezigheidsbericht</title>
+    <heading>Verwijderen van het afwezigheidsbericht</heading>
+    <para>
+    Deze checkbox verwijdert uw afwezigheidsbericht.  Verwijderen stopt het automatisch versturen van berichten.
+    </para>
+</entry>
+
+<entry id="message-composition">
+    <title>Bericht samenstelling</title>
+    <heading>Bericht samenstelling</heading>
+    <para>
+    Er is een groot veld om uw afwezigheidsbericht op te stellen in het midden.  Dit bericht word automatisch naar de zender van het bericht gestuurd.  Een voorbeeldbericht staat er al, die u kunt aanpassen.
+    </para>
+    <para>
+    HEt bericht mag email headers bevatten en zou in ieder geval de Subject: header bevatten.  Zet hier GEEN To: header , deze wordt automatisch gegenereerd.  Als de string $SUBJECT besaat in het bericht, zal het het originele onderwerp van de zender vervngen.
+    </para>
+</entry>
+
+<entry id="vacation-alias">
+    <title>Alias emailadres</title>
+    <heading>Alias emailadres</heading>
+    <para>
+    U mag een alias opgeven voor uzelf.  Normaal gesproken zal vacation niet reageren op berichten als uw email adres is niet in de To: of de Cc: regel voorkomt.  Echter, veel mensen hebben meerdere email adressen (aliassen) die bij dezelfde mailbox horen.  Dit veld stelt u in staat om zo'n alias op te geven voor afwezigheidsberichten.
+    </para>
+</entry>
+
+</help>

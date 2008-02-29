@@ -1,0 +1,61 @@
+/**
+ * $Horde: nag/themes/screen.css,v 1.1.4.1 2005/10/18 12:56:52 jan Exp $
+ */
+
+/* Menu bottom margin, added for BC. */
+#menu {
+    margin-bottom: 8px;
+}
+
+/* Image alignment, added for BC. */
+img {
+    vertical-align: middle;
+}
+
+/* Table CSS, added for BC. */
+th {
+    color: #333;
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    border-bottom: 1px solid #999;
+}
+
+/* Sort arrow styles, added for BC. */
+.sortup {
+    background: #bbcbff url("graphics/za.png") center left no-repeat;
+    padding-left: 10px;
+}
+.sortdown {
+    background: #bbcbff url("graphics/az.png") center left no-repeat;
+    padding-left: 10px;
+}
+
+.overdue, .overdue td {
+    color: #f00;
+}
+.overdue a, .overdue td a {
+    color: #f00;
+}
+.closed, .closed td {
+    color: #aaa;
+}
+.closed a, .closed td a {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.pri-1 {
+    color: #f00;
+}
+.pri-2 {
+    color: #f30;
+}
+.pri-3 {
+    color: #000;
+}
+.pri-4 {
+    color: #03f;
+}
+.pri-5 {
+    color: #00f;
+}

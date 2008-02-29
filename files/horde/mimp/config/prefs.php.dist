@@ -1,0 +1,276 @@
+<?php
+/**
+ * $Horde: mimp/config/prefs.php.dist,v 1.30 2006/01/21 19:18:58 slusarz Exp $
+ *
+ * See horde/config/prefs.php for documentation on the structure of this file.
+ */
+
+require_once dirname(__FILE__) . '/../lib/MIMP.php';
+
+$prefGroups['identities'] = array(
+    'column' => _("Your Information"),
+    'label' => _("Personal Information"),
+    'desc' => _("Change the name, address, and signature that people see when they read and reply to your email."),
+    'members' => array('replyto_addr', 'signature', 'sig_dashes', 'sig_first',
+                       'save_sent_mail', 'sent_mail_folder', 'sentmailselect')
+);
+
+$prefGroups['server'] = array(
+    'column' => _("Your Information"),
+    'label' => _("Server Information"),
+    'desc' => _("Change mail server settings."),
+    'members' => array('subscribe')
+);
+
+$prefGroups['viewing'] = array(
+    'column' => _("Mail Management"),
+    'label' => _("Message Viewing"),
+    'desc' => _("Configure how messages are displayed."),
+    'members' => array('filtering', 'preview_msg')
+);
+
+$prefGroups['delmove'] = array(
+    'column' => _("Mail Management"),
+    'label' => _("Deleting and Moving Messages"),
+    'desc' => _("Set preferences for what happens when you move and delete messages."),
+    'members' => array('mailbox_return', 'use_trash')
+);
+
+$prefGroups['display'] = array(
+    'column' => _("Other Options"),
+    'label' => _("Display Options"),
+    'desc' => _("Change display options such as how many messages you see on each page and how messages are sorted."),
+    'members' => array('sortby', 'sortdir', 'max_msgs')
+);
+
+$prefGroups['compose'] = array(
+    'column' => _("Other Options"),
+    'label' => _("Message Composition"),
+    'desc' => _("Customize how you send mail."),
+    'members' => array('compose_confirm')
+);
+
+
+// Personal Information preferences
+
+// user preferred email address for Reply-To:, if different from From:
+$_prefs['replyto_addr'] = array(
+    'value' => '',
+    'locked' => false,
+    'shared' => false,
+    'type' => 'text',
+    'desc' => _("Your Reply-to: address: <em>(optional)</em>"));
+
+// user signature
+$_prefs['signature'] = array(
+    'value' => '',
+    'locked' => false,
+    'shared' => false,
+    'type' => 'textarea',
+    'desc' => _("Your signature:"));
+
+// precede the signature with dashes ('-- ')?
+$_prefs['sig_dashes'] = array(
+    'value' => 0,
+    'locked' => false,
+    'shared' => false,
+    'type' => 'checkbox',
+    'desc' => _("Precede your signature with dashes ('-- ')?"));
+
+// signature before replies and forwards?
+$_prefs['sig_first'] = array(
+    'value' => 0,
+    'locked' => false,
+    'shared' => false,
+    'type' => 'checkbox',
+    'desc' => _("Place your signature before replies and forwards?"));
+
+// save a copy of sent messages?
+$_prefs['save_sent_mail'] = array(
+    'value' => 1,
+    'locked' => false,
+    'shared' => false,
+    'type' => 'checkbox',
+    'desc' => _("Save sent mail?"));
+
+// sent mail folder
+$_prefs['sent_mail_folder'] = array(
+    'value' => 'sent-mail',
+// For Exchange server uncomment the line below and delete the line above
+//    'value' => 'Sent Items',
+    'locked' => false,
+    'shared' => false,
+    'type' => 'implicit');
+
+// sent mail folder selection widget.
+$_prefs['sentmailselect'] = array('type' => 'special');
+
+// End Personal Information preferences
+
+
+// Server Information preferences
+
+// use IMAP subscribe?
+$_prefs['subscribe'] = array(
+    'value' => 0,
+    'locked' => false,
+    'shared' => true,
+    'type' => 'checkbox',
+    'desc' => _("Use IMAP folder subscriptions?"));
+
+// End Server Information preferences
+
+
+// Message Viewing preferences
+
+// filter message content?
+$_prefs['filtering'] = array(
+    'value' => 0,
+    'locked' => false,
+    'shared' => false,
+    'type' => 'checkbox',
+    'desc' => _("Filter message content for profanity?"));
+
+// display only the first 250 characters of a message on first message view?
+$_prefs['preview_msg'] = array(
+    'value' => 0,
+    'locked' => false,
+    'shared' => false,
+    'type' => 'checkbox',
+    'desc' => _("Display only the first 250 characters of a message initially?"));
+
+// End Message Viewing preferences
+
+
+// Deleting and Moving Messages preferences
+
+// should we return to the mailbox listing after deleting a message?
+$_prefs['mailbox_return'] = array(
+    'value' => 0,
+    'locked' => false,
+    'shared' => false,
+    'type' => 'checkbox',
+    'desc' => _("Return to the mailbox listing after deleting, moving, or copying a message?"));
+
+// should we move messages to a trash folder instead of just marking
+// them as deleted?
+$_prefs['use_trash'] = array(
+    'value' => 0,
+    'locked' => false,
+    'shared' => false,
+    'type' => 'checkbox',
+    'desc' => _("When deleting messages, move them to your Trash folder instead of marking them as deleted?"));
+
+// trash folder
+$_prefs['trash_folder'] = array(
+// for Exchange, uncomment the entry below and remove the default value entry
+//    'value' => 'Deleted Items',
+    'value' => 'trash',
+    'locked' => false,
+    'shared' => false,
+    'type' => 'implicit');
+
+// hide deleted
+$_prefs['delhide'] = array(
+    'value' => 0,
+    'locked' => false,
+    'shared' => false,
+    'type' => 'implicit');
+
+// End Deleting and Moving Messages preferences
+
+
+// Display Options preferences
+
+// user preferred sorting column
+$_prefs['sortby'] = array(
+    'value' => SORTARRIVAL,
+    'locked' => false,
+    'shared' => false,
+    'type' => 'enum',
+    'enum' => array(SORTARRIVAL => _("Arrival Time"),
+                    SORTDATE => _("Message Date"),
+                    SORTFROM => _("From Address"),
+                    SORTSUBJECT => _("Subject Field"),
+                    SORTSIZE => _("Message Size"),
+                    SORTTHREAD => _("Thread View")),
+    'desc' => _("Default sorting criteria:"));
+
+// user preferred sorting direction
+$_prefs['sortdir'] = array(
+    'value' => 0,
+    'locked' => false,
+    'shared' => false,
+    'type' => 'enum',
+    'enum' => array(0 => _("Ascending"),
+                    1 => _("Descending")),
+    'desc' => _("Default sorting direction:"));
+
+// mailbox constraints
+$_prefs['max_msgs'] = array(
+    'value' => 20,
+    'locked' => false,
+    'shared' => false,
+    'type' => 'number',
+    'desc' => _("Messages per page in the mailbox view."));
+
+// End Display Options preferences
+
+
+// Message Composition preferences
+
+// confirm successful sending of messages?
+$_prefs['compose_confirm'] = array(
+    'value' => 0,
+    'locked' => false,
+    'shared' => false,
+    'type' => 'checkbox',
+    'desc' => _("Display confirmation after sending a message?"));
+
+// End Message Composition preferences
+
+
+// Login Tasks preferences
+
+// the page to display. Either a filename like 'folders.php'
+// or a mailbox name.
+$_prefs['initial_page'] = array(
+    'value' => 'INBOX',
+    'locked' => false,
+    'shared' => false,
+    'type' => 'implicit');
+
+// user default mailbox
+$_prefs['mailbox'] = array(
+    'value' => 'INBOX',
+    'locked' => false,
+    'shared' => false,
+    'type' => 'implicit');
+
+// End Login Tasks preferences
+
+
+// address book(s) to use when expanding addresses
+// You can provide default values this way (note the \t and the double quotes):
+// 'value' => "source_one\tsource_two"
+// refer to turba/config/sources.php for possible source values
+$_prefs['search_sources'] = array(
+    'value' => "",
+    'locked' => false,
+    'shared' => false,
+    'type' => 'implicit');
+
+// field(s) to use when expanding addresses
+// This depends on the search_sources preference if you want to provide
+// default values:
+// 'value' => "source_one\tfield_one\tfield_two\nsource_two\tfield_three"
+// will search the fields 'field_one' and 'field_two' in source_one and
+// 'field_three' in source_two.
+// refer to turba/config/sources.php for possible source and field values
+$_prefs['search_fields'] = array(
+    'value' => "",
+    'locked' => false,
+    'shared' => false,
+    'type' => 'implicit');
+
+// End Address book preferences

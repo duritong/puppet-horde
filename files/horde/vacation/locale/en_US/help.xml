@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<!-- $Horde: vacation/locale/en_US/help.xml,v 1.3 2002/11/14 22:38:51 ericr Exp $ -->
+<help>
+
+<entry id="account-manager">
+    <title>Menu Buttons: Account Manager</title>
+    <heading>Account Manager</heading>
+    <para>
+    The Account Manager button returns you to the main account management module.
+    </para>
+</entry>
+
+<entry id="set-install">
+    <title>Set/install checkbox</title>
+    <heading>Set Install checkbox</heading>
+    <para>
+    Check this checkbox in order to set (or install) a vacation notice.  That is, this tells the system you want to create a new vacation notice.  If there is any existing vacation setup, it will be replaced.
+    </para>
+</entry>
+
+<entry id="unset-remove">
+    <title>Unset/remove checkbox</title>
+    <heading>Unset/remove checkbox</heading>
+    <para>
+    Check this checkbox to remove your vacation setup.  Removing the setup stops any further vacation notices from being sent.
+    </para>
+</entry>
+
+<entry id="message-composition">
+    <title>Message Composition</title>
+    <heading>Message Composition</heading>
+    <para>
+    There is a large message composition window in the middle for you to compose your vacation message.  This is the message that will be sent to others.  A sample message is there, which you can edit to your needs.
+    </para>
+    <para>
+    The vacation message may include email headers, and should include at least a Subject: header.  It should NOT, however, contain a To: header as that will be generated automatically).  If the string $SUBJECT appears in the message, it will be replaced with the original subject line of the oringal message when the reply is sent.
+    </para>
+</entry>
+
+<entry id="vacation-alias">
+    <title>Alias Address</title>
+    <heading>Alias Address</heading>
+    <para>
+    You may specify a single alias for yourself here.  Normally, vacation will not respond to messages if your actual email address is not in the To: or the Cc: line.  However, many people have multiple email addresses (alias) that deliver to the same mailbox.  This field allows you to specify such an alias address for vacation respond to.
+    </para>
+</entry>
+
+</help>

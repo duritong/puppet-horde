@@ -1,0 +1,10 @@
+/**
+ * $Horde: imp/themes/luc/screen.css,v 1.2.2.2 2005/10/18 12:14:16 jan Exp $
+ */
+
+.folders {
+    font-size: 11px;
+}
+.answered {
+    background: #c1dac1;
+}

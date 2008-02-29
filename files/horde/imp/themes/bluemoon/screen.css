@@ -1,0 +1,43 @@
+/**
+ * $Horde: imp/themes/bluemoon/screen.css,v 1.1 2004/10/17 20:49:38 mdjukic Exp $
+ */
+
+.composebody {
+    font-family: Courier New, Monospace;
+    font-size: 12px;
+}
+.deleted {
+    background-color: #999999;
+}
+.deleted-over {
+    background-color: #777777;
+}
+.important {
+    background-color: #ffcccc;
+}
+.important-over {
+    background-color: #ffaaaa;
+}
+.unseen {
+    background-color: #eeeeff;
+}
+.unseen-over {
+    background-color: #ccccff;
+}
+.answered {
+    background-color: #ccffcc;
+}
+.answered-over {
+    background-color: #99ee99;
+}
+.folderunsub {
+    background-color: #bbccdd;
+}
+.quotawarn {
+    color: black;
+    background-color: yellow;
+}
+.quotaalert {
+    color: white;
+    background-color: red;
+}

@@ -1,0 +1,207 @@
+# Finnish translation for Vacation.
+# Copyright (C)
+# Tero Matinlassi <terom@iki.fi>, 2002.
+# Leena Heino <liinu@uta.fi>, 2002-2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Vacation 3.0-cvs\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2004-12-01 13:58+0100\n"
+"PO-Revision-Date: 2004-12-10 12:59+0200\n"
+"Last-Translator: Leena Heino <liinu@uta.fi>\n"
+"Language-Team: Finnish <i18n@lists.horde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: templates/main/main.inc:44
+msgid ""
+"A vacation notice will automatically reply to any incoming mail you receive "
+"while you are away or unable to attend to your e-mail -- for example while "
+"on vacation or out of town on business."
+msgstr ""
+"Poissaoloviesti lähetetään automaattisesti vastauksena kaikkiin sinulle "
+"tuleviin sähköposteihin sillä aikaa kun olet poissa tai et pääse lukemaan "
+"sähköpostiasi -- esimerkiksi kun olet lomalla tai poissa paikkakunnalta."
+
+#: templates/main/main.inc:75
+msgid "Alias addresses for this account (optional):"
+msgstr "Alias-sähköpostiosoite tälle käyttäjätilille (vapaaehtoinen):"
+
+#: lib/Driver.php:172
+msgid "Can't parse your email address"
+msgstr "Sähköpostiosoitettasi ei voi tulkita"
+
+#: main.php:146 templates/main/main.inc:37
+msgid "Change Vacation Notices"
+msgstr "Muuta poissaoloviestiä"
+
+#: lib/Driver/ldap.php:185
+msgid "Check your password"
+msgstr "Tarkista salasanasi"
+
+#: lib/Driver/forwards.php:92 lib/Driver/forwards.php:187
+#: lib/Driver/forwards.php:242 lib/Driver/qmail.php:96
+#: lib/Driver/qmail.php:184 lib/Driver/qmail.php:241
+msgid "Check your username and password."
+msgstr "Tarkista käyttäjätunnus ja salasanasi."
+
+#: lib/Driver/ldap.php:80 lib/Driver/ldap.php:230 lib/Driver/ldap.php:298
+msgid "Could not bind to ldap server"
+msgstr "LDAP-palvelinta ei voitu käyttää"
+
+#: lib/Driver/ldap.php:66
+msgid "Could not connect to ldap server"
+msgstr "LDAP-palvelimeen ei saatu yhteyttä"
+
+#: lib/Block/summary.php:37
+msgid "Failed to create a vacation driver"
+msgstr "Vacation ajurin luonti epäonnistui"
+
+#: main.php:96
+#, php-format
+msgid "Failure in modifying vacation notice: %s"
+msgstr "Virhe muokattaessa poissaoloviestiä: %s"
+
+#: main.php:106
+#, php-format
+msgid "Failure in removing vacation notice: %s"
+msgstr "Virhe poistettaessa poissaoloviestiä: %s"
+
+#: templates/main/main.inc:91
+msgid ""
+"For your protection and safety, you must identify yourself with your login "
+"password to verify this change."
+msgstr ""
+"Turvallisuutesi vuoksi tämä muutostoimenpide pitää varmistaa. Sinun täytyy "
+"todentaa itsesi käyttämällä tunnustasi ja salasanaasi."
+
+#: lib/Driver/ldap.php:231 lib/Driver/ldap.php:299
+msgid "Incorrect Password"
+msgstr "Väärä salasana"
+
+#: templates/main/main.inc:45
+msgid ""
+"It could be used as a courtesy to let others know why you are not answering "
+"their e-mail to you."
+msgstr ""
+"Voit tällä tavoin viestittää muille miksi et vastaa heidän sähköposteihinsa."
+
+#: lib/Driver/forwards.php:194 lib/Driver/qmail.php:192
+msgid "Maybe you didn't have a vacation notice installed?"
+msgstr "Ehkä sinulla ei ollut vacation toimintoa asennettuna?"
+
+#: templates/main/main.inc:67
+msgid "Message:"
+msgstr "Viesti"
+
+#: lib/AliasDriver.php:41
+msgid "Not implemented."
+msgstr "Ei ole toteutettu."
+
+#: templates/main/main.inc:53
+msgid "Set/install vacation notice"
+msgstr "Aseta poissaoloviesti"
+
+#: templates/main/main.inc:60
+msgid "Subject:"
+msgstr "Otsikko:"
+
+#: templates/main/main.inc:98
+msgid "Submit"
+msgstr "Lähetä"
+
+#: lib/Driver/ldap.php:115 lib/Driver/qmail.php:53
+msgid "The module is not properly configured!"
+msgstr "Moduulia ei ole asennettu oikein!"
+
+#: lib/Driver/forwards.php:51 lib/Driver/sql.php:50
+msgid "The vacation application is not properly configured."
+msgstr "Vacation-moduulia ei ole asennettu oikein"
+
+#: templates/main/main.inc:92
+msgid "Then submit the form so that your vacation notice can be updated."
+msgstr "Lähetä sitten lomake päivittääksesi poissaoloviestisi."
+
+#: templates/main/main.inc:46
+msgid ""
+"This form lets you install or remove a vacation notice for your e-mail "
+"account. You should edit the default message to meet your needs."
+msgstr ""
+"Tällä lomakkeella voit asettaa tai poistaa poissaoloviestin "
+"sähköpostitunnuksellasi. Muokkaa oletusviestiä tarpeisiisi sopivaksi."
+
+#: lib/Driver/sql.php:249
+msgid "Unable to connect to SQL server."
+msgstr "SQL-palvelimeen ei saada yhteyttä."
+
+#: templates/main/main.inc:56
+msgid "Unset/remove vacation notice"
+msgstr "Poista poissaoloviesti"
+
+#: lib/Driver/ldap.php:147
+msgid "User not found."
+msgstr "Käyttäjää ei löytynyt."
+
+#: lib/Block/summary.php:3
+msgid "Vacation Summary"
+msgstr "Poissaoloviestin yhteenveto"
+
+#: lib/Block/summary.php:41
+msgid "Vacation is active."
+msgstr "Poissaoloviesti asetettu."
+
+#: lib/Block/summary.php:40
+msgid "Vacation is not active."
+msgstr "Poissaoloviesti ei ole asetettu."
+
+#: main.php:94
+msgid "Vacation notice successfully enabled."
+msgstr "Poissaoloviesti on asetettu."
+
+#: main.php:104
+msgid "Vacation notice successfully removed."
+msgstr "Poissaoloviesti on poistettu."
+
+#: main.php:45
+#, php-format
+msgid "You can't change the vacation notice for %s."
+msgstr "Et voi muuttaa poissaoloviestiä käyttäjälle %s."
+
+#: main.php:77
+msgid "You must give a vacation message."
+msgstr "Sinun täytyy antaa poissaoloviesti."
+
+#: main.php:52
+msgid "You must give your password"
+msgstr "Sinun täytyy antaa salasanasi"
+
+#: templates/main/main.inc:14
+msgid "You must provide some message text to set a vacation notice"
+msgstr ""
+"Sinun täytyy antaa joku teksti viestiin asettaaksesi poissaoloviestin päälle"
+
+#: templates/main/main.inc:8
+msgid "You must provide your password"
+msgstr "Sinun täytyy antaa salasanasi"
+
+#: main.php:39
+msgid "You must specify the mode (set or remove)"
+msgstr "Sinun täytyy määritellä toiminto (aseta tai poista)"
+
+#: templates/main/main.inc:95
+msgid "Your password:"
+msgstr "Salasanasi:"
+
+#: main.php:82
+msgid "Your vacation message is not in the proper format."
+msgstr "Poissaoloviestisi ei ole oikeassa muodossa."
+
+#: main.php:123
+msgid "Your vacation notice is currently disabled."
+msgstr "Poissaoloviestisi ei ole käytössä."
+
+#: main.php:120
+msgid "Your vacation notice is currently enabled."
+msgstr "Poissaoloviestisi on käytössä."

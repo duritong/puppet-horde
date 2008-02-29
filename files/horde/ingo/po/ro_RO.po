@@ -1,0 +1,933 @@
+# Romanian translations for Ingo package.
+# Copyright (C) 2003 Horde Project
+# This file is distributed under the same license as the Ingo package.
+# Eugen Hoanca <eugenh@urban-grafx.ro>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Ingo 0.1\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2005-10-18 15:12+0200\n"
+"PO-Revision-Date: 2005-05-28 13:01+0200\n"
+"Last-Translator: Eugen Hoanca <eugenh@urban-grafx.ro>\n"
+"Language-Team: Romanian <i18n@lists.horde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: filters.php:185
+msgid " and"
+msgstr ""
+
+#: filters.php:185
+msgid " or"
+msgstr ""
+
+#: templates/blacklist/blacklist.inc:17
+#, fuzzy
+msgid "Action for blacklisted addresses:"
+msgstr "Adrese din lista neagra"
+
+#: templates/script/activate.inc:10
+#, fuzzy
+msgid "Activate Script"
+msgstr "Activeaza acest script"
+
+#: lib/Driver/ldap.php:232
+#, php-format
+msgid "Activating the script for \"%s\" failed: (%d) %s"
+msgstr ""
+
+#: templates/filters/settings.inc:6
+msgid "Additional Settings"
+msgstr ""
+
+#: templates/rule/header.inc:44
+msgid "All of the following"
+msgstr "Toate din cele urmatoare"
+
+#: lib/api.php:54
+#, fuzzy
+msgid "Allow Rules"
+msgstr "Regula noua"
+
+#: templates/rule/footer.inc:33
+msgid "Answered"
+msgstr "Raspunse"
+
+#: templates/rule/header.inc:45
+msgid "Any of the following"
+msgstr "Oricare din urmatoarele"
+
+#: templates/filters/footer.inc:11
+msgid "Apply Filters"
+msgstr ""
+
+#: filters.php:214
+msgid "Are you sure you want to delete this rule?"
+msgstr ""
+
+#: config/prefs.php.dist:33
+msgid "Automatically update the script after each change?"
+msgstr "Improspatare automata a scriptului dupa fiecare schimbare?"
+
+#: config/fields.php.dist:47
+msgid "Bcc"
+msgstr "Bcc"
+
+#: lib/Storage.php:344
+#, fuzzy
+msgid "Begins with"
+msgstr "Incepe cu"
+
+#: lib/Driver/ldap.php:106 lib/Driver/ldap.php:111
+#, php-format
+msgid "Bind failed: (%s) %s"
+msgstr ""
+
+#: filters.php:144 templates/blacklist/blacklist.inc:7
+msgid "Blacklist"
+msgstr "Lista neagra"
+
+#: blacklist.php:100
+#, fuzzy
+msgid "Blacklist Edit"
+msgstr "Lista neagra"
+
+#: blacklist.php:17
+msgid "Blacklist is not supported in the current filtering driver."
+msgstr ""
+
+#: lib/Script/procmail.php:207 lib/Script/maildrop.php:175
+#, fuzzy
+msgid "Blacklisted Address"
+msgstr "Adrese din lista neagra"
+
+#: lib/Script/sieve.php:243
+msgid "Blacklisted Addresses"
+msgstr "Adrese din lista neagra"
+
+#: config/fields.php.dist:88
+msgid "Body"
+msgstr ""
+
+#: filters.php:182 rule.php:281
+msgid "Case Sensitive"
+msgstr "Caz senzitiv"
+
+#: config/fields.php.dist:43
+msgid "Cc"
+msgstr "Cc"
+
+#: rule.php:122 whitelist.php:36 forward.php:33 vacation.php:41
+#: blacklist.php:69
+#, fuzzy
+msgid "Changes saved."
+msgstr "Modificari salvate"
+
+#: lib/Driver/ldap.php:75
+msgid "Connection failure"
+msgstr ""
+
+#: lib/Storage.php:340
+msgid "Contains"
+msgstr "Contin(e)"
+
+#: filters.php:225 filters.php:226
+#, php-format
+msgid "Copy %s"
+msgstr "Copiere %s"
+
+#: lib/Storage.php:763
+#, php-format
+msgid "Copy of %s"
+msgstr "Copie a %s"
+
+#: lib/Ingo.php:52
+msgid "Create new folder"
+msgstr ""
+
+#: lib/Script/procmail.php:336 lib/Script/maildrop.php:279
+msgid "DISABLED: "
+msgstr ""
+
+#: templates/script/activate.inc:17
+#, fuzzy
+msgid "Deactivate Script"
+msgstr "Activeaza acest script"
+
+#: filters.php:214 filters.php:215
+#, php-format
+msgid "Delete %s"
+msgstr "Stergere %s"
+
+#: templates/rule/filter.inc:30
+msgid "Delete Condition"
+msgstr "Stergere conditie"
+
+#: lib/Storage.php:292
+msgid "Delete message completely"
+msgstr "Stergere completa mesaj"
+
+#: templates/rule/footer.inc:35
+msgid "Deleted"
+msgstr "Sters(e)"
+
+#: lib/Storage.php:280
+#, fuzzy
+msgid "Deliver into my INBOX"
+msgstr "Livrare a acestui mesaj in INBOX"
+
+#: lib/Storage.php:306
+#, fuzzy
+msgid "Deliver into my INBOX and copy to"
+msgstr "Livrare in INBOX si redirectare catre"
+
+#: lib/Storage.php:301
+#, fuzzy
+msgid "Deliver into my INBOX and redirect to"
+msgstr "Livrare in INBOX si redirectare catre"
+
+#: lib/Storage.php:286
+#, fuzzy
+msgid "Deliver to folder"
+msgstr "Muta mesaje in dosar:"
+
+#: filters.php:241 filters.php:242
+#, fuzzy, php-format
+msgid "Disable %s"
+msgstr "Stergere %s"
+
+#: templates/whitelist/whitelist.inc:10 templates/blacklist/blacklist.inc:10
+#: templates/vacation/vacation.inc:6 templates/forward/forward.inc:10
+#: templates/rule/header.inc:26
+msgid "Disabled"
+msgstr ""
+
+#: templates/filters/settings.inc:13
+msgid "Display detailed notification when each filter is applied?"
+msgstr ""
+
+#: templates/vacation/vacation.inc:34
+#, fuzzy
+msgid "Do _not send responses to bulk or list messages"
+msgstr "Nu trimite raspunsuri catre mesaje care contin headere List-*"
+
+#: templates/rule/footer.inc:10
+#, fuzzy
+msgid "Do this:"
+msgstr "Fa asta:"
+
+#: lib/Storage.php:345
+#, fuzzy
+msgid "Doesn't begin with"
+msgstr "Nu incepe cu"
+
+#: lib/Storage.php:341
+#, fuzzy
+msgid "Doesn't contain"
+msgstr "Nu contine"
+
+#: lib/Storage.php:347
+#, fuzzy
+msgid "Doesn't end with"
+msgstr "Nu se termina cu"
+
+#: lib/Storage.php:349
+#, fuzzy
+msgid "Doesn't exist"
+msgstr "Nu exista"
+
+#: lib/Storage.php:352
+msgid "Doesn't match (with placeholders)"
+msgstr ""
+
+#: templates/filters/header.inc:31
+#, fuzzy
+msgid "Edit"
+msgstr "Editare %s"
+
+#: filters.php:203 filters.php:205 filters.php:209 filters.php:210
+#, php-format
+msgid "Edit %s"
+msgstr "Editare %s"
+
+#: filters.php:245 filters.php:246
+#, php-format
+msgid "Enable %s"
+msgstr ""
+
+#: templates/filters/header.inc:37
+msgid "Enabled"
+msgstr ""
+
+#: lib/Storage.php:346
+#, fuzzy
+msgid "Ends with"
+msgstr "Se termina cu"
+
+#: lib/Storage.php:357
+msgid "Equal to"
+msgstr ""
+
+#: lib/Driver/ldap.php:139 lib/Driver/ldap.php:149 lib/Driver/ldap.php:158
+#: lib/Driver/ldap.php:168
+#, php-format
+msgid "Error retrieving current script: (%d) %s"
+msgstr ""
+
+#: blacklist.php:67
+msgid "Error saving changes."
+msgstr ""
+
+#: templates/filters/header.inc:22
+msgid "Existing Rules"
+msgstr "Reguli existente"
+
+#: lib/Storage.php:348
+msgid "Exists"
+msgstr "Exista"
+
+#: lib/Driver/ldap.php:144
+#, php-format
+msgid "Expected 1 object, got %d."
+msgstr ""
+
+#: templates/filters/settings.inc:20
+#, fuzzy
+msgid "Filter All Messages"
+msgstr "Regula filtru"
+
+#: templates/filters/settings.inc:22
+msgid "Filter Only Seen Messages"
+msgstr ""
+
+#: templates/filters/settings.inc:21
+msgid "Filter Only Unseen Messages"
+msgstr ""
+
+#: templates/filters/settings.inc:18
+#, fuzzy
+msgid "Filter Options"
+msgstr "Alte optiuni"
+
+#: templates/rule/header.inc:25
+msgid "Filter Rule"
+msgstr "Regula filtru"
+
+#: filters.php:109
+#, fuzzy
+msgid "Filter Rules"
+msgstr "Regula filtru"
+
+#: script.php:52
+msgid "Filter Script Display"
+msgstr ""
+
+#: lib/Ingo.php:300
+#, fuzzy
+msgid "Filter _Rules"
+msgstr "Regula filtru"
+
+#: lib/Script/imap.php:318
+#, php-format
+msgid "Filter activity: %s message(s) have been copied to the folder \"%s\"."
+msgstr ""
+
+#: lib/Script/imap.php:305
+#, php-format
+msgid "Filter activity: %s message(s) have been deleted."
+msgstr ""
+
+#: lib/Script/imap.php:283
+#, php-format
+msgid "Filter activity: %s message(s) have been moved to the folder \"%s\"."
+msgstr ""
+
+#: lib/Script/imap.php:186
+#, php-format
+msgid "Filter activity: %s message(s) that matched the blacklist were deleted."
+msgstr ""
+
+#: lib/Script/imap.php:315
+#, php-format
+msgid ""
+"Filter activity: The message \"%s\" from \"%s\" has been copied to the "
+"folder \"%s\"."
+msgstr ""
+
+#: lib/Script/imap.php:300
+#, php-format
+msgid "Filter activity: The message \"%s\" from \"%s\" has been deleted."
+msgstr ""
+
+#: lib/Script/imap.php:277
+#, php-format
+msgid ""
+"Filter activity: The message \"%s\" from \"%s\" has been moved to the folder "
+"\"%s\"."
+msgstr ""
+
+#: rule.php:160
+msgid "Filter not found."
+msgstr ""
+
+#: templates/rule/header.inc:42
+#, fuzzy
+msgid "For an incoming message that matches:"
+msgstr "Pentru mesaje care vin si se potrivesc:"
+
+#: filters.php:162 templates/forward/forward.inc:8
+msgid "Forward"
+msgstr ""
+
+#: forward.php:16
+msgid "Forward is not supported in the current filtering driver."
+msgstr ""
+
+#: lib/Script/procmail.php:282 lib/Script/maildrop.php:224
+msgid "Forwards"
+msgstr ""
+
+#: forward.php:46
+msgid "Forwards Edit"
+msgstr ""
+
+#: config/fields.php.dist:39
+msgid "From"
+msgstr "De la"
+
+#: lib/Storage.php:355
+#, fuzzy
+msgid "Greater than"
+msgstr "Mai mare ca"
+
+#: lib/Storage.php:356
+#, fuzzy
+msgid "Greater than or equal to"
+msgstr "Mai mare ca"
+
+#: templates/rule/footer.inc:31
+msgid "Important"
+msgstr "Important"
+
+#: rule.php:36
+msgid "Individual rules are not supported in the current filtering driver."
+msgstr ""
+
+#: lib/Script/sieve.php:1855
+msgid "Inexistant mailbox specified for message delivery."
+msgstr ""
+
+#: lib/Storage.php:342
+msgid "Is"
+msgstr "Este"
+
+#: lib/Storage.php:343
+msgid "Isn't"
+msgstr "Nu este"
+
+#: lib/Driver/ldap.php:23
+msgid ""
+"LDAP support is required but the LDAP module is not available or not loaded."
+msgstr ""
+
+#: lib/Storage.php:353
+#, fuzzy
+msgid "Less than"
+msgstr "Mai putin decat"
+
+#: lib/Storage.php:354
+msgid "Less than or equal to"
+msgstr ""
+
+#: config/fields.php.dist:59
+msgid "List-ID"
+msgstr "Id-lista"
+
+#: templates/blacklist/blacklist.inc:20
+#, fuzzy
+msgid "Mar_k message as deleted"
+msgstr "Marcare mesaj ca sters"
+
+#: templates/rule/footer.inc:24
+#, fuzzy
+msgid "Mark message as:"
+msgstr "Marcare mesaj ca:"
+
+#: lib/Storage.php:351
+msgid "Matches (with placeholders)"
+msgstr ""
+
+#: lib/api.php:57
+msgid "Maximum Number of Rules"
+msgstr ""
+
+#: lib/Storage.php:478
+#, php-format
+msgid ""
+"Maximum number of blacklisted addresses exceeded (Total addresses: %s, "
+"Maximum addresses: %s).  Could not add new addresses to blacklist."
+msgstr ""
+
+#: lib/Storage.php:531
+#, php-format
+msgid ""
+"Maximum number of whitelisted addresses exceeded (Total addresses: %s, "
+"Maximum addresses: %s).  Could not add new addresses to whitelist."
+msgstr ""
+
+#: lib/Script/sieve.php:1723
+#, fuzzy
+msgid "Missing address to redirect message to"
+msgstr "Nu exista adresa pentru redirectare mesaj"
+
+#: lib/Script/sieve.php:1755
+#, fuzzy
+msgid "Missing reason for reject"
+msgstr "Nu exista explicatie pentru respingere"
+
+#: lib/Script/sieve.php:1922
+msgid "Missing reason in vacation."
+msgstr "Nu exista explicatie pentru vacanta."
+
+#: templates/filters/header.inc:40
+msgid "Move"
+msgstr ""
+
+#: filters.php:126 filters.php:238
+msgid "Move Rule Down"
+msgstr "Muta regula in jos"
+
+#: filters.php:127 filters.php:237
+msgid "Move Rule Up"
+msgstr "Muta regula in sus"
+
+#: templates/vacation/vacation.inc:42
+msgid "N_umber of days between vacation replies:"
+msgstr ""
+
+#: templates/filters/filter-none.inc:4 templates/filters/footer.inc:8
+#: lib/Storage.php:714
+msgid "New Rule"
+msgstr "Regula noua"
+
+#: lib/Ingo.php:194 lib/Ingo.php:196
+#, php-format
+msgid "No \"%s\" element found in backend configuration."
+msgstr ""
+
+#: lib/Ingo.php:192
+msgid "No backend configured for this host"
+msgstr "Nu exista suport configurat pentru acest host"
+
+#: lib/Ingo.php:169
+#, fuzzy
+msgid "No backends configured in backends.php"
+msgstr "Nu exista suport configurat pentru acest host"
+
+#: templates/filters/filter-none.inc:4
+#, fuzzy, php-format
+msgid "No filters. Click \"%s\" to create a new filter."
+msgstr "Nici un filtru. Clic pe '%s' pentru creare de filtru nou"
+
+#: lib/Script/sieve.php:1327 lib/Script/sieve.php:1420
+#: lib/Script/sieve.php:1594
+#, fuzzy
+msgid "No headers specified"
+msgstr "Headere nespecificate"
+
+#: script.php:67
+msgid "No script generated."
+msgstr ""
+
+#: lib/Script/sieve.php:1609
+#, fuzzy
+msgid "No strings specified"
+msgstr "Siruri nespecificate"
+
+#: lib/Storage.php:358
+msgid "Not equal to"
+msgstr ""
+
+#: lib/Storage.php:316
+msgid "Only flag the message"
+msgstr ""
+
+#: config/prefs.php.dist:19
+msgid "Options about script updating."
+msgstr "Optiuni pentru improspatare script."
+
+#: config/prefs.php.dist:17
+msgid "Other Options"
+msgstr "Alte optiuni"
+
+#: templates/javascript/new_folder.js:6
+msgid "Please enter the name of the new folder:"
+msgstr ""
+
+#: templates/vacation/vacation.inc:60
+#, fuzzy
+msgid "R_eason"
+msgstr "Explicatie"
+
+#: config/fields.php.dist:63
+msgid "Received"
+msgstr ""
+
+#: lib/Storage.php:297
+#, fuzzy
+msgid "Redirect to"
+msgstr "Redirectare mesaj catre"
+
+#: lib/Storage.php:350
+msgid "Regular expression"
+msgstr ""
+
+#: lib/Storage.php:312
+#, fuzzy
+msgid "Reject with reason"
+msgstr "Respingere acest mesaj cu explicatie"
+
+#: config/fields.php.dist:55
+msgid "Resent To"
+msgstr "Retrimitere catre"
+
+#: config/fields.php.dist:51
+msgid "Resent-from"
+msgstr "Retrimitere-de la"
+
+#: templates/rule/footer.inc:60
+msgid "Return to Filters List"
+msgstr ""
+
+#: templates/whitelist/whitelist.inc:24 templates/blacklist/blacklist.inc:41
+#: templates/vacation/vacation.inc:71 templates/forward/forward.inc:34
+msgid "Return to Rules List"
+msgstr ""
+
+#: templates/filters/header.inc:34
+#, fuzzy
+msgid "Rule"
+msgstr "Reguli"
+
+#: filters.php:60
+#, fuzzy
+msgid "Rule Copied"
+msgstr "Regula stearsa"
+
+#: filters.php:39
+msgid "Rule Deleted"
+msgstr "Regula stearsa"
+
+#: filters.php:76
+#, fuzzy
+msgid "Rule Disabled"
+msgstr "Regula stearsa"
+
+#: filters.php:81
+#, fuzzy
+msgid "Rule Enabled"
+msgstr "Nume regula"
+
+#: templates/rule/header.inc:33
+msgid "Rule Name"
+msgstr "Nume regula"
+
+#: lib/Driver/ldap.php:88
+#, php-format
+msgid "STARTTLS failed: (%s) %s"
+msgstr ""
+
+#: templates/whitelist/whitelist.inc:23 templates/blacklist/blacklist.inc:40
+#: templates/vacation/vacation.inc:70 templates/forward/forward.inc:33
+#: templates/rule/footer.inc:59
+msgid "Save"
+msgstr "Salvare"
+
+#: templates/filters/settings.inc:29
+msgid "Save Settings"
+msgstr ""
+
+#: templates/script/header.inc:2
+msgid "Script"
+msgstr "Script"
+
+#: config/prefs.php.dist:18
+msgid "Script Updating"
+msgstr "Improspatare script"
+
+#: lib/Ingo.php:217
+#, fuzzy
+msgid "Script not updated."
+msgstr "Improspatare script"
+
+#: lib/Ingo.php:130
+msgid "Script successfully activated."
+msgstr "Script activat cu succes."
+
+#: lib/Ingo.php:129
+#, fuzzy
+msgid "Script successfully deactivated."
+msgstr "Script activat cu succes."
+
+#: templates/rule/footer.inc:29
+msgid "Seen"
+msgstr "Vazut(e)"
+
+#: rule.php:190
+msgid "Select a field"
+msgstr "Selectare camp"
+
+#: lib/Ingo.php:49
+#, fuzzy
+msgid "Select target folder"
+msgstr "Selectare dosar tinta"
+
+#: rule.php:227
+msgid "Self-Defined Header"
+msgstr ""
+
+#: config/fields.php.dist:35
+msgid "Sender"
+msgstr "Expeditor"
+
+#: filters.php:95
+#, fuzzy
+msgid "Settings successfully updated."
+msgstr "Script activat cu succes."
+
+#: templates/script/activate.inc:24
+#, fuzzy
+msgid "Show Active Script"
+msgstr "Afisare pictograma script?"
+
+#: templates/script/activate.inc:31
+#, fuzzy
+msgid "Show Current Script"
+msgstr "Afisare pictograma script?"
+
+#: config/fields.php.dist:83
+msgid "Size"
+msgstr "Marime"
+
+#: templates/rule/footer.inc:49
+#, fuzzy
+msgid "Stop checking if this rule matches?"
+msgstr "Nu verifica in caz ca regula se potriveste"
+
+#: templates/vacation/vacation.inc:51
+#, fuzzy
+msgid "Subje_ct of vacation message:"
+msgstr "Subiect mesaj raspuns:"
+
+#: config/fields.php.dist:31
+msgid "Subject"
+msgstr "Subiect"
+
+#: lib/api.php:85
+#, php-format
+msgid "The address \"%s\" has been added to your blacklist."
+msgstr ""
+
+#: lib/api.php:104
+#, php-format
+msgid "The address \"%s\" has been added to your whitelist."
+msgstr ""
+
+#: lib/Ingo.php:125
+msgid "The driver said: "
+msgstr ""
+
+#: lib/Ingo.php:124
+#, fuzzy
+msgid "There was an error activating the script."
+msgstr ""
+"S-a produs o eroare in activarea acestui script. Driverul raporteaza: %s"
+
+#: lib/Ingo.php:123
+#, fuzzy
+msgid "There was an error deactivating the script."
+msgstr ""
+"S-a produs o eroare in activarea acestui script. Driverul raporteaza: %s"
+
+#: config/fields.php.dist:27
+msgid "To"
+msgstr "Catre"
+
+#: templates/filters/filter.html:28
+#, fuzzy
+msgid "To:"
+msgstr "Catre"
+
+#: lib/Script.php:127
+#, php-format
+msgid "Unable to load the definition of %s."
+msgstr ""
+
+#: filters.php:156 templates/vacation/vacation.inc:5
+#: lib/Script/procmail.php:262
+msgid "Vacation"
+msgstr "Vacanta"
+
+#: vacation.php:72
+#, fuzzy
+msgid "Vacation Edit"
+msgstr "Vacanta"
+
+#: lib/Script/sieve.php:351
+msgid "Vacation Message"
+msgstr "Mesaj vacanta"
+
+#: vacation.php:16
+msgid "Vacation is not supported in the current filtering driver."
+msgstr ""
+
+#: templates/whitelist/whitelist.inc:16
+#, fuzzy
+msgid "Wh_itelist addresses:"
+msgstr "Adrese din lista neagra"
+
+#: filters.php:150 templates/whitelist/whitelist.inc:8
+msgid "Whitelist"
+msgstr ""
+
+#: whitelist.php:55
+msgid "Whitelist Edit"
+msgstr ""
+
+#: whitelist.php:18
+msgid "Whitelist is not supported in the current filtering driver."
+msgstr ""
+
+#: lib/Script/procmail.php:234 lib/Script/sieve.php:297
+#: lib/Script/maildrop.php:202
+#, fuzzy
+msgid "Whitelisted Addresses"
+msgstr "Adrese din lista neagra"
+
+#: config/fields.php.dist:79
+msgid "X-Priority"
+msgstr "X-Prioritate"
+
+#: config/fields.php.dist:67
+msgid "X-Spam-Level"
+msgstr "X-Nivel-Spam"
+
+#: config/fields.php.dist:71
+#, fuzzy
+msgid "X-Spam-Score"
+msgstr "X-Nivel-Spam"
+
+#: config/fields.php.dist:75
+msgid "X-Spam-Status"
+msgstr "X-Stare-Spam"
+
+#: filters.php:53 rule.php:144
+#, php-format
+msgid "You are not allowed to create more than %d rules."
+msgstr ""
+
+#: filters.php:45 rule.php:21
+msgid "You are not allowed to create or edit custom rules."
+msgstr ""
+
+#: vacation.php:30
+msgid ""
+"You must specify at least one email address for which the vacation messages "
+"should be activated."
+msgstr ""
+
+#: lib/Script/imap.php:278 lib/Script/imap.php:301 lib/Script/imap.php:315
+#, fuzzy
+msgid "[No Subject]"
+msgstr "Subiect"
+
+#: templates/forward/forward.inc:24
+msgid "_Address(es) to forward to:"
+msgstr ""
+
+#: templates/vacation/vacation.inc:23
+#, fuzzy
+msgid "_Addresses to not send responses to:"
+msgstr "Adresele la care sa nu se trimita raspunsuri"
+
+#: lib/Ingo.php:305
+#, fuzzy
+msgid "_Blacklist"
+msgstr "Lista neagra"
+
+#: templates/blacklist/blacklist.inc:18
+#, fuzzy
+msgid "_Delete message completely"
+msgstr "Stergere completa mesaj"
+
+#: templates/blacklist/blacklist.inc:31
+#, fuzzy
+msgid "_Enter each address on a new line:"
+msgstr "Introduceti fiecare adresa pe linie noua"
+
+#: lib/Ingo.php:311
+msgid "_Forward"
+msgstr ""
+
+#: templates/forward/forward.inc:17
+msgid "_Keep a copy of messages in this account?"
+msgstr ""
+
+#: templates/blacklist/blacklist.inc:22
+#, fuzzy
+msgid "_Move message to folder:"
+msgstr "Muta mesaje in dosar:"
+
+#: templates/vacation/vacation.inc:13
+#, fuzzy
+msgid "_My email addresses:"
+msgstr "Adresele mele de e-mail"
+
+#: lib/Ingo.php:314
+#, fuzzy
+msgid "_Script"
+msgstr "Script"
+
+#: lib/Ingo.php:308
+#, fuzzy
+msgid "_Vacation"
+msgstr "Vacanta"
+
+#: lib/Ingo.php:302
+msgid "_Whitelist"
+msgstr ""
+
+#: templates/rule/filter.inc:4
+#, fuzzy
+msgid "and"
+msgstr "si"
+
+#: templates/filters/filter.html:16
+msgid "disabled - click to enable"
+msgstr ""
+
+#: filters.php:180
+msgid "field"
+msgstr ""
+
+#: lib/Script/maildrop.php:120
+msgid "maildrop script generated by Ingo"
+msgstr ""
+
+#: filters.php:180
+msgid "match"
+msgstr ""
+
+#: templates/rule/filter.inc:4
+msgid "or"
+msgstr ""
+
+#: lib/Script/procmail.php:128
+msgid "procmail script generated by Ingo"
+msgstr ""
+
+#: lib/Script/sieve.php:109
+msgid "sieve filter generated by Ingo"
+msgstr ""

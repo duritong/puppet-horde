@@ -1,0 +1,68 @@
+<?php
+/**
+ * $Horde: mimp/config/mime_drivers.php.dist,v 1.5 2005/10/10 14:50:01 chuck Exp $
+ *
+ * Decide which output drivers you want to activate for the MIMP application.
+ * Settings in this file override settings in horde/config/mime_drivers.php.
+ *
+ * The available drivers are:
+ * --------------------------
+ * alternative    multipart/alternative parts
+ * html           Conversion of HTML to basic text/plain
+ * plain          text/plain parts
+ * related        multipart/related parts
+ * multipart      All other multipart/* messages
+ */
+$mime_drivers_map['mimp']['registered'] = array(
+  'alternative', 'html', 'multipart', 'plain', 'related');
+
+/**
+ * If you want to specifically override any MIME type to be handled by
+ * a specific driver, then enter it here.  Normally, this is safe to
+ * leave, but it's useful when multiple drivers handle the same MIME
+ * type, and you want to specify exactly which one should handle it.
+ */
+$mime_drivers_map['mimp']['overrides'] = array();
+
+/**
+ * Driver specific settings. See horde/config/mime_drivers.php for
+ * the format.
+ */
+
+/**
+ * Text driver settings.
+ */
+$mime_drivers['mimp']['plain']['inline'] = true;
+$mime_drivers['mimp']['plain']['handles'] = array(
+    'text/plain', 'message/delivery-status', 'text/rfc822-headers');
+
+/**
+ * HTML driver settings.
+ */
+$mime_drivers['mimp']['html']['inline'] = true;
+$mime_drivers['mimp']['html']['handles'] = array(
+    'text/html', 'text/enriched');
+
+/**
+ * multipart/alternative settings
+ * YOU SHOULD NOT NORMALLY ALTER THIS SETTING.
+ */
+$mime_drivers['mimp']['alternative']['inline'] = true;
+$mime_drivers['mimp']['alternative']['handles'] = array(
+    'multipart/alternative');
+
+/**
+ * multipart/related settings
+ * YOU SHOULD NOT NORMALLY ALTER THIS SETTING.
+ */
+$mime_drivers['mimp']['related']['inline'] = true;
+$mime_drivers['mimp']['related']['handles'] = array(
+    'multipart/related');
+
+/**
+ * All other multipart/* messages
+ * YOU SHOULD NOT NORMALLY ALTER THIS SETTING.
+ */
+$mime_drivers['mimp']['multipart']['inline'] = true;
+$mime_drivers['mimp']['multipart']['handles'] = array(
+    'multipart/*');

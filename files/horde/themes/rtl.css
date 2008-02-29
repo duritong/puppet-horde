@@ -1,0 +1,40 @@
+/**
+ * $Horde: horde/themes/rtl.css,v 1.2.2.1 2005/10/18 11:34:10 jan Exp $
+ */
+
+body {
+    direction: rtl;
+    font-family: Tahoma,Koodak,Homa,Nazli,Verdana,Geneva,Arial,Helvetica,sans-serif;
+}
+
+.leftAlign {
+        text-align: right;
+        font-family: Tahoma,Koodak,Homa,Nazli,Verdana,Geneva,Arial,Helvetica,sans-serif;
+}
+.rightAlign {
+        text-align: left;
+        font-family: Tahoma,Koodak,Homa,Nazli,Verdana,Geneva,Arial,Helvetica,sans-serif;
+}
+
+.leftFloat {
+        float: right;
+}
+.rightFloat {
+        float: left;
+}
+
+.header ul {
+    float: left;
+    text-align: left;
+}
+
+/* Tab styles. */
+.tabset {
+    float: right;
+}
+.tabset li {
+    float: right;
+}
+.tabset img {
+    float: right;
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<!-- Horde 3.1 help: hu_HU $Horde: horde/locale/hu_HU/help.xml,v 1.2.10.3 2006/03/03 13:44:10 jan Exp $ -->
+<help>
+  <entry id="summary" state="uptodate" md5="68ca33f7f0c9aae4c103eb47492cdc15">
+<title>A személyes összegző (portál) oldal</title>
+ <para>
+  Ez az oldal gyors összegzést ad az Ön számára fontos információkról.
+  Pl. jelezheti, hogy hány új levele van az INBOX mappában, milyen 
+  elfoglaltságai vannak beírva a közeljövőben a naptárban, milyen
+  elintézendő dolgok vannak a feladatlistájában, de megjeleníthető
+  egyéb külső szolgáltatások tartalma is, stb. Ezekből az összegzésekből
+  sokszor közvetlenül indíthatók a gyakran használt funkciók, pl.
+  új levél írása, új bejegyzés készítése a naptárba vagy a feladatlistába, 
+  stb.
+  </para>
+ <para>
+  E személyes összegző oldal tartalmát a Tervezés gombbal módosíthatja.
+  Megadhatja pl., hogy milyen információkat kíván megjeleníteni, és
+  milyen elrendezésben.
+ </para>
+</entry>
+  <entry id="navbar" state="uptodate" md5="b8cf0ae19e57dfa0c2b962e516782f47">
+<title>Az alkalmazásválasztó menü</title>
+ <para>
+  A weboldal bal oldalán egy alkalmazásválasztó menü található.
+  A megfelelő feliratokra kattintva gyorsan és könnyen átugorhat egyik
+  alkalmazásból a másikba.
+ </para>
+</entry>
+  <entry id="prefs-do_maintenance" state="uptodate" md5="dd95df07a03031232baea919288b2d00">
+    <title>Opciók: Bejelentkezéssel kapcsolatos feladatok: végrehajtás</title>
+    <para>
+    Ha azt szeretné, hogy bejelentkezéskor fussanak
+    le a karbantartási feladatok, jelölje be a négyzetet.
+    </para>
+</entry>
+  <entry id="prefs-confirm_maintenance" state="uptodate" md5="a21162cdff3b1d8faeadb7296240036e">
+    <title>Opciók: Bejelentkezéssel kapcsolatos feladatok: megerősítés</title>
+    <para>
+    Ha azt szeretné, hogy a rendszer megerősítést kérjen Öntől mielőtt
+    végrehajtaná a karbantartási feladatokat, jelölje be ezt a négyzetet.
+    Ha nem jelöli be, a karbantartási feladatok bejelentkezéskor automatikusan 
+    le fognak futni, anélkül, hogy befolyásolhatná őket.
+    </para>
+</entry>
+</help>

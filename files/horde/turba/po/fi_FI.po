@@ -1,0 +1,1305 @@
+# Finnish translation for Turba.
+# Copyright (C)
+# Leena Heino <liinu@uta.fi>, 2001-2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Turba 2.1-cvs\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2007-02-26 21:47+0200\n"
+"PO-Revision-Date: 2007-02-26 12:59+0200\n"
+"Last-Translator: Leena Heino <liinu@uta.fi>\n"
+"Language-Team: Finnish <i18n@lists.horde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: templates/prefs/imsp_opt.inc:40
+msgid " Add an IMSP Address Book"
+msgstr "Lis‰‰ IMSP-osoitekirja"
+
+#: templates/prefs/imsp_opt.inc:29
+msgid " Delete IMSP Address Book"
+msgstr "Poista IMSP-osoitekirja"
+
+#: data.php:339
+#, php-format
+msgid "\"%s\" already exists and was not imported."
+msgstr "\"%s\" on jo olemassa ja ei tuotu."
+
+#: browse.php:140
+#, php-format
+msgid "\"%s\" was not copied because it is a list."
+msgstr "\"%s\" ei kopioitu koska se on lista."
+
+#: browse.php:138
+#, php-format
+msgid "\"%s\" was not moved because it is a list."
+msgstr "\"%s\" ei siirretty koska se on lista."
+
+#: config/prefs.php.dist:130
+msgid "\"Firstname Lastname\"  (ie. John Doe)"
+msgstr "\"Etunimi Sukunimi\"  (esim. Matti Meik‰l‰inen)"
+
+#: config/prefs.php.dist:129
+msgid "\"Lastname, Firstname\" (ie. Doe, John)"
+msgstr "\"Sukunimi, Etunimi\" (esim. Meik‰l‰inen, Matti)"
+
+#: add.php:112
+#, php-format
+msgid "%s added."
+msgstr "%s lis‰tty."
+
+#: data.php:363
+#, php-format
+msgid "%s file successfully imported."
+msgstr "%s tiedoston tuonti onnistui."
+
+#: templates/browse/footer.inc:5
+#, php-format
+msgid "%s to %s of %s"
+msgstr "%s - %s / %s"
+
+#: lib/Turba.php:470
+#, php-format
+msgid "%s's Address Book"
+msgstr "%s:n osoitekirja"
+
+#: lib/Block/minisearch.php:42
+msgid "A browser that supports iFrames is required"
+msgstr "Tarvitaan selain, jossa on tuki iFrames toiminnolle"
+
+#: view.php:52
+#, php-format
+msgid "Access denied to %s"
+msgstr "%s k‰yttˆ kielletty"
+
+#: add.php:56 templates/browse/actions.inc:29
+msgid "Add"
+msgstr "Lis‰‰"
+
+#: templates/prefs/addressbookselect.inc:174
+msgid "Add address book"
+msgstr "Lis‰‰ osoitekirja"
+
+#: config/prefs.php.dist:41
+msgid "Add and Delete IMSP address books"
+msgstr "Lis‰‰ ja poista IMSP-osoitekirjoja"
+
+#: templates/prefs/columnselect.inc:237
+msgid "Add column"
+msgstr "Lis‰‰ sarake"
+
+#: edit.php:135
+msgid "Add file"
+msgstr "Lis‰‰ tiedosto"
+
+#: templates/browse/actions.inc:29
+msgid "Add to"
+msgstr "Lis‰‰ kohteeseen"
+
+#: lib/Driver/null.php:57
+msgid "Adding contacts is not available."
+msgstr "Yhteystietojen lis‰‰minen ei ole k‰ytett‰viss‰."
+
+#: templates/addressbooks.inc:93
+msgid "Address Book"
+msgstr "Osoitekirja"
+
+#: browse.php:28 config/prefs.php.dist:118
+msgid "Address Book Listing"
+msgstr "Osoitekirjan selaus"
+
+#: config/prefs.php.dist:10
+msgid "Address Books"
+msgstr "Osoitekirjat"
+
+#: add.php:111
+msgid "Address book entry"
+msgstr "Osoitekirjan merkint‰"
+
+#: data.php:319
+msgid "Address book successfully purged."
+msgstr "Osoitekirja tyhjennettiin."
+
+#: templates/addressbooks.inc:69
+msgid "Address book to delete "
+msgstr "Poistettava osoitekirja "
+
+#: templates/prefs/addressbookselect.inc:170
+msgid "Address books that will not be displayed:"
+msgstr "Osoitekirjaa ei voitu n‰ytt‰‰: %s"
+
+#: search.php:88 templates/browse/search.inc:38
+msgid "Advanced Search"
+msgstr "Tarkempi haku"
+
+#: config/attributes.php.dist:64
+msgid "Alias"
+msgstr "Alias"
+
+#: templates/browse/actions.inc:48 templates/browse/footerAlpha.inc:7
+#: templates/browse/footerAlpha.inc:10
+msgid "All"
+msgstr "Kaikki"
+
+#: lib/api.php:607
+msgid "Already Exists"
+msgstr "On jo olemassa"
+
+#: templates/browse/javascript.inc:93
+#, php-format
+msgid "Are you sure that you want to delete %s?"
+msgstr "Oletko varma, ett‰ haluat poistaa %s?"
+
+#: templates/browse/javascript.inc:67
+msgid "Are you sure that you want to delete the selected entries?"
+msgstr "Oletko varma, ett‰ haluat poistaa valitut?"
+
+#: config/prefs.php.dist:89
+msgid "Ascending"
+msgstr "Nouseva"
+
+#: search.php:85 templates/browse/search.inc:37
+msgid "Basic Search"
+msgstr "Yksinkertainen haku"
+
+#: lib/Driver/ldap.php:77 lib/Driver/ldap.php:80
+#, php-format
+msgid "Bind failed: (%s) %s"
+msgstr "Yhdist‰minen ep‰onnistui (%s) %s"
+
+#: config/attributes.php.dist:178
+msgid "Birthday"
+msgstr "Syntym‰p‰iv‰"
+
+#: templates/menu.inc:7
+msgid "Browse"
+msgstr "Selaa"
+
+#: config/attributes.php.dist:173
+msgid "Business Category"
+msgstr "Liiketoiminnan luokitus"
+
+#: data.php:49
+msgid "CSV"
+msgstr "CSV"
+
+#: lib/Object/Group.php:57
+msgid "Can't add a group to itself."
+msgstr "Ei voi lis‰t‰ ryhm‰‰ itseens‰."
+
+#: templates/browse/column_headers.inc:7
+msgid "Check _All/None"
+msgstr "Valitse _kaikki/ei mit‰‰n"
+
+#: templates/addressbooks.inc:51
+msgid "Choose a name"
+msgstr "Valitse nimi"
+
+#: add.php:48
+msgid "Choose an address book"
+msgstr "Valitse osoitekirja"
+
+#: templates/prefs/columnselect.inc:221
+msgid "Choose an address book:"
+msgstr "Valitse osoitekirja:"
+
+#: templates/prefs/addressbookselect.inc:165
+msgid "Choose which address books to display, and in what order:"
+msgstr "Valitse, mitk‰ osoitekirjat n‰ytet‰‰n ja miss‰ j‰rjestyksess‰:"
+
+#: config/prefs.php.dist:11
+msgid "Choose which address books to use."
+msgstr "Valitse, mit‰ osoitekirjoja k‰ytet‰‰n."
+
+#: templates/prefs/columnselect.inc:228
+msgid "Choose which columns to display and in what order:"
+msgstr "Valitse, mitk‰ sarakkeet n‰ytet‰‰n ja miss‰ j‰rjestyksess‰:"
+
+#: config/prefs.php.dist:17
+msgid "Column Options"
+msgstr "Sarakkeiden asetukset"
+
+#: templates/prefs/columnselect.inc:233
+msgid "Columns that will not be displayed:"
+msgstr "Sarakkeita, joita ei voitu n‰ytt‰‰:"
+
+#: templates/data/import.inc:13 templates/data/export.inc:12
+msgid "Comma separated values"
+msgstr "Pilkuilla erotetut arvot"
+
+#: templates/data/export.inc:13
+msgid "Comma separated values (Microsoft Outlook)"
+msgstr "Pilkuilla erotetut arvot (Microsoft Outlook)"
+
+#: config/attributes.php.dist:76
+msgid "Company"
+msgstr "Yritys"
+
+#: config/attributes.php.dist:144
+msgid "Company Address"
+msgstr "Yrityksen osoite"
+
+#: lib/api.php:319 lib/api.php:364 lib/api.php:414 lib/api.php:546
+#: lib/api.php:660 lib/api.php:747 lib/api.php:805 lib/api.php:886
+#: lib/api.php:1086 lib/api.php:1175
+#, php-format
+msgid "Connection failed: %s"
+msgstr "Yhteys ep‰onnistui: %s"
+
+#: lib/Driver/ldap.php:58
+msgid "Connection failure"
+msgstr "Yhteys ep‰onnistui"
+
+#: lib/Block/minisearch.php:3 lib/Block/minisearch.php:26
+msgid "Contact Search"
+msgstr "Yhteystietojen haku"
+
+#: browse.php:306
+#, php-format
+msgid "Contacts in list: %s"
+msgstr "Yhteystiedot listassa: %s"
+
+#: templates/browse/actions.inc:18
+msgid "Copy"
+msgstr "Kopioi"
+
+#: templates/addressbooks.inc:60
+msgid "Create"
+msgstr "Luo"
+
+#: templates/addressbooks.inc:47
+msgid "Create Address Book"
+msgstr "Luo osoitekirja"
+
+#: lib/ListView.php:355
+msgid "Create a new Contact List in:"
+msgstr "Luo uusi yhteystietolista osoitekirjaan:"
+
+#: lib/ObjectView.php:133
+msgid "Created"
+msgstr "Luotu"
+
+#: config/prefs.php.dist:91
+msgid "Default sorting direction:"
+msgstr "Oletusj‰rjestyksen suunta:"
+
+#: templates/addressbooks.inc:83 templates/browse/actions.inc:3
+#: lib/Object.php:328 lib/Renderer.php:47 lib/Renderer.php:50
+msgid "Delete"
+msgstr "Poista"
+
+#: templates/addressbooks.inc:65
+msgid "Delete Address Book"
+msgstr "Poista osoitekirja"
+
+#: lib/Driver/ldap.php:270
+#, php-format
+msgid "Delete failed: (%s) %s"
+msgstr "Poistaminen ep‰onnistui: (%s) %s"
+
+#: lib/Driver/null.php:62
+msgid "Deleting contacts is not available."
+msgstr "Yhteystietojen poisto ei ole k‰ytett‰viss‰."
+
+#: delete.php:38
+msgid "Deletion failed"
+msgstr "Poistaminen ep‰onnistui"
+
+#: config/attributes.php.dist:213
+msgid "Department"
+msgstr "Osasto"
+
+#: config/prefs.php.dist:90
+msgid "Descending"
+msgstr "Laskeva"
+
+#: templates/addressbooks.inc:122
+msgid "Description"
+msgstr "Kuvaus"
+
+#: templates/browse/search.inc:106
+msgid "Directory"
+msgstr "Hakemisto"
+
+#: config/prefs.php.dist:24
+msgid "Display"
+msgstr "N‰kym‰"
+
+#: config/prefs.php.dist:9 config/prefs.php.dist:16 config/prefs.php.dist:23
+#: config/prefs.php.dist:30
+msgid "Display Options"
+msgstr "N‰kym‰n asetukset"
+
+#: lib/Object.php:297
+msgid "Download"
+msgstr "Tallenna"
+
+#: templates/browse/contactrow.inc:25 templates/browse/row.inc:17
+msgid "Download vCard"
+msgstr "Tallenna VCard"
+
+#: templates/addressbooks.inc:109 templates/browse/actions.inc:6
+#: templates/browse/column_headers.inc:10 templates/browse/contactrow.inc:33
+#: templates/browse/row.inc:25 lib/Renderer.php:42
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: templates/browse/contactrow.inc:33 templates/browse/row.inc:25
+#, php-format
+msgid "Edit \"%s\""
+msgstr "Muokkaa \"%s\""
+
+#: templates/addressbooks.inc:88
+msgid "Edit Address Books"
+msgstr "Muokkaa osoitekirjoja"
+
+#: edit.php:85 edit.php:161
+#, php-format
+msgid "Edit entry for %s"
+msgstr "Muokkaa %s:n merkint‰‰"
+
+#: config/attributes.php.dist:58
+msgid "Email"
+msgstr "S‰hkˆposti"
+
+#: edit.php:154
+#, php-format
+msgid "Entry for %s updated, but saving the uploaded file failed: %s"
+msgstr ""
+"Merkint‰‰ %s p‰ivitettiin, mutta tuodun tiedoston tallettaminen ep‰onnistui: "
+"%s"
+
+#: edit.php:156 edit.php:159
+#, php-format
+msgid "Entry for %s updated."
+msgstr "Merkint‰ %s:st‰ on p‰ivitetty."
+
+#: browse.php:216 browse.php:264
+#, php-format
+msgid "Error adding %d contact(s) to list."
+msgstr "Tapahtui virhe lis‰tt‰ess‰ %d yhteystietoa listalle."
+
+#: browse.php:218 browse.php:266
+#, php-format
+msgid "Error adding %d of %d requested contact(s) to list."
+msgstr "Tapahtui virhe lis‰tt‰ess‰ %d / %d yhteystietoa listalle."
+
+#: browse.php:86
+#, php-format
+msgid "Error deleting %d contact(s)."
+msgstr "Tapahtui virhe poistettaessa %d yhteystietoa."
+
+#: browse.php:88
+#, php-format
+msgid "Error deleting %d of %d requested contacts(s)."
+msgstr "Tapahtui virhe poistettaessa %d / %d osoitetietoa."
+
+#: browse.php:66
+#, php-format
+msgid "Error removing %d contact(s) from list."
+msgstr "Tapahtui virhe poistettaessa %d osoitetietoa listalta."
+
+#: browse.php:68
+#, php-format
+msgid "Error removing %d of %d requested contact(s) from list."
+msgstr "Tapahtui virhe poistettaessa %d / %d osoitetietoa listalta."
+
+#: lib/api.php:420
+#, php-format
+msgid "Error searching the address book: %s"
+msgstr "Tapahtui virhe haettaessa osoitekirjasta: %s"
+
+#: templates/data/export.inc:41 templates/browse/actions.inc:10
+msgid "Export"
+msgstr "Vie"
+
+#: templates/data/export.inc:6
+msgid "Export Address Book"
+msgstr "Vie osoitekirja"
+
+#: templates/data/export.inc:21
+msgid "Export only the selected contacts."
+msgstr "Vie vain valitut yhteystiedot."
+
+#: templates/data/export.inc:27
+msgid "Export the following address book completely."
+msgstr "Vie seuraavat osoitekirjat kokonaan."
+
+#: browse.php:35 browse.php:103 browse.php:130 add.php:67 data.php:134
+#: data.php:228 data.php:302 search.php:37
+#, php-format
+msgid "Failed to access the address book: %s"
+msgstr "Osoitekirjaan ei saatu yhteytt‰: %s"
+
+#: browse.php:158
+#, php-format
+msgid "Failed to add %s to %s: %s"
+msgstr "%s:n lis‰ys ep‰onnistui %s:‰‰n: %s"
+
+#: browse.php:312
+msgid "Failed to browse list"
+msgstr "Listan selaus ep‰onnistui."
+
+#: browse.php:350
+msgid "Failed to browse the directory"
+msgstr "Hakemiston selaus ep‰onnistui"
+
+#: lib/Driver/ldap.php:303
+#, php-format
+msgid "Failed to change name: (%s) %s; Old DN = %s, New DN = %s, Root = %s"
+msgstr ""
+"Nimen muuttaminen ep‰onnistui: (%s) %s; Uusi DN = %s, Vanha DN = %s, Juuri = "
+"%s"
+
+#: browse.php:134
+#, php-format
+msgid "Failed to find object to be added: %s"
+msgstr "Lis‰tt‰v‰n objektin haku ep‰onnistui: %s"
+
+#: search.php:79
+msgid "Failed to search the address book"
+msgstr "Haku osoitekirjasta ep‰onnistui"
+
+#: data.php:149
+#, php-format
+msgid "Failed to search the directory: %s"
+msgstr "Haku ep‰onnistui hakemistosta: %s"
+
+#: config/attributes.php.dist:167
+msgid "Fax"
+msgstr "Faksi"
+
+#: display.php:99 edit.php:131
+msgid "Files"
+msgstr "Tiedostot"
+
+#: templates/browse/search.inc:77
+msgid "Find"
+msgstr "Haku"
+
+#: edit.php:104 edit.php:195
+msgid "Finish"
+msgstr "P‰‰t‰"
+
+#: config/attributes.php.dist:48
+msgid "First Name"
+msgstr "Etunimi"
+
+#: config/attributes.php.dist:202
+msgid "Freebusy URL"
+msgstr "Freebusy URL"
+
+#: templates/browse/search.inc:69
+msgid "From"
+msgstr "L‰hde"
+
+#: config/sources.php.dist:625
+msgid "Global Address Book"
+msgstr "Yleinen osoitekirja"
+
+#: templates/browse/contactrow.inc:44 templates/browse/row.inc:43
+msgid "Group"
+msgstr "Ryhm‰"
+
+#: config/attributes.php.dist:82
+msgid "Home Address"
+msgstr "Kotiosoite"
+
+#: config/attributes.php.dist:93
+msgid "Home City"
+msgstr "Kotikaupunki"
+
+#: config/attributes.php.dist:108
+msgid "Home Country"
+msgstr "Kotimaa"
+
+#: config/attributes.php.dist:150
+msgid "Home Phone"
+msgstr "Puhelin (koti)"
+
+#: config/attributes.php.dist:103
+msgid "Home Postal Code"
+msgstr "Postinumero (koti)"
+
+#: config/attributes.php.dist:98
+msgid "Home State/Province"
+msgstr "Kotil‰‰ni tai alue"
+
+#: config/attributes.php.dist:88
+msgid "Home Street Address"
+msgstr "Katuosoite (koti)"
+
+#: config/sources.php.dist:527
+msgid "IMSP"
+msgstr "IMSP"
+
+#: config/prefs.php.dist:40
+msgid "IMSP Address Book Administration"
+msgstr "IMSP-osoitekirjan hallinta"
+
+#: templates/data/import.inc:7
+#, php-format
+msgid "Import Address Book, Step %d"
+msgstr "Osoitekirjan tuonti, askel %d"
+
+#: data.php:381
+msgid "Import/Export Address Books"
+msgstr "Tuo/Vie osoitekirjoja"
+
+#: lib/api.php:655 lib/api.php:742
+msgid "Invalid ID"
+msgstr "Virheellinen ID"
+
+#: lib/api.php:231 lib/api.php:1158
+msgid "Invalid address book"
+msgstr "Ep‰kelpo osoitekirja"
+
+#: lib/api.php:409 lib/api.php:541 lib/api.php:651 lib/api.php:738
+#: lib/api.php:795
+#, php-format
+msgid "Invalid address book: %s"
+msgstr "Ep‰kelpo osoitekirja: %s"
+
+#: lib/api.php:1162 lib/api.php:1236 lib/api.php:1292
+msgid "Invalid email"
+msgstr "Virheellinen s‰hkˆpostiosoite"
+
+#: lib/api.php:1170
+msgid "Invalid entry"
+msgstr "Virheellinen merkint‰"
+
+#: lib/Driver/ldap.php:266
+msgid "Invalid key specified."
+msgstr "M‰‰ritelty avain on virheellinen"
+
+#: lib/api.php:1166
+msgid "Invalid name"
+msgstr "Virheellinen nimi"
+
+#: lib/api.php:799
+msgid "Invalid objectId"
+msgstr "Virheellinen objectId"
+
+#: lib/Driver/ldap.php:30
+msgid ""
+"LDAP support is required but the LDAP module is not available or not loaded."
+msgstr ""
+"LDAP-tuki on pakollinen, mutta LDAP-moduuli ei ole k‰ytett‰viss‰ tai ladattu."
+
+#: lib/ObjectView.php:138
+msgid "Last Modified"
+msgstr "Muokattu viimeksi"
+
+#: config/attributes.php.dist:53
+msgid "Last Name"
+msgstr "Sukunimi"
+
+#: templates/browse/column_headers.inc:16
+msgid "List"
+msgstr "Lista"
+
+#: templates/browse/search.inc:82
+msgid "Matching"
+msgstr "On"
+
+#: lib/api.php:206
+msgid "Maximum Number of Contacts"
+msgstr "Yhteystietojen enimm‰ism‰‰r‰"
+
+#: config/prefs.php.dist:100
+msgid "Maximum number of pages"
+msgstr "Suurin sallittu m‰‰r‰ sivuja."
+
+#: lib/Block/tree_menu.php:3
+msgid "Menu List"
+msgstr "Valikkolista"
+
+#: lib/Driver/ldap.php:296
+msgid "Missing DN in LDAP source configuration."
+msgstr "DN puuttuu LDAP l‰hdem‰‰rittelyist‰."
+
+#: config/attributes.php.dist:162
+msgid "Mobile Phone"
+msgstr "Matkapuhelin"
+
+#: lib/Driver/ldap.php:325 lib/Driver/ldap.php:341
+#, php-format
+msgid "Modify failed: (%s) %s"
+msgstr "Muokkaus ep‰onnistui: (%s) %s"
+
+#: lib/api.php:1277
+msgid "More than 1 entry found"
+msgstr "Lˆytyi useampi kuin 1 merkint‰‰"
+
+#: templates/browse/actions.inc:16
+msgid "Move"
+msgstr "Siirr‰"
+
+#: templates/prefs/addressbookselect.inc:184
+#: templates/prefs/columnselect.inc:247
+msgid "Move left"
+msgstr "Siirr‰ vasemmalle"
+
+#: templates/prefs/addressbookselect.inc:186
+#: templates/prefs/columnselect.inc:249
+msgid "Move right"
+msgstr "Siirr‰ oikealle"
+
+#: data.php:52 templates/data/import.inc:16
+msgid "Mulberry Address Book"
+msgstr "Mulberry-osoitekirja"
+
+#: lib/api.php:1194
+#, php-format
+msgid ""
+"Multiple persons with address [%s], but none with name [%s] already exist"
+msgstr ""
+"Osoitekirjassa oli monta henkilˆ‰ osoitteella [%s], mutta ei ket‰‰n nimell‰ "
+"[%s]."
+
+#: config/sources.php.dist:132
+msgid "My Address Book"
+msgstr "Oma osoitekirja"
+
+#: addressbooks.php:119
+msgid "My Address Books"
+msgstr "Omat osoitekirjat"
+
+#: templates/addressbooks.inc:114 config/attributes.php.dist:42
+msgid "Name"
+msgstr "Nimi"
+
+#: config/prefs.php.dist:31
+msgid "Name Format"
+msgstr "Nimen muoto"
+
+#: add.php:36 add.php:127 lib/Block/tree_menu.php:27
+msgid "New Contact"
+msgstr "Uusi yhteystieto"
+
+#: edit.php:95 edit.php:102 edit.php:210 templates/data/import.inc:45
+msgid "Next"
+msgstr "Seuraava"
+
+#: config/attributes.php.dist:218
+msgid "Nickname"
+msgstr "Lempinimi"
+
+#: lib/api.php:1280 lib/api.php:1329
+#, php-format
+msgid "No %s entry found for %s"
+msgstr "Merkint‰‰ %s ei lˆytynyt %s:lle"
+
+#: lib/api.php:1245
+msgid "No address books found."
+msgstr "Ei lˆytynyt ainuttakaan osoitekirjaa."
+
+#: minisearch.php:81
+msgid "No contacts found"
+msgstr "Ei lˆytynyt yhteystietoja"
+
+#: lib/api.php:566 lib/api.php:830
+msgid "No vCard data was found."
+msgstr "vCard tietoja ei lˆytynyt."
+
+#: templates/browse/footer.inc:7
+msgid "None"
+msgstr "Ei mit‰‰n"
+
+#: config/attributes.php.dist:184
+msgid "Notes"
+msgstr "Muistiinpanot"
+
+#: config/prefs.php.dist:108
+msgid "Number of items per page"
+msgstr "Tietoja lukum‰‰r‰ sivulla"
+
+#: lib/api.php:671 lib/api.php:811
+msgid "Object not found"
+msgstr "Objektia ei lˆytynyt"
+
+#: config/attributes.php.dist:223
+msgid "Office"
+msgstr "Toimisto"
+
+#: templates/prefs/imsp_opt.inc:22
+msgid ""
+"Once you save this option page, the address book will be permanently "
+"deleted. If this is not what you want, then you must change your selection "
+"to \"None\"."
+msgstr ""
+"Kun talletat t‰m‰n asetussivun, niin osoitekirjasi poistuu lopullisesti. Jos "
+"et halua poistaa osoitekirjaasi, niin sinun pit‰‰ muuttaa valinnaksi \"Ei "
+"mit‰‰n\"."
+
+#: lib/api.php:838
+msgid "Only one vcard supported."
+msgstr "Tuettuna vain yksi vcard."
+
+#: config/prefs.php.dist:39
+msgid "Other Options"
+msgstr "Muut asetukset"
+
+#: config/attributes.php.dist:190
+msgid "PGP Public Key"
+msgstr "Julkinen PGP-avain"
+
+#: lib/api.php:550 lib/api.php:664 lib/api.php:751 lib/api.php:1014
+#: lib/api.php:1179
+msgid "Permission Denied"
+msgstr "K‰yttˆ kielletty"
+
+#: lib/Driver.php:554
+msgid "Permission denied"
+msgstr "K‰yttˆ kielletty"
+
+#: templates/addressbooks.inc:106
+msgid "Permissions"
+msgstr "Oikeudet"
+
+#: data.php:53 templates/data/import.inc:17
+msgid "Pine Address Book"
+msgstr "Pine-osoitekirja"
+
+#: templates/browse/javascript.inc:28
+msgid "Please name the new contact list:"
+msgstr "Anna nimi uudelle yhteystietolistalle:"
+
+#: edit.php:98 edit.php:101 edit.php:202
+msgid "Previous"
+msgstr "Edellinen"
+
+#: lib/Driver/ldap.php:147
+#, php-format
+msgid "Query failed: (%s) %s"
+msgstr "Kysely ep‰onnistui: (%s) %s"
+
+#: templates/block/minisearch.inc:15
+msgid "Quick Search"
+msgstr "Pikahaku"
+
+#: lib/Driver/ldap.php:191 lib/Driver/ldap.php:199 lib/Driver/ldap.php:435
+#, php-format
+msgid "Read failed: (%s) %s"
+msgstr "Luku ep‰onnistui: (%s) %s"
+
+#: lib/Driver/null.php:52
+msgid "Reading contacts is not available."
+msgstr "Yhteystietojen luku ei ole k‰ytett‰viss‰."
+
+#: lib/Renderer.php:49
+msgid "Really delete this contact?"
+msgstr "Haluatko poistaa t‰m‰n yhteystiedon?"
+
+#: templates/browse/footer.inc:2
+msgid "Records displayed:"
+msgstr "N‰ytett‰v‰t tiedot:"
+
+#: templates/prefs/addressbookselect.inc:176
+msgid "Remove address book"
+msgstr "Poista osoitekirja"
+
+#: templates/prefs/columnselect.inc:239
+msgid "Remove column"
+msgstr "Poista sarake"
+
+#: templates/browse/actions.inc:3
+msgid "Remove from this list"
+msgstr "Poista t‰lt‰ listalta"
+
+#: templates/data/import.inc:21
+msgid ""
+"Replace existing address book with the imported one? <strong>Warning: This "
+"deletes all entries in your current address book.</strong>"
+msgstr ""
+"Korvaa olemassaoleva osoitekirja tuodulla osoitekirjalla. <strong>Varoitus: "
+"T‰m‰ poistaa kaikki merkinn‰t nykyisest‰ osoitekirjastasi.</strong>"
+
+#: lib/Driver.php:442
+msgid "Requested object not found."
+msgstr "Pyydetty‰ objektia ei lˆytynyt."
+
+#: add.php:37 templates/browse/search.inc:101
+msgid "Reset to Defaults"
+msgstr "Palauta oletukset"
+
+#: config/attributes.php.dist:196
+msgid "S/MIME Public Certificate"
+msgstr "Julkinen S/MIME-varmenne"
+
+#: lib/Driver/ldap.php:69
+#, php-format
+msgid "STARTTLS failed: (%s) %s"
+msgstr "STARTTLS ep‰onnistui: (%s) %s"
+
+#: add.php:37 edit.php:106 templates/addressbooks.inc:131
+msgid "Save"
+msgstr "Talleta"
+
+#: lib/Driver/null.php:67
+msgid "Saving contacts is not available."
+msgstr "Yhteystietojen talletus ei ole k‰ytett‰viss‰."
+
+#: templates/browse/search.inc:85 templates/browse/search.inc:100
+#: templates/block/minisearch.inc:18 lib/Block/tree_menu.php:49
+#: config/prefs.php.dist:119
+msgid "Search"
+msgstr "Haku"
+
+#: lib/api.php:1091
+msgid "Search failed"
+msgstr "Haku ep‰onnistui"
+
+#: lib/api.php:1184 lib/api.php:1190 lib/api.php:1199 lib/api.php:1212
+#, php-format
+msgid "Search failed: %s"
+msgstr "Haku ep‰onnistui: %s"
+
+#: lib/Driver/null.php:47
+msgid "Searching is not available."
+msgstr "Haku ei ole k‰ytett‰viss‰."
+
+#: templates/block/minisearch.inc:19
+msgid "Searching..."
+msgstr "Haetaan..."
+
+#: templates/addressbooks.inc:73
+msgid "Select an address book to delete"
+msgstr "Valitse poistettava osoitekirja"
+
+#: templates/addressbooks.inc:97
+msgid "Select an address book to edit"
+msgstr "Valitse muokattava osoitekirja"
+
+#: templates/data/export.inc:32
+msgid "Select the address book to export from:"
+msgstr "Valitse osoitekirja, josta vied‰‰n tietoja:"
+
+#: templates/data/import.inc:26
+msgid "Select the address book to import to:"
+msgstr "Valitse osoitekirja, johon tuodaan tietoja:"
+
+#: templates/data/import.inc:35
+msgid "Select the charset of the source file:"
+msgstr "Valitse l‰hdetiedoston merkistˆ:"
+
+#: templates/data/export.inc:10
+msgid "Select the export format:"
+msgstr "Valitse vienniss‰ k‰ytett‰v‰ muoto:"
+
+#: templates/data/import.inc:43
+msgid "Select the file to import:"
+msgstr "Valitse tiedosto, josta tuodaan tietoja:"
+
+#: templates/data/import.inc:11
+msgid "Select the format of the source file:"
+msgstr "Valitse l‰hdetiedoston muoto:"
+
+#: config/prefs.php.dist:128
+msgid "Select the format used to display names:"
+msgstr "Valitse nimien esitysmuoto:"
+
+#: config/prefs.php.dist:25
+msgid "Select view to display by default, sort options, and paging options."
+msgstr "Valitse oletusn‰kym‰, j‰rjestysasetukset ja sivutusasetukset."
+
+#: config/prefs.php.dist:18
+msgid "Select which fields to display in the address lists."
+msgstr "Valitse osoitelistassa n‰ytett‰v‰t kent‰t."
+
+#: config/prefs.php.dist:32
+msgid "Select which format to display names."
+msgstr "Voit valita nimien esitysmuodon."
+
+#: add.php:54
+#, php-format
+msgid "Selected address book \"%s\"."
+msgstr "Valittu osoitekirja \"%s\"."
+
+#: templates/browse/actions.inc:46
+#, php-format
+msgid "Show %s"
+msgstr "N‰yt‰ %s"
+
+#: templates/browse/actions.inc:48
+msgid "Show All"
+msgstr "N‰yt‰ kaikki"
+
+#: templates/browse/actions.inc:47
+msgid "Show Contacts"
+msgstr "N‰yt‰ yhteystiedot"
+
+#: templates/browse/actions.inc:46
+msgid "Show Lists"
+msgstr "N‰yt‰ listat"
+
+#: templates/browse/column_headers.inc:21
+#: templates/browse/column_headers.inc:36
+msgid "Sort Direction"
+msgstr "J‰rjestyksen suunta"
+
+#: lib/api.php:199
+msgid "Sources"
+msgstr "L‰hteet"
+
+#: browse.php:214 browse.php:262
+#, php-format
+msgid "Successfully added %d contact(s) to list."
+msgstr "Onnistuttiin lis‰‰m‰‰n %d yhteystietoa listalle."
+
+#: browse.php:160
+#, php-format
+msgid "Successfully added %s to %s"
+msgstr "Onnistuttiin lis‰‰m‰‰n %s %s:‰‰n"
+
+#: browse.php:248
+#, php-format
+msgid "Successfully created the contact list \"%s\"."
+msgstr "Yhteystietolistan \"%s\" luonti onnistui."
+
+#: browse.php:84
+#, php-format
+msgid "Successfully deleted %d contact(s)."
+msgstr "Onnistuttiin poistamaan %d yhteystietoa."
+
+#: browse.php:64
+#, php-format
+msgid "Successfully removed %d contact(s) from list."
+msgstr "Onnistuttiin poistamaan %d yhteystietoa listalta."
+
+#: data.php:50
+msgid "TSV"
+msgstr "TSV"
+
+#: templates/data/import.inc:14 templates/data/export.inc:14
+msgid "Tab separated values"
+msgstr "Tabulaattorein(TAB) erotetut arvot"
+
+#: data.php:304
+#, php-format
+msgid "The %s file didn't contain any contacts."
+msgstr "Tiedosto %s ei sis‰lt‰nyt ainuttakaan yhteystietoa."
+
+#: view.php:15
+msgid "The VFS backend needs to be configured to enable attachment uploads."
+msgstr ""
+"VFS-taustaj‰rjestelm‰ pit‰‰ olla k‰ytett‰viss‰ ennen kuin liitteit‰ voi "
+"tuoda."
+
+#: lib/Driver.php:1157
+#, php-format
+msgid "The address book \"%s\" does not exist."
+msgstr "Osoitekirjaa \"%s\" ei ole olemassa."
+
+#: addressbooks.php:48
+#, php-format
+msgid "The address book \"%s\" was created successfully."
+msgstr "Osoitekirjan \"%s\" luonti onnistui."
+
+#: addressbooks.php:71
+#, php-format
+msgid "The address book \"%s\" was removed successfully."
+msgstr "Osoitekirjan \"%s\" poisto onnistui."
+
+#: addressbooks.php:89
+#, php-format
+msgid "The address book \"%s\" was successfully updated."
+msgstr "Osoitekirjan \"%s\" muokkaus onnistui."
+
+#: data.php:317
+#, php-format
+msgid "The address book could not be purged: %s"
+msgstr "Osoitekirjaa ei voitu tyhjent‰‰: %s"
+
+#: display.php:23 edit.php:51 vcard.php:22 view.php:26
+msgid "The contact you requested does not exist."
+msgstr "Pyyt‰m‰‰si yhteystietoa ei ole olemassa."
+
+#: edit.php:123
+#, php-format
+msgid "The file \"%s\" has successfully been deleted."
+msgstr "Tiedoston \"%s\" poisto onnistui."
+
+#: data.php:284
+msgid "The import can be finished despite the warnings."
+msgstr "Tuonnin voi suorittaa loppuun vaikka tulisi varoituksia."
+
+#: browse.php:31
+msgid "There are no browseable address books."
+msgstr "Osoitekirjoja ei voi selata."
+
+#: add.php:29
+msgid ""
+"There are no writeable address books. None of the available address books "
+"are configured to allow you to add new entries to them. If you believe this "
+"is an error, please contact your system administrator."
+msgstr ""
+"Osoitekirjoihin ei voi kirjoittaa. K‰ytett‰viss‰ olevat osoitekirjat eiv‰t "
+"salli sinun lis‰t‰ niihin uusia osoitteita. Jos ep‰ilet virhetilannetta, "
+"niin ota yhteys j‰rjestelm‰n yll‰pit‰j‰‰n."
+
+#: add.php:124
+msgid ""
+"There was an error adding the new contact. Contact your system administrator "
+"for further help."
+msgstr ""
+"Tapahtui virhe uusien yhteystietojen lis‰‰misess‰. Ota yhteytt‰ j‰rjestelm‰n "
+"yll‰pit‰j‰‰n."
+
+#: browse.php:271
+msgid "There was an error creating a new list."
+msgstr "Tapahtui virhe teht‰ess‰ uutta listaa."
+
+#: addressbooks.php:38
+#, php-format
+msgid "There was an error creating this address book: %s"
+msgstr "Tapahtui virhe luotaessa osoitekirjaa: %s"
+
+#: browse.php:166
+#, php-format
+msgid "There was an error deleting \"%s\" from the source address book."
+msgstr ""
+"Tapahtui virhe poistettaessa \"%s\" l‰hteen‰ k‰ytetyst‰ osoitekirjasta."
+
+#: delete.php:37
+#, php-format
+msgid "There was an error deleting this contact: %s"
+msgstr "Tapahtui virhe poistettaessa t‰t‰ yhteystietoa: %s"
+
+#: browse.php:318
+msgid "There was an error displaying the list"
+msgstr "Tapahtui virhe n‰ytett‰ess‰ listaa"
+
+#: data.php:349
+#, php-format
+msgid "There was an error importing the data: %s"
+msgstr "Tapahtui virhe tuotaessa tietoa: %s"
+
+#: lib/api.php:562 lib/api.php:825
+msgid "There was an error importing the iCalendar data."
+msgstr "iCalendar-tietojen tuonnissa tapahtui virhe."
+
+#: addressbooks.php:58 addressbooks.php:63 addressbooks.php:69
+#, php-format
+msgid "There was an error removing this address book: %s"
+msgstr "Tapahtui virhe poistettaessa t‰t‰ osoitekirjaa: %s."
+
+#: addressbooks.php:87
+#, php-format
+msgid "There was an error updating this address book: %s"
+msgstr "Tapahtui virhe p‰ivitett‰ess‰ t‰t‰ osoitekirjaa: %s"
+
+#: edit.php:165
+#, php-format
+msgid "There was an error updating this entry: %s"
+msgstr "T‰m‰n merkinn‰n p‰ivityksess‰ tapahtui virhe: %s."
+
+#: data.php:179
+msgid "There were no addresses to export."
+msgstr "Ei ole yht‰‰n viet‰v‰‰ osoitetta."
+
+#: templates/prefs/addressbookselect.inc:180
+msgid "These address books will display in this order:"
+msgstr "N‰m‰ osoitekirjat n‰ytet‰‰n t‰ss‰ j‰rjestyksess‰:"
+
+#: templates/prefs/columnselect.inc:243
+msgid "These columns will display in this order:"
+msgstr "N‰m‰ sarakkeet n‰ytet‰‰n t‰ss‰ j‰rjestyksess‰:"
+
+#: data.php:269
+msgid "This file format is not supported."
+msgstr "T‰m‰ tiedostomuoto ei ole tuettu."
+
+#: lib/api.php:1203 lib/api.php:1216
+#, php-format
+msgid "This person already has a %s entry in the address book"
+msgstr "T‰ll‰ henkilˆll‰ on jo %s merkint‰ osoitekirjassa"
+
+#: config/prefs.php.dist:141
+msgid ""
+"This will be the default address book when adding or importing contacts."
+msgstr "T‰m‰ on oletusosoitekirja kun lis‰t‰‰n tai tuodaan yhteystietoja."
+
+#: config/attributes.php.dist:70
+msgid "Title"
+msgstr "Titteli"
+
+#: lib/Driver.php:1081
+#, php-format
+msgid "Unable to load the definition of %s."
+msgstr "M‰‰rityksen %s lukeminen ep‰onnistui."
+
+#: edit.php:95 edit.php:98 edit.php:101 edit.php:106 edit.php:204
+msgid "Undo Changes"
+msgstr "Peru muutokset"
+
+#: lib/api.php:595 lib/api.php:696 lib/api.php:843
+#, php-format
+msgid "Unsupported Content-Type: %s"
+msgstr "Ei tuettu Content-Type: %s"
+
+#: templates/browse/contactrow.inc:27 templates/browse/row.inc:19
+#, php-format
+msgid "View \"%s\""
+msgstr "N‰yt‰ \"%s\""
+
+#: minisearch.php:76
+msgid "View Contact"
+msgstr "N‰yt‰ yhteystiedot"
+
+#: config/prefs.php.dist:117
+msgid "View to display by default:"
+msgstr "Oletuksena k‰ytett‰v‰ n‰kym‰:"
+
+#: config/attributes.php.dist:208
+msgid "Website URL"
+msgstr "Website URL"
+
+#: config/attributes.php.dist:113
+msgid "Work Address"
+msgstr "Osoite (tyˆ)"
+
+#: config/attributes.php.dist:124
+msgid "Work City"
+msgstr "Kaupunki (tyˆ)"
+
+#: config/attributes.php.dist:139
+msgid "Work Country"
+msgstr "Maa (tyˆ)"
+
+#: config/attributes.php.dist:156
+msgid "Work Phone"
+msgstr "Puhelin (tyˆ)"
+
+#: config/attributes.php.dist:134
+msgid "Work Postal Code"
+msgstr "Postinumero (tyˆ)"
+
+#: config/attributes.php.dist:129
+msgid "Work State/Province"
+msgstr "L‰‰ni tai alue (tyˆ)"
+
+#: config/attributes.php.dist:119
+msgid "Work Street Address"
+msgstr "Katuosoite (tyˆ)"
+
+#: browse.php:106 browse.php:227 add.php:73 data.php:237
+#, php-format
+msgid "You are not allowed to create more than %d contacts in \"%s\"."
+msgstr "Ei voi luoda kuin enint‰‰n %d yhteystietoa \"%s\":een."
+
+#: display.php:52 edit.php:73 view.php:36
+msgid "You do not have permission to view this contact."
+msgstr "Sinulla ei ole oikeuksia n‰hd‰ t‰t‰ yhteystietoa."
+
+#: vcard.php:40
+msgid "You do not have permission to view this object."
+msgstr "Sinulla ei ole oikeuksia n‰hd‰ t‰m‰n objektin tietoja."
+
+#: lib/Turba.php:546
+msgid "You do not have permissions to delete this source."
+msgstr "Sinulla ei ole oikeuksia poistaa t‰t‰ l‰hdett‰."
+
+#: templates/browse/javascript.inc:55
+msgid "You must select a target address book."
+msgstr "Sinun pit‰‰ ensin valita kohdeosoitekirja."
+
+#: templates/browse/javascript.inc:23
+msgid "You must select a target list."
+msgstr "Sinun pit‰‰ ensin valita kohdelista."
+
+#: edit.php:32
+msgid "You must select at least one contact first."
+msgstr "Sinun pit‰‰ ensin valita ainakin yksi yhteystieto."
+
+#: templates/browse/javascript.inc:17 templates/browse/javascript.inc:49
+#: templates/browse/javascript.inc:72
+msgid "You must select at least one entry first."
+msgstr "Sinun pit‰‰ ensin valita ainakin yksi tietue."
+
+#: edit.php:77
+msgid "You only have permission to view this contact."
+msgstr "Sinulla on oikeudet vain katsoa t‰t‰ yhteystietoa."
+
+#: browse.php:325
+msgid "Your default address book is not browseable."
+msgstr "Oletusosoitekirjasi ei ole selattavissa."
+
+#: templates/browse/contactrow.inc:12 templates/browse/row.inc:6
+msgid "[no value]"
+msgstr "[ei arvoa]"
+
+#: lib/Turba.php:569
+msgid "_Browse"
+msgstr "_Selaa"
+
+#: templates/browse/actions.inc:47
+msgid "_Contacts"
+msgstr "_Yhteystiedot"
+
+#: templates/browse/actions.inc:3
+msgid "_Delete"
+msgstr "_Poista"
+
+#: lib/Turba.php:578
+msgid "_Import/Export"
+msgstr "_Tuo/Vie"
+
+#: templates/browse/actions.inc:46
+msgid "_Lists"
+msgstr "_Listat"
+
+#: lib/Turba.php:566
+msgid "_My Address Books"
+msgstr "O_mat osoitekirjat"
+
+#: lib/Turba.php:572
+msgid "_New Contact"
+msgstr "_Uusi yhteystieto"
+
+#: templates/browse/actions.inc:3
+msgid "_Remove from this list"
+msgstr "_Poista t‰lt‰ listalta"
+
+#: lib/Turba.php:574
+msgid "_Search"
+msgstr "_Haku"
+
+#: vcard.php:46
+msgid "contact.vcf"
+msgstr "contacts.vcf"
+
+#: data.php:199 data.php:204 templates/data/export.inc:1
+msgid "contacts.csv"
+msgstr "contacts.csv"
+
+#: data.php:209
+msgid "contacts.tsv"
+msgstr "contacts.csv"
+
+#: data.php:219
+msgid "contacts.vcf"
+msgstr "contacts.vcf"
+
+#: config/prefs.php.dist:131
+msgid "no formatting"
+msgstr "ei muotoilua"
+
+#: templates/prefs/imsp_opt.inc:32
+msgid "none"
+msgstr "Ei mit‰‰n"
+
+#: templates/browse/actions.inc:31
+msgid "to a Contact List"
+msgstr "yhteystietolistaan"
+
+#: templates/browse/actions.inc:21
+msgid "to a different Address Book"
+msgstr "eri osoitekirjaan"
+
+#: data.php:51 templates/data/import.inc:15 templates/data/export.inc:15
+#: templates/browse/column_headers.inc:13
+msgid "vCard"
+msgstr "vCard"

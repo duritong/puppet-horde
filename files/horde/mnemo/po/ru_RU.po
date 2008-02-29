@@ -1,0 +1,799 @@
+# Russian translations for Mnemo package
+# Copyright (C)
+# Alexey Zakharov <baber@mosga.net>, 2006 
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mnemo H3 (2.0.2)\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2006-01-15 18:15+0200\n"
+"PO-Revision-Date: 2006-01-15 18:46+0100\n"
+"Last-Translator: Alexey Zakharov <baber@mosga.net>\n"
+"Language-Team: Russian <i18n@lists.horde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CP1251\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# fuzzy, php-format
+#: templates/list/header.inc:3
+#, php-format
+msgid "%d notes"
+msgstr "%d заметок"
+
+# fuzzy, php-format
+#: templates/memo/memo.inc:26
+msgid "%s characters"
+msgstr "%s букв"
+
+#: data.php:187
+#, php-format
+msgid "%s file successfully imported"
+msgstr "Файл %s успешно импортирован"
+
+# fuzzy, php-format
+#: notepads.php:99 lib/base.php:103
+msgid "%s's Notepad"
+msgstr "Моя книжка (%s)"
+
+# fuzzy
+#: templates/list/header.inc:3
+msgid "1 note"
+msgstr "1 заметка"
+
+# fuzzy
+#: memo.php:162
+msgid "Access denied deleting note."
+msgstr "У вас недостаточно прав чтобы удалить эту заметку"
+
+# fuzzy
+#: memo.php:112 memo.php:115
+msgid "Access denied moving the note."
+msgstr "У вас недостаточно прав чтобы переместить эту заметку"
+
+# fuzzy, php-format
+#: memo.php:84
+#, php-format
+msgid "Access denied saving note to %s."
+msgstr "У вас нет прав писать заметки в %s"
+
+# fuzzy, php-format
+#: memo.php:82
+#, php-format
+msgid "Access denied saving note: %s"
+msgstr "Недостаточно прав для сохранения заметки: %s"
+
+# fuzzy
+#: templates/prefs/showsummaryselect.inc:103
+msgid "Add category"
+msgstr "Новая категория"
+
+#: memo.php:52
+msgid "Adding A New Note"
+msgstr "Добавление новой заметки"
+
+#: config/prefs.php.dist:51
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: templates/prefs/showsummaryselect.inc:99
+#, fuzzy
+msgid "Available Categories:"
+msgstr "Доступные поля:"
+
+# php-format
+# fuzzy
+#: templates/view/memo.inc:18
+msgid "Back to Notepad"
+msgstr "Вернуться в Записную книжку"
+
+#: templates/notepads/notepads.inc:97
+msgid "Back to Notepad Options"
+msgstr "Вернутся к опциям"
+
+#: data.php:32 templates/data/import.inc:17
+msgid "CSV"
+msgstr "CSV-файл"
+
+# fuzzy
+#: data.php:54 templates/view/memo.inc:26
+msgid "Category"
+msgstr "Категория"
+
+#: templates/notepads/notepads.inc:22
+msgid "Change"
+msgstr "Изменить"
+
+#: config/prefs.php.dist:15
+msgid "Change your note sorting and display options."
+msgstr "Изменить опции отображения и поиска в записной книжке"
+
+#: templates/prefs/showsummaryselect.inc:93
+#, fuzzy
+msgid "Choose the memo categories to list in the summary view."
+msgstr "Выберите порядок отображения столбцов в списке адресов."
+
+#: config/prefs.php.dist:22
+msgid "Choose your default Notepad."
+msgstr "Выбрать вашу записную книжку по умолчанию"
+
+# fuzzy
+#: templates/search/search.inc:32
+msgid "Clear Form"
+msgstr "Очистить форму"
+
+#: templates/notepads/notepads.inc:17 templates/notepads/notepads.inc:94
+#: templates/notepads/notepads.inc:96
+msgid "Create"
+msgstr "Создать"
+
+#: templates/view/memo.inc:32
+msgid "Created"
+msgstr "Создана"
+
+# fuzzy
+# fuzzy
+#: config/prefs.php.dist:21
+msgid "Default Notepad"
+msgstr "Книжка по умолчанию"
+
+#: config/prefs.php.dist:42
+msgid "Default sorting criteria:"
+msgstr "Сортировка по умолчанию:"
+
+# fuzzy
+#: config/prefs.php.dist:53
+msgid "Default sorting direction:"
+msgstr "Порядок сортировки"
+
+#: templates/notepads/notepads.inc:95 templates/view/memo.inc:15
+msgid "Delete"
+msgstr "Удалить"
+
+# fuzzy
+#: config/prefs.php.dist:28
+msgid "Delete Confirmation"
+msgstr "Удаление"
+
+#: config/prefs.php.dist:29
+msgid "Delete button behaviour"
+msgstr "Подтверждение операции удаления"
+
+# fuzzy
+#: templates/memo/memo.inc:67
+msgid "Delete this note"
+msgstr "Удалить заметку"
+
+#: config/prefs.php.dist:52
+msgid "Descending"
+msgstr "По убыванию"
+
+# fuzzy
+# fuzzy
+#: templates/notepads/notepads.inc:85
+msgid "Description:"
+msgstr "Описание"
+
+# fuzzy
+#: config/prefs.php.dist:14
+msgid "Display Options"
+msgstr "Отображение"
+
+# fuzzy
+#: config/prefs.php.dist:98
+msgid "Do you want to confirm deleting entries?"
+msgstr "Запрашивать подтверждение при удалении записей?"
+
+#: templates/view/memo.inc:11
+msgid "Edit"
+msgstr "Редактирование"
+
+#: templates/list/memo_summaries.inc:5
+#, fuzzy, php-format
+msgid "Edit \"%s\""
+msgstr "Редактирование '%s'"
+
+# fuzzy
+# fuzzy
+#: templates/list/memo_headers.inc:42 lib/Block/summary.php:82
+msgid "Edit Note"
+msgstr "Редактировать"
+
+#: templates/list/memo_headers.inc:52
+#, fuzzy
+msgid "Edit categories and colors"
+msgstr "Категории и метки"
+
+# fuzzy
+#: templates/list/memo_summaries.inc:12
+msgid "Empty Note"
+msgstr "Пустая заметка"
+
+#: templates/data/export.inc:19
+msgid "Export"
+msgstr "Экспорт"
+
+# fuzzy
+#: templates/data/export.inc:8
+msgid "Export Notes"
+msgstr "Экспорт заметок"
+
+# fuzzy
+#: templates/search/search.inc:21
+msgid "F_ull Text"
+msgstr "Весь текст"
+
+# fuzzy
+#: config/prefs.php.dist:13 config/prefs.php.dist:20 config/prefs.php.dist:27
+msgid "General Options"
+msgstr "Общие настройки"
+
+# fuzzy, php-format
+#: templates/data/import.inc:8
+#, php-format
+msgid "Import Notes, Step %d"
+msgstr "Импорт заметок, Шаг %d"
+
+# fuzzy
+# fuzzy
+#: data.php:193
+msgid "Import/Export Notes"
+msgstr "Импорт/Экспорт"
+
+#: templates/view/memo.inc:39
+msgid "Last Modified"
+msgstr "Исправлена"
+
+#: lib/api.php:72
+#, fuzzy
+msgid "Maximum Number of Notes"
+msgstr "Максимальное количество страниц"
+
+#: data.php:53
+#, fuzzy
+msgid "Memo Text"
+msgstr ""
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"Далее\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"Далее\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"Далее\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"Далее"
+
+# fuzzy, php-format
+# fuzzy, php-format
+#: memo.php:68
+#, php-format
+msgid "Modifying %s"
+msgstr "Редактирование %s"
+
+# fuzzy
+#: list.php:35
+msgid "My Notes"
+msgstr "Мои заметки"
+
+# fuzzy
+#: lib/Block/summary.php:22
+msgid "New Note"
+msgstr "Новая заметка"
+
+#: templates/data/import.inc:40
+msgid "Next"
+msgstr "Далее"
+
+#: lib/api.php:206
+#, fuzzy
+msgid "No iCalendar data was found."
+msgstr "Прикрепленные"
+
+#: templates/menu.inc:7
+msgid "No notepads are available to guests."
+msgstr ""
+
+# fuzzy
+#: templates/list/header.inc:3
+msgid "No notes"
+msgstr "Нет Заметок"
+
+#: templates/list/empty.inc:3
+msgid "No notes match the current criteria."
+msgstr "Подходящих заметок не найдено"
+
+# fuzzy
+#: lib/Block/summary.php:108
+#, fuzzy
+msgid "No notes to display"
+msgstr "Отобразить книжки:"
+
+# fuzzy
+#: templates/list/memo_headers.inc:44
+msgid "No_te"
+msgstr "Заметки"
+
+# fuzzy
+#: config/prefs.php.dist:41
+msgid "Note Category"
+msgstr "Категория"
+
+# fuzzy
+#: view.php:80 templates/view/memo.inc:21
+msgid "Note Details"
+msgstr "Заметка"
+
+# fuzzy
+#: notepads.php:110
+#, fuzzy
+msgid "Note Lists"
+msgstr "Новая группа"
+
+# fuzzy
+#: templates/view/memo.inc:45 config/prefs.php.dist:40
+msgid "Note Text"
+msgstr "Текст"
+
+# fuzzy
+#: templates/memo/memo.inc:26
+msgid "Note _Text"
+msgstr "Текст"
+
+#: view.php:57 memo.php:60
+#, fuzzy
+msgid "Note not found."
+msgstr ""
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"Адресат уведомления %s не найден.\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"Адресат уведомления %s не найден.\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"Адресат уведомления %s не найден.\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"Адресат уведомления %s не найден."
+
+# fuzzy
+#: templates/memo/memo.inc:34
+msgid "Note_pad"
+msgstr "Книжка"
+
+# fuzzy
+# fuzzy
+#: templates/notepads/notepads.inc:79
+msgid "Notepad's name:"
+msgstr "Название записной книжки:"
+
+# fuzzy
+#: templates/notepads/notepads.inc:61
+msgid "Notepads"
+msgstr "Записные книжки"
+
+#: notepads.php:33
+msgid "Notepads must have a name."
+msgstr "Вы не задали название записной книжки"
+
+# fuzzy
+# fuzzy
+#: lib/Block/summary.php:3
+msgid "Notes Summary"
+msgstr "Состояние"
+
+# fuzzy
+#: lib/api.php:183 lib/api.php:279 lib/api.php:355 lib/api.php:384
+#, fuzzy
+msgid "Permission Denied"
+msgstr "Изменить права доступа"
+
+# fuzzy
+#: templates/notepads/notepads.inc:82
+msgid "Permissions"
+msgstr "Изменить права доступа"
+
+# fuzzy
+# fuzzy
+#: templates/view/memo.inc:15
+#, fuzzy
+msgid "Really delete this note?"
+msgstr "Удалить зту задачу"
+
+# fuzzy
+#: templates/list/header.inc:5 templates/list/header.inc:6
+msgid "Refresh List"
+msgstr "Обновить"
+
+#: templates/prefs/showsummaryselect.inc:105
+#, fuzzy
+msgid "Remove category"
+msgstr "Удалить пару"
+
+#: templates/notepads/notepads.inc:96
+msgid "Reset"
+msgstr "Сбросить"
+
+# fuzzy
+#: templates/memo/memo.inc:56
+msgid "Save"
+msgstr "Записать"
+
+#: search.php:17 templates/search/search.inc:4 templates/search/search.inc:31
+msgid "Search"
+msgstr "Поиск"
+
+#: list.php:57
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+# fuzzy, php-format
+# fuzzy
+#: templates/search/search.inc:17
+msgid "Search Scope"
+msgstr "Область поиска"
+
+# fuzzy
+#: templates/search/search.inc:9
+msgid "Search _Text"
+msgstr "Что ищем"
+
+# fuzzy
+#: templates/notepads/notepads.inc:67
+msgid "Select a notepad"
+msgstr "Выберите записную книжку"
+
+# fuzzy
+#: templates/menu.inc:16
+#, fuzzy
+msgid "Select notepads to display:"
+msgstr "Отобразить книжки:"
+
+# fuzzy
+#: templates/data/export.inc:15
+msgid "Select the export format:"
+msgstr "Выберите формат для экспорта:"
+
+#: templates/data/import.inc:37
+msgid "Select the file to import:"
+msgstr "Импортируемый файл:"
+
+# fuzzy
+#: templates/data/import.inc:15
+msgid "Select the format of the source file:"
+msgstr "Выберите формат импортируемого файла:"
+
+#: templates/prefs/showsummaryselect.inc:109
+#, fuzzy
+msgid "Selected Categories:"
+msgstr "Выбранные столбцы:"
+
+# fuzzy
+#: lib/Block/summary.php:37
+msgid "Show action buttons?"
+msgstr "Кнопки"
+
+# fuzzy
+# fuzzy
+#: lib/Block/summary.php:40
+msgid "Show notepad name?"
+msgstr "Название записной книжки"
+
+#: lib/Block/summary.php:43
+msgid "Show notes from these categories"
+msgstr "Показать по категории:"
+
+#: templates/list/memo_headers.inc:48
+#, fuzzy
+msgid "Sort by Category"
+msgstr "Сортировать по теме"
+
+#: templates/list/memo_headers.inc:44
+#, fuzzy
+msgid "Sort by Note Text"
+msgstr "Сортировать по теме"
+
+# fuzzy, php-format
+# fuzzy, php-format
+#: memo.php:135
+#, php-format
+msgid "Successfully saved \"%s\"."
+msgstr "Заметка '%s' успешно сохранена"
+
+# fuzzy
+#: memo.php:159
+msgid "The note was deleted."
+msgstr "Заметка была удалена."
+
+# fuzzy, php-format
+#: notepads.php:46
+#, php-format
+msgid "The notepad \"%s\" couldn't be created: %s"
+msgstr "Записная книжка '%s' не может быть создана: %s"
+
+# fuzzy, php-format
+#: notepads.php:48
+#, php-format
+msgid "The notepad \"%s\" has been created."
+msgstr "Записная книжка '%s' была успешно создана"
+
+# fuzzy, php-format
+#: notepads.php:85
+#, php-format
+msgid "The notepad \"%s\" has been deleted."
+msgstr "Записная книжка '%s' была удалена."
+
+# fuzzy, php-format
+#: notepads.php:56
+#, php-format
+msgid "The notepad \"%s\" has been saved."
+msgstr "Записная книжка '%s' была сохранена."
+
+#: data.php:184
+#, fuzzy, php-format
+msgid "There was an error importing the data: %s"
+msgstr "Ошибка при импорте данных."
+
+#: lib/api.php:200
+#, fuzzy
+msgid "There was an error importing the iCalendar data."
+msgstr ""
+"#-#-#-#-#  ru_RU.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Turba v1.1)  #-#-#-#-#\n"
+"Ошибка при импорте данных."
+
+#: lib/api.php:403
+#, fuzzy
+msgid "There was an error importing the vNote data."
+msgstr ""
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Turba v1.1)  #-#-#-#-#\n"
+"Ошибка при импорте данных.\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Turba v1.1)  #-#-#-#-#\n"
+"Ошибка при импорте данных.\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Turba v1.1)  #-#-#-#-#\n"
+"Ошибка при импорте данных.\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Turba v1.1)  #-#-#-#-#\n"
+"Ошибка при импорте данных."
+
+#: memo.php:157
+#, fuzzy, php-format
+msgid "There was an error removing the note: %s"
+msgstr ""
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (IMP v3.1)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма.\n"
+"#-#-#-#-#  ru_RU.po (IMP v4.0.2)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма.\n"
+"#-#-#-#-#  ru_RU.po (IMP v4.0.2)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма.\n"
+"#-#-#-#-#  ru_RU.po (IMP v4.0.2)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма.\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (IMP v3.1)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма.\n"
+"#-#-#-#-#  ru_RU.po (IMP v4.0.2)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма.\n"
+"#-#-#-#-#  ru_RU.po (IMP v4.0.2)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма.\n"
+"#-#-#-#-#  ru_RU.po (IMP v4.0.2)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма.\n"
+"#-#-#-#-#  ru_RU.po (IMP v4.0.2)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма.\n"
+"#-#-#-#-#  ru_RU.po (IMP v4.0.2)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма.\n"
+"#-#-#-#-#  ru_RU.po (IMP v4.0.2)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма.\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (IMP v3.1)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма.\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (IMP v3.1)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма.\n"
+"#-#-#-#-#  ru_RU.po (IMP v4.0.2)  #-#-#-#-#\n"
+"Проблема при просмотре запрошенного письма."
+
+#: memo.php:133
+#, fuzzy, php-format
+msgid "There was an error saving the note: %s"
+msgstr "Ошибка отправки письма: %s"
+
+#: view.php:46
+#, fuzzy, php-format
+msgid "There was an error viewing this notepad: %s"
+msgstr "Ошибка при импорте данных."
+
+#: data.php:79
+#, fuzzy
+msgid "There were no memos to export."
+msgstr "Нет адресных книг, доступных для записи."
+
+#: data.php:105
+#, fuzzy
+msgid "This file format is not supported."
+msgstr ""
+"#-#-#-#-#  compendium.po (IMP v4.0.2)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (IMP v4.0.2)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (IMP v4.0.2)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (IMP v3.1)  #-#-#-#-#\n"
+"Новое сообщение\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (IMP v3.1)  #-#-#-#-#\n"
+"Новое сообщение\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (IMP v3.1)  #-#-#-#-#\n"
+"Новое сообщение"
+
+#: notepads.php:80
+#, fuzzy, php-format
+msgid "Unable to delete \"%s\": %s"
+msgstr ""
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  compendium.po (Horde v2.1)  #-#-#-#-#\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"Невозможно соединиться с SQL сервером.\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"Невозможно соединиться с SQL сервером.\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"Невозможно соединиться с SQL сервером.\n"
+"#-#-#-#-#  ru_RU.po (Horde v3.0.3)  #-#-#-#-#\n"
+"Невозможно соединиться с SQL сервером."
+
+# fuzzy
+#: templates/memo/memo.inc:58
+msgid "Undo changes"
+msgstr "Отменить изменения"
+
+# fuzzy
+#: templates/view/memo.inc:27 templates/list/memo_summaries.inc:14
+#: lib/Mnemo.php:206 lib/Mnemo.php:207 lib/Mnemo.php:221 lib/Mnemo.php:222
+#: lib/Block/summary.php:103
+msgid "Unfiled"
+msgstr "Отсутствует"
+
+#: lib/api.php:236 lib/api.php:319 lib/api.php:411
+#, fuzzy, php-format
+msgid "Unsupported Content-Type: %s"
+msgstr "Некорректное имя."
+
+#: templates/data/import.inc:22
+msgid "Which Notepad should the notes be added to?"
+msgstr ""
+
+#: data.php:42 data.php:125 memo.php:35
+#, fuzzy, php-format
+msgid "You are not allowed to create more than %d notes."
+msgstr "Вы создаете папку верхнего уровня."
+
+#: view.php:50
+#, php-format
+msgid "You do not have permission to view the notepad %s."
+msgstr ""
+
+#: notepads.php:65
+#, fuzzy
+msgid "You must select a notepad to be deleted."
+msgstr "Вы должны выбрать профиль для удаления."
+
+# fuzzy
+#: templates/prefs/notepadselect.inc:10
+msgid "Your default notepad:"
+msgstr "Ваша записная книжка по умолчанию:"
+
+# fuzzy
+#: templates/notepads/notepads.inc:65
+msgid "Your notepads:"
+msgstr "Ваша записная книжка:"
+
+# php-format
+# fuzzy
+#: templates/view/memo.inc:18
+msgid "_Back to Notepad"
+msgstr "Вернуться в записную книжку"
+
+# fuzzy
+#: templates/memo/memo.inc:51 templates/list/memo_headers.inc:48
+msgid "_Category"
+msgstr "Категория"
+
+# fuzzy
+#: templates/view/memo.inc:15
+msgid "_Delete"
+msgstr "Удалить"
+
+# fuzzy
+#: templates/view/memo.inc:11
+msgid "_Edit"
+msgstr "Редактировать"
+
+# fuzzy
+#: templates/search/search.inc:20
+msgid "_First Line"
+msgstr "Первая строка"
+
+# fuzzy
+#: lib/Mnemo.php:281
+msgid "_Import/Export"
+msgstr "Импорт/Экспорт"
+
+# fuzzy
+#: lib/Mnemo.php:264
+msgid "_List Notes"
+msgstr "Выбрать"
+
+# fuzzy
+#: lib/Mnemo.php:276
+msgid "_My Notepads"
+msgstr "Книжки"
+
+# fuzzy
+#: lib/Mnemo.php:269
+msgid "_New Note"
+msgstr "Добавить"
+
+# fuzzy
+#: lib/Mnemo.php:286
+msgid "_Print"
+msgstr "Печать"
+
+# fuzzy
+#: lib/Mnemo.php:272
+msgid "_Search"
+msgstr "Поиск"
+
+#: data.php:91 templates/data/export.inc:1
+msgid "notes.csv"
+msgstr ""
+
+#: data.php:33 templates/data/import.inc:18
+#, fuzzy
+msgid "vNote"
+msgstr "Заметки"
+
+# fuzzy
+msgid "Other Options"
+msgstr "Другие настройки"
+
+# fuzzy
+msgid "Show"
+msgstr "Показать:"
+
+# fuzzy
+# fuzzy
+msgid "Show Notepads:"
+msgstr "Записные книжки:"

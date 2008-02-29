@@ -1,0 +1,198 @@
+# Vacation Romanian Translation.
+# Copyright (C) 2003 Horde Project
+# Eugen Hoanca <eugenh@urban-grafx.ro>, 2003.
+# Marius Dragulescu <mariusd@urban-grafx.ro>, 2003.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Vacation 2.2\n"
+"POT-Creation-Date: 2003-02-24 14:52+0200\n"
+"PO-Revision-Date: 2003-03-01 12:00+0200\n"
+"Last-Translator: Eugen Hoanca <eugenh@urban-grafx.ro>\n"
+"Language-Team: Romanian <i18n@lists.horde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"A vacation notice will automatically reply to any incoming mail you receive "
+"while you are away or unable to attend to your e-mail -- for example while "
+"on vacation or out of town on business."
+msgstr ""
+"O notificare de indisponibilitate va fi trimisa automat oricui ti-a trimis "
+"mail - cand esti plecat sau cand nu poti accesa casuta de mail - de exemplu "
+"cand esti plecat din oras cu afaceri. "
+
+msgid "Can't parse your email address"
+msgstr "Adresa de e-mail ininteligibila"
+
+msgid "Change Vacation Notices"
+msgstr "Schimbare notificare vacanta"
+
+msgid "Check your username and password!"
+msgstr "Verifica username si parola!"
+
+msgid "Could not create file"
+msgstr "Creare fisier imposibila"
+
+msgid "Could not login - check password!"
+msgstr "Nu se poate intra - verifica parola!"
+
+msgid "Could not set forwarding!"
+msgstr "Nu se poate seta inaintarea!"
+
+msgid "Could not write to file"
+msgstr "Nu se poate scrie in fisier"
+
+msgid "Error"
+msgstr "Eroare"
+
+msgid "Failed to create a vacation driver"
+msgstr "Creare driver vacanta esuata"
+
+msgid "Failure in modifying vacation notice: "
+msgstr "Modificare notificare vacanta esuata: "
+
+msgid "Failure in removing vacation notice: "
+msgstr "Stergere notita vacanta esuata: "
+
+msgid ""
+"For your protection and safety, you must identify yourself with your login "
+"password to verify this change."
+msgstr ""
+"Pentru securitate trebuie sa te identifici cu parola ta pentru a verifica "
+"aceasta modificare."
+
+msgid "Help"
+msgstr "Ajutor"
+
+msgid "I'm on vacation and will not be reading my mail for a while."
+msgstr "Sunt in vacanta si nu imi voi citi mailul ceva timp."
+
+msgid ""
+"It could be used as a courtesy to let others know why you are not answering "
+"their e-mail to you."
+msgstr ""
+"E preferabil sa ii anunti pe ceilalti de ce nu poti sa le raspunzi la "
+"mesajele de e-mail."
+
+msgid "Maybe you didn't have a vacation notice installed?"
+msgstr "Poate nu aveti instalata o notita de vacanta?"
+
+msgid "Message"
+msgstr "Mesaj"
+
+msgid "Message:"
+msgstr "Mesaj:"
+
+msgid "No configuration information specified for SQL authentication."
+msgstr "Configuratie pentru autentificare SQL nespecificata."
+
+msgid "Not able to retrieve current details."
+msgstr "Imposibil de recuperat detaliile curente."
+
+msgid "On vacation message"
+msgstr "Mesaj de vacanta"
+
+msgid "Problem?"
+msgstr "Problema?"
+
+msgid "Required 'database' not specified in authentication configuration."
+msgstr "'database' nespecificata in configurarea autentificarii."
+
+msgid "Required 'hostspec' not specified in authentication configuration."
+msgstr "'hostspec' nespecificat in configurarea autentificarii."
+
+msgid "Required 'password' not specified in authentication configuration."
+msgstr "'password' nespecificat in autentificarea configurarii."
+
+msgid "Required 'phptype' not specified in authentication configuration."
+msgstr "'phptype' nespecificat in configurarea autentificarii."
+
+msgid "Required 'table' not specified in authentication configuration."
+msgstr "'table' nespecificat in configurarea autentificarii."
+
+msgid "Required 'username' not specified in authentication configuration."
+msgstr "'username' nespecificat in configurarea autentificarii."
+
+msgid "Server connection failed"
+msgstr "Conexiunea la server a esuat"
+
+msgid "Set/install vacation notice"
+msgstr "Seteaza/instaleaza notita de vacanta"
+
+msgid "Some of Vacation module's configuration files are missing:"
+msgstr "Anumite fisiere de configurare lipsesc:"
+
+msgid "Submit"
+msgstr "Trimite"
+
+msgid "Success"
+msgstr "Succes"
+
+msgid "The module is not properly configured!"
+msgstr "Modulul nu este configurat corespunzator!"
+
+msgid "Then submit the form so that your vacation notice can be updated."
+msgstr "Apoi trimite formularul pentru a aduce la zi notita de vacanta."
+
+msgid ""
+"This form lets you install or remove a vacation notice for your e-mail "
+"account.  You should edit the default message to meet your needs."
+msgstr ""
+"Acest formular permite instalarea sau stergerea unei notite de vacanta "
+"pentru contul tau de e-mail. Trebuie sa editezi mesajul implicit pentru "
+"a corespunde nevoilor tale."
+
+msgid ""
+"This is the main Vacation module configuration file. It contains paths and "
+"options for all Vacation module scripts."
+msgstr ""
+"Acesta este principalul fisier de configurare Vacation. Contine caile si "
+"optiunile pentru scripturile Vacation."
+
+msgid "Unable to connect to SQL server."
+msgstr "Conectare la serverul SQL imposibila."
+
+msgid "Unset/remove vacation notice"
+msgstr "Resetare/Stergere notita vacanta."
+
+msgid "Vacation is active."
+msgstr "Notificare vacanta activa."
+
+msgid "Vacation is not active."
+msgstr "Notificare vacanta inactiva."
+
+msgid "Vacation module is not properly configured"
+msgstr "Modulul Vacanta incorect configurat"
+
+msgid "Vacation notice removed!"
+msgstr "Notita de vacanta stearsa!"
+
+msgid "Vacation notice set!"
+msgstr "Notita de vacanta setata!"
+
+msgid "Warning"
+msgstr "Avertisment"
+
+#, c-format
+msgid "You can't change vacation notice for user %s"
+msgstr "Nu poti schimba notita de vacanta pentru userul %s"
+
+msgid "You must give a vacation message"
+msgstr "Trebuie scris un mesaj de vacanta"
+
+msgid "You must give your password"
+msgstr "Introduceti o parola"
+
+msgid "You must specify the mode"
+msgstr "Specificati modul"
+
+msgid "Your mail will be dealt with when I return."
+msgstr "Mailul tau va fi citit cand ma voi intoarce."
+
+msgid "Your password:"
+msgstr "Parola:"
+
+msgid "tempnam() failed!"
+msgstr "tempnam() esuat!"

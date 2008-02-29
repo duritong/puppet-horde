@@ -1,0 +1,216 @@
+# Persian translations for Vacation package.
+# This file is distributed under the same license as the Vacation package.
+# 
+# Copyright (C) 2004 High Concil of Informatics (www.shci.ir)
+# Provided by  Amirkabir Metanetworking Ltd, 2004 <persian-horde@metanetworking.com>
+# Mohsen Nader-Badr       <naderi@metanetworking.com>
+# Chakameh Mortezania     <mortezania@metanetworking.com>
+# Salman Niksefat         <niksefat@metanetworking.com>
+# Hamed Gheybi            <gheybi@metanetworking.com>
+# Vahid Ghafarpour        <ghafarpour@metanetworking.com>
+# Zahra Ahmadi Firouzjaee <ahmadi@metanetworking.com>
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Vacation 3 ALPHA\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2005-06-26 10:07+0430\n"
+"PO-Revision-Date: 2005-07-08 12:45+0430\n"
+"Last-Translator: Amirkabir Metanetworking ltd. <persian-horde@metanetworking."
+"com>\n"
+"Language-Team: Persian <i18n@lists.horde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/main/main.inc:40
+msgid ""
+"A vacation notice will automatically reply to any incoming mail you receive "
+"while you are away or unable to attend to your e-mail -- for example while "
+"on vacation or out of town on business."
+msgstr ""
+"هنگامی که شما قادر به پاسخگویی به نامه‌های وارده خود نیستید (مانند هنگامی که "
+"در تعطیلات هستید و یا برای کار خارج از شهر سر می‌برید) پیام تعطیلات به طور "
+"اتوماتیک به نامه‌های وارده شما پاسخ می‌دهد"
+
+#: templates/main/main.inc:71
+msgid "Alias addresses for this account (optional):"
+msgstr "آدرس مستعار برای این حساب (اختیاری):"
+
+#: lib/Driver.php:182
+msgid "Can't parse your email address"
+msgstr "آدرس پست الکترونیک شما مفهوم نمی‌باشد"
+
+#: main.php:146 templates/main/main.inc:36
+msgid "Change Vacation Notices"
+msgstr "تغییر دادن پیام‌ تعطیلات"
+
+#: lib/Driver/ldap.php:204
+msgid "Check your password"
+msgstr "اسم رمز خود را بررسی کنید"
+
+#: lib/Driver/qmail.php:96 lib/Driver/qmail.php:185 lib/Driver/qmail.php:243
+#: lib/Driver/forwards.php:96 lib/Driver/forwards.php:192
+#: lib/Driver/forwards.php:248
+msgid "Check your username and password."
+msgstr "نام کاربر و اسم رمز خود را بررسی کنید."
+
+#: lib/Driver/ldap.php:98 lib/Driver/ldap.php:291 lib/Driver/ldap.php:370
+msgid "Could not bind to ldap server"
+msgstr "نمی‌توان به کارساز ldap متصل شد"
+
+#: lib/Driver/ldap.php:84
+msgid "Could not connect to ldap server"
+msgstr "نمی‌توان به کارساز ldap متصل شد"
+
+#: lib/Block/summary.php:37
+msgid "Failed to create a vacation driver"
+msgstr "ایجاد راه‌انداز تعطیلات ناموفّق بود"
+
+#: main.php:96
+#, php-format
+msgid "Failure in modifying vacation notice: %s"
+msgstr "عدم موفّقیّت در تغییر پیام تعطیلات: %s"
+
+#: main.php:106
+#, php-format
+msgid "Failure in removing vacation notice: %s"
+msgstr "عدم موفّقیّت در حذف پیام تعطیلات: %s"
+
+#: templates/main/main.inc:87
+msgid ""
+"For your protection and safety, you must identify yourself with your login "
+"password to verify this change."
+msgstr ""
+"به منظور حفظ امنیت، قبل از اعمال تغییرات شما باید اسم رمز خود را جهت تشخیص "
+"هویت وارد کنید."
+
+#: lib/Driver/ldap.php:292 lib/Driver/ldap.php:371
+msgid "Incorrect Password"
+msgstr "اسم رمز نادرست"
+
+#: templates/main/main.inc:41
+msgid ""
+"It could be used as a courtesy to let others know why you are not answering "
+"their e-mail to you."
+msgstr ""
+" این کار می‌تواند بطور مؤدبانه دیگران را از علت عدم پاسخگویی به نامه‌هایشان  "
+"مطلع سازد "
+
+#: lib/Driver/qmail.php:193 lib/Driver/forwards.php:199
+msgid "Maybe you didn't have a vacation notice installed?"
+msgstr "شاید پیام تعطیلاتی نصب نکرده‌اید!"
+
+#: templates/main/main.inc:63
+msgid "Message:"
+msgstr "پیغام:"
+
+#: lib/AliasDriver.php:42
+msgid "Not implemented."
+msgstr "پیاده‌سازی نشده"
+
+#: templates/main/main.inc:49
+msgid "Set/install vacation notice"
+msgstr "تنظیم/نصب پیام تعطیلات"
+
+#: templates/main/main.inc:56
+msgid "Subject:"
+msgstr "عنوان:"
+
+#: templates/main/main.inc:94
+msgid "Submit"
+msgstr "ارائه"
+
+#: lib/Driver/qmail.php:52 lib/Driver/ldap.php:133
+msgid "The module is not properly configured!"
+msgstr "مدول به درستی پیکربندی نشده‌است!"
+
+#: lib/Driver/forwards.php:52 lib/Driver/sql.php:53
+msgid "The vacation application is not properly configured."
+msgstr "برنامهٔ تعطیلات به طور مناسب پیکربندی نشده‌است."
+
+#: templates/main/main.inc:88
+msgid "Then submit the form so that your vacation notice can be updated."
+msgstr "سپس فرم را ارائه کنید تا پیام تعطیلات شما برروزرسانی شود."
+
+#: templates/main/main.inc:42
+msgid ""
+"This form lets you install or remove a vacation notice for your e-mail "
+"account. You should edit the default message to meet your needs."
+msgstr ""
+" این فرم به شما اجازه می‌دهد یک پیام تعطیلات برای حساب نامهٔ الکترونیکی خود "
+"نصب/ حذف کنید. شما باید متن پیش فرض زیر را برای خود ویرایش کنید"
+
+#: lib/Driver/sql.php:265
+msgid "Unable to connect to SQL server."
+msgstr "امکان اتصال به کارساز SQl نمی‌باشد."
+
+#: templates/main/main.inc:52
+msgid "Unset/remove vacation notice"
+msgstr "بازنشانی/حذف پیام تعطیلات"
+
+#: lib/Driver/ldap.php:163
+msgid "User not found."
+msgstr "کاربر پیدا نشد."
+
+#: lib/Block/summary.php:3
+msgid "Vacation Summary"
+msgstr "خلاصهٔ پیام تعطیلات"
+
+#: lib/Block/summary.php:41
+msgid "Vacation is active."
+msgstr "پیام تعطیلات فعال می‌باشد."
+
+#: lib/Block/summary.php:40
+msgid "Vacation is not active."
+msgstr "پیام تعطیلات فعال نمی‌باشد."
+
+#: main.php:94
+msgid "Vacation notice successfully enabled."
+msgstr "پیام تعطیلات با موفّقیّت فعال شد."
+
+# 
+#: main.php:104
+msgid "Vacation notice successfully removed."
+msgstr "پیام تعطیلات با موفّقیّت حذف شد."
+
+#: main.php:45
+#, php-format
+msgid "You can't change the vacation notice for %s."
+msgstr "شما نمی‌توانید پیام تعطیلات را برای %s تغییر دهید."
+
+#: main.php:77
+msgid "You must give a vacation message."
+msgstr "شما باید یک پیغام تعطیلات بدهید."
+
+#: main.php:52
+msgid "You must give your password"
+msgstr "شما باید اسم رمز خود را بدهید"
+
+#: templates/main/main.inc:14
+msgid "You must provide some message text to set a vacation notice"
+msgstr "شما برای تنظیم یک پیام تعطیلات باید یک متن بنویسید"
+
+#: templates/main/main.inc:8
+msgid "You must provide your password"
+msgstr "شما باید اسم رمز خود را آماده کنید"
+
+#: main.php:39
+msgid "You must specify the mode (set or remove)"
+msgstr "شما باید مد (تنظیم یا حذف) را انتخاب کنید"
+
+#: templates/main/main.inc:91
+msgid "Your password:"
+msgstr "اسم رمز شما:"
+
+#: main.php:82
+msgid "Your vacation message is not in the proper format."
+msgstr "پیام تعطیلات شما در قالب مناسبی نیست."
+
+#: main.php:123
+msgid "Your vacation notice is currently disabled."
+msgstr "پیام تعطیلات شما هم اکنون غیر فعال است."
+
+#: main.php:120
+msgid "Your vacation notice is currently enabled."
+msgstr "پیام تعطیلات شما هم اکنون فعال ‌است."

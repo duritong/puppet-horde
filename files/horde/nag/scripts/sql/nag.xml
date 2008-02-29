@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<database>
+
+ <name><variable>name</variable></name>
+ <create>false</create>
+ <overwrite>false</overwrite>
+
+ <table>
+
+  <name>nag_tasks</name>
+
+  <declaration>
+
+   <field>
+    <name>task_id</name>
+    <type>text</type>
+    <length>32</length>
+    <notnull>true</notnull>
+   </field>
+
+   <field>
+    <name>task_owner</name>
+    <type>text</type>
+    <length>255</length>
+    <notnull>true</notnull>
+   </field>
+
+   <field>
+    <name>task_name</name>
+    <type>text</type>
+    <length>255</length>
+    <notnull>true</notnull>
+   </field>
+
+   <field>
+    <name>task_uid</name>
+    <type>text</type>
+    <length>255</length>
+    <notnull>true</notnull>
+   </field>
+
+   <field>
+    <name>task_desc</name>
+    <type>clob</type>
+   </field>
+
+   <field>
+    <name>task_due</name>
+    <type>integer</type>
+    <default></default>
+   </field>
+
+   <field>
+    <name>task_priority</name>
+    <type>integer</type>
+    <notnull>true</notnull>
+    <default>0</default>
+   </field>
+
+   <field>
+    <name>task_category</name>
+    <type>text</type>
+    <length>80</length>
+   </field>
+
+   <field>
+    <name>task_completed</name>
+    <type>integer</type>
+    <length>1</length>
+    <notnull>true</notnull>
+    <default>0</default>
+   </field>
+
+   <field>
+    <name>task_alarm</name>
+    <type>integer</type>
+    <unsigned>false</unsigned>
+    <notnull>true</notnull>
+    <default>0</default>
+   </field>
+
+   <field>
+    <name>task_private</name>
+    <type>integer</type>
+    <length>1</length>
+    <notnull>true</notnull>
+    <default>0</default>
+   </field>
+
+   <index>
+    <name>nag_primary</name>
+    <primary>true</primary>
+    <field>
+     <name>task_id</name>
+    </field>
+   </index>
+
+   <index>
+    <name>nag_tasklist</name>
+    <field>
+     <name>task_owner</name>
+     <sorting>ascending</sorting>
+    </field>
+   </index>
+
+   <index>
+    <name>nag_uid</name>
+    <field>
+     <name>task_uid</name>
+     <sorting>ascending</sorting>
+    </field>
+   </index>
+
+  </declaration>
+
+ </table>
+
+</database>

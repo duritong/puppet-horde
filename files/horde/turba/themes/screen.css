@@ -1,0 +1,8 @@
+/**
+ * $Horde: turba/themes/screen.css,v 1.2.4.1 2005/10/18 12:50:19 jan Exp $
+ */
+
+/* Menu bottom margin, added for BC. */
+#menu {
+    margin-bottom: 8px;
+}

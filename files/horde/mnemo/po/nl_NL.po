@@ -1,0 +1,545 @@
+# Mnemo Dutch translation.
+# Copyright (C) 2002-2006 Jan Kuipers.
+# Jan Kuipers <jrkuipers@lauwerscollege.nl>, 2002-2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mneno 2.1.1-cvs\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2006-09-23 10:08+0200\n"
+"PO-Revision-Date: 2006-09-23 19:02+0200\n"
+"Last-Translator: Jan Kuipers <jrkuipers@lauwerscollege.nl>\n"
+"Language-Team: Dutch <i18n@lists.horde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/list/header.inc:3
+#, php-format
+msgid "%d notes"
+msgstr "%d notities"
+
+#: templates/memo/memo.inc:26
+#, php-format
+msgid "%s characters"
+msgstr "%s karakters"
+
+#: data.php:201
+#, php-format
+msgid "%s file successfully imported"
+msgstr "%s bestand met succes geimporteerd"
+
+#: notepads.php:99 lib/base.php:106
+#, php-format
+msgid "%s's Notepad"
+msgstr "%s's notitieboek"
+
+#: templates/list/header.inc:3
+msgid "1 note"
+msgstr "1 notitie"
+
+#: memo.php:162
+msgid "Access denied deleting note."
+msgstr "Toegang geweigerd bij verwijderen van notitie."
+
+#: memo.php:112 memo.php:115
+msgid "Access denied moving the note."
+msgstr "Toegang geweigerd bij verplaatsen van de notitie."
+
+#: memo.php:84
+#, php-format
+msgid "Access denied saving note to %s."
+msgstr "Toegang geweigerd bij opslaan van notitie in %s."
+
+#: memo.php:82
+#, php-format
+msgid "Access denied saving note: %s"
+msgstr "Toegang geweigerd bij opslaan van notitie: %s"
+
+#: memo.php:52
+msgid "Adding A New Note"
+msgstr "Een nieuwe notitie toevoegen"
+
+#: config/prefs.php.dist:51
+msgid "Ascending"
+msgstr "Toenemend"
+
+#: templates/view/memo.inc:18
+msgid "Back to Notepad"
+msgstr "Terug naar notitieboek"
+
+#: templates/notepads/notepads.inc:97
+msgid "Back to Notepad Options"
+msgstr "Terug naar de notitieboekopties"
+
+#: data.php:32 templates/data/import.inc:17
+msgid "CSV"
+msgstr "CSV"
+
+#: data.php:54 templates/view/memo.inc:26
+msgid "Category"
+msgstr "Categorie"
+
+#: templates/notepads/notepads.inc:22
+msgid "Change"
+msgstr "Wijzigen"
+
+#: config/prefs.php.dist:15
+msgid "Change your note sorting and display options."
+msgstr "Wijzig uw notitie sorteer- en weergaveopties."
+
+#: config/prefs.php.dist:22
+msgid "Choose your default Notepad."
+msgstr "Kies standaard notitieboek."
+
+#: templates/search/search.inc:32
+msgid "Clear Form"
+msgstr "Wis formulier"
+
+#: templates/notepads/notepads.inc:17 templates/notepads/notepads.inc:94
+#: templates/notepads/notepads.inc:96
+msgid "Create"
+msgstr "Maken"
+
+#: templates/view/memo.inc:32
+msgid "Created"
+msgstr "Gemaakt"
+
+#: config/prefs.php.dist:21
+msgid "Default Notepad"
+msgstr "Standaard notitieboek"
+
+#: config/prefs.php.dist:42
+msgid "Default sorting criteria:"
+msgstr "Standaard sorteercriteria:"
+
+#: config/prefs.php.dist:53
+msgid "Default sorting direction:"
+msgstr "Standaard sorteervolgorde:"
+
+#: templates/view/memo.inc:15 templates/notepads/notepads.inc:95
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: config/prefs.php.dist:28
+msgid "Delete Confirmation"
+msgstr "Verwijderbevestiging"
+
+#: config/prefs.php.dist:29
+msgid "Delete button behaviour"
+msgstr "Verwijderknopgedrag"
+
+#: templates/memo/memo.inc:67
+msgid "Delete this note"
+msgstr "Verwijder deze notitie"
+
+#: config/prefs.php.dist:52
+msgid "Descending"
+msgstr "Afnemend"
+
+#: templates/notepads/notepads.inc:85
+msgid "Description:"
+msgstr "Beschrijving:"
+
+#: config/prefs.php.dist:14
+msgid "Display Options"
+msgstr "Weergaveopties"
+
+#: config/prefs.php.dist:98
+msgid "Do you want to confirm deleting entries?"
+msgstr "Wilt u het verwijderen van invoer bevestigen?"
+
+#: templates/view/memo.inc:11
+msgid "Edit"
+msgstr "Bewerken"
+
+#: templates/list/memo_summaries.inc:5
+#, php-format
+msgid "Edit \"%s\""
+msgstr "\"%s\" bewerken"
+
+#: templates/list/memo_headers.inc:42 lib/Block/summary.php:77
+msgid "Edit Note"
+msgstr "Notitie bewerken"
+
+#: templates/list/memo_headers.inc:52
+msgid "Edit categories and colors"
+msgstr "Categorieën en kleuren bewerken"
+
+#: templates/list/memo_summaries.inc:12
+msgid "Empty Note"
+msgstr "Lege notitie"
+
+#: templates/data/export.inc:19
+msgid "Export"
+msgstr "Exporteren"
+
+#: templates/data/export.inc:8
+msgid "Export Notes"
+msgstr "Notities exporteren"
+
+#: templates/search/search.inc:21
+msgid "F_ull Text"
+msgstr "_Volledige tekst"
+
+#: config/prefs.php.dist:13 config/prefs.php.dist:20 config/prefs.php.dist:27
+msgid "General Options"
+msgstr "Algemene opties"
+
+#: templates/data/import.inc:8
+#, php-format
+msgid "Import Notes, Step %d"
+msgstr "Notities importeren, stap %d"
+
+#: data.php:207
+msgid "Import/Export Notes"
+msgstr "Notities importeren/exporteren"
+
+#: templates/view/memo.inc:39
+msgid "Last Modified"
+msgstr "Laatst gewijzigd"
+
+#: lib/api.php:73
+msgid "Maximum Number of Notes"
+msgstr "Maximum aantal notities"
+
+#: data.php:53
+msgid "Memo Text"
+msgstr "Notitietekst"
+
+#: memo.php:68
+#, php-format
+msgid "Modifying %s"
+msgstr "%s bewerken"
+
+#: list.php:35
+msgid "My Notes"
+msgstr "Mijn notities"
+
+#: lib/Block/summary.php:22
+msgid "New Note"
+msgstr "Nieuwe notitie"
+
+#: templates/data/import.inc:40
+msgid "Next"
+msgstr "Volgende"
+
+#: lib/api.php:227
+msgid "No iCalendar data was found."
+msgstr "Geen iCalendardata gevonden."
+
+#: templates/menu.inc:7
+msgid "No notepads are available to guests."
+msgstr "Geen notitieboeken beschikbaar voor gasten."
+
+#: templates/list/header.inc:3
+msgid "No notes"
+msgstr "Geen notities"
+
+#: templates/list/empty.inc:3
+msgid "No notes match the current criteria."
+msgstr "Geen notities die overeen komen met de huidige criteria."
+
+#: lib/Block/summary.php:103
+msgid "No notes to display"
+msgstr "Geen notities weer te geven"
+
+#: templates/list/memo_headers.inc:44
+msgid "No_te"
+msgstr "No_titie"
+
+#: lib/Driver/sql.php:140
+msgid "Not found"
+msgstr "Niet gevonden"
+
+#: config/prefs.php.dist:41
+msgid "Note Category"
+msgstr "Notitiecategorie"
+
+#: view.php:82 templates/view/memo.inc:21
+msgid "Note Details"
+msgstr "Notitiedetails"
+
+#: notepads.php:110
+msgid "Note Lists"
+msgstr "Notitielijsten"
+
+#: templates/view/memo.inc:45 config/prefs.php.dist:40
+msgid "Note Text"
+msgstr "Notitietekst"
+
+#: templates/memo/memo.inc:26
+msgid "Note _Text"
+msgstr "Notitiet_ekst"
+
+#: memo.php:60 view.php:57
+msgid "Note not found."
+msgstr "Notitie niet gevonden."
+
+#: templates/memo/memo.inc:34
+msgid "Note_pad"
+msgstr "Notitie_boek"
+
+#: templates/notepads/notepads.inc:79
+msgid "Notepad's name:"
+msgstr "Notitieboeknaam:"
+
+#: templates/notepads/notepads.inc:61
+msgid "Notepads"
+msgstr "Notitieboeken"
+
+#: notepads.php:33
+msgid "Notepads must have a name."
+msgstr "Notitieboeken moeten een naam hebben."
+
+#: lib/Block/summary.php:3
+msgid "Notes Summary"
+msgstr "Notitiesamenvatting"
+
+#: lib/api.php:204 lib/api.php:292 lib/api.php:349 lib/api.php:378
+msgid "Permission Denied"
+msgstr "Toegang geweigerd"
+
+#: templates/notepads/notepads.inc:82
+msgid "Permissions"
+msgstr "Rechten"
+
+#: templates/view/memo.inc:15
+msgid "Really delete this note?"
+msgstr "Echt deze notitie verwijderen?"
+
+#: templates/list/header.inc:5 templates/list/header.inc:6
+msgid "Refresh List"
+msgstr "Lijst verversen"
+
+#: templates/notepads/notepads.inc:96
+msgid "Reset"
+msgstr "Herstellen"
+
+#: templates/memo/memo.inc:56
+msgid "Save"
+msgstr "Opslaan"
+
+#: search.php:17 templates/search/search.inc:4 templates/search/search.inc:31
+msgid "Search"
+msgstr "Zoeken"
+
+#: list.php:57
+msgid "Search Results"
+msgstr "Zoekresultaten"
+
+#: templates/search/search.inc:17
+msgid "Search Scope"
+msgstr "Zoekgebied"
+
+#: templates/search/search.inc:9
+msgid "Search _Text"
+msgstr "Tekst _zoeken"
+
+#: templates/notepads/notepads.inc:67
+msgid "Select a notepad"
+msgstr "Selecteer een notitieboek"
+
+#: templates/menu.inc:16
+msgid "Select notepads to display:"
+msgstr "Selecteer notitieboeken om weer te geven:"
+
+#: templates/data/export.inc:15
+msgid "Select the export format:"
+msgstr "Selecteer het exportformaat:"
+
+#: templates/data/import.inc:37
+msgid "Select the file to import:"
+msgstr "Selecteer het importbestand:"
+
+#: templates/data/import.inc:15
+msgid "Select the format of the source file:"
+msgstr "Selecteer het formaat van het bronbestand:"
+
+#: lib/Block/summary.php:37
+msgid "Show action buttons?"
+msgstr "Bewerkingsknoppen weergeven?"
+
+#: lib/Block/summary.php:40
+msgid "Show notepad name?"
+msgstr "Notitieboeknamen weergeven?"
+
+#: lib/Block/summary.php:43
+msgid "Show notes from these categories"
+msgstr "Notities van deze categorieen weergeven"
+
+#: templates/list/memo_headers.inc:48
+msgid "Sort by Category"
+msgstr "Sorteren op categorie"
+
+#: templates/list/memo_headers.inc:44
+msgid "Sort by Note Text"
+msgstr "Sorteren op notitietekst"
+
+#: memo.php:135
+#, php-format
+msgid "Successfully saved \"%s\"."
+msgstr "\"%s\" met succes opgeslagen."
+
+#: data.php:195
+#, php-format
+msgid "The %s file didn't contain any notes."
+msgstr "Het %s bestand bevatte geen notities."
+
+#: memo.php:159
+msgid "The note was deleted."
+msgstr "De notitie is verwijderd."
+
+#: notepads.php:46
+#, php-format
+msgid "The notepad \"%s\" couldn't be created: %s"
+msgstr "Het notitieboek \"%s\" kon niet worden aangemaakt: %s"
+
+#: notepads.php:48
+#, php-format
+msgid "The notepad \"%s\" has been created."
+msgstr "Het notitieboek \"%s\" is aangemaakt."
+
+#: notepads.php:85
+#, php-format
+msgid "The notepad \"%s\" has been deleted."
+msgstr "Het notitieboek \"%s\" is verwijderd."
+
+#: notepads.php:56
+#, php-format
+msgid "The notepad \"%s\" has been saved."
+msgstr "Het notitieboek \"%s\" is opgeslagen."
+
+#: data.php:198
+#, php-format
+msgid "There was an error importing the data: %s"
+msgstr "Een fout bij het importeren van de data: %s"
+
+#: lib/api.php:221
+msgid "There was an error importing the iCalendar data."
+msgstr "Een fout bij het importeren van de iCalendar data."
+
+#: lib/api.php:397
+msgid "There was an error importing the vNote data."
+msgstr "Een fout bij het importeren van de vNote data."
+
+#: memo.php:157
+#, php-format
+msgid "There was an error removing the note: %s"
+msgstr "Een probleem bij het verwijderen van de notitie: %s"
+
+#: memo.php:133
+#, php-format
+msgid "There was an error saving the note: %s"
+msgstr "Een probleem bij het opslaan van de notitie: %s"
+
+#: view.php:46
+#, php-format
+msgid "There was an error viewing this notepad: %s"
+msgstr "Een probleem bij het bekijken van dit notitieboek: %s"
+
+#: data.php:79
+msgid "There were no memos to export."
+msgstr "Er waren geen notities om te exporteren."
+
+#: data.php:105
+msgid "This file format is not supported."
+msgstr "Dit bestandsformaat wordt niet ondersteund."
+
+#: notepads.php:80
+#, php-format
+msgid "Unable to delete \"%s\": %s"
+msgstr "Niet in staat om \"%s\": %s te verwijderen"
+
+#: templates/memo/memo.inc:58
+msgid "Undo changes"
+msgstr "Herstel wijzigingen"
+
+#: templates/view/memo.inc:27 templates/list/memo_summaries.inc:14
+#: lib/Mnemo.php:206 lib/Mnemo.php:207 lib/Mnemo.php:221 lib/Mnemo.php:222
+#: lib/Block/summary.php:98
+msgid "Unfiled"
+msgstr "Onbenoemd"
+
+#: lib/api.php:257 lib/api.php:314 lib/api.php:405
+#, php-format
+msgid "Unsupported Content-Type: %s"
+msgstr "Niet ondersteund Content-Type: %s"
+
+#: templates/data/import.inc:22
+msgid "Which Notepad should the notes be added to?"
+msgstr "Aan welk notitieboek dienen de notities toegevoegd te worden?"
+
+#: data.php:42 data.php:130 memo.php:35
+#, php-format
+msgid "You are not allowed to create more than %d notes."
+msgstr "Het is u niet toegestaan om meer dan %d notities te maken."
+
+#: view.php:50
+#, php-format
+msgid "You do not have permission to view the notepad %s."
+msgstr "U heeft geen recht om het notitieboek %s te bekijken."
+
+#: notepads.php:65
+msgid "You must select a notepad to be deleted."
+msgstr "U dient een notitieboek te selecteren om te verwijderen."
+
+#: templates/prefs/notepadselect.inc:10
+msgid "Your default notepad:"
+msgstr "Uw standaard notitieboek:"
+
+#: templates/notepads/notepads.inc:65
+msgid "Your notepads:"
+msgstr "Uw notitieboeken:"
+
+#: templates/view/memo.inc:18
+msgid "_Back to Notepad"
+msgstr "Te_rug naar notitieboek"
+
+#: templates/memo/memo.inc:51 templates/list/memo_headers.inc:48
+msgid "_Category"
+msgstr "_Categorie"
+
+#: templates/view/memo.inc:15
+msgid "_Delete"
+msgstr "Ver_wijderen"
+
+#: templates/view/memo.inc:11
+msgid "_Edit"
+msgstr "_Bewerken"
+
+#: templates/search/search.inc:20
+msgid "_First Line"
+msgstr "Eer_ste regel"
+
+#: lib/Mnemo.php:281
+msgid "_Import/Export"
+msgstr "_Import/Export"
+
+#: lib/Mnemo.php:264
+msgid "_List Notes"
+msgstr "Notities weer_geven"
+
+#: lib/Mnemo.php:276
+msgid "_My Notepads"
+msgstr "_Mijn notitieboeken"
+
+#: lib/Mnemo.php:269
+msgid "_New Note"
+msgstr "_Nieuwe notitie"
+
+#: lib/Mnemo.php:286
+msgid "_Print"
+msgstr "A_fdrukken"
+
+#: lib/Mnemo.php:272
+msgid "_Search"
+msgstr "_Zoeken"
+
+#: data.php:91 templates/data/export.inc:1
+msgid "notes.csv"
+msgstr "notes.csv"
+
+#: data.php:33 templates/data/import.inc:18
+msgid "vNote"
+msgstr "vNote"

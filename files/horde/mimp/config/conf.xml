@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!-- $Horde: mimp/config/conf.xml,v 1.11 2005/12/10 07:19:01 slusarz Exp $ -->
+<configuration>
+ <configtab name="user" desc="User Capabilities and Constraints">
+  <configsection name="user">
+   <configheader>User Capabilities and Constraints</configheader>
+   <configboolean name="allow_folders" desc="Should we allow users to use
+   folders at all? NOTE: setting this to false will mean there is no place to
+   save sent-mail or postponed messages, along with the obvious affects of
+   restricting the user to their INBOX.">true</configboolean>
+   <configstring name="alternate_login" desc="If this is not false, it is
+   assumed to be the URL of an alternate login screen which will be used in
+   place of MIMP's default one.">false</configstring>
+   <configstring name="redirect_on_logout" desc="If this is not false, it is
+   assumed to be the URL of an alternate logout page which users will be sent
+   to when they log out.">false</configstring>
+  </configsection>
+ </configtab>
+
+ <configtab name="server" desc="Mail Server Settings">
+  <configsection name="server">
+   <configheader>Mail Server Settings</configheader>
+   <configenum name="server_list" desc="Should we display a list of servers
+   (defined in config/servers.php) for users to choose from? The options are
+   'shown', 'hidden', and 'none'. If the server list is hidden then you can use
+   the 'preferred' mechanism to auto-select from it based on an HTTP
+   virtualhost or another piece of data. If it is shown, the user will be able
+   to pick from any of the options. If none, no server list will be shown and
+   the defaults will be used unless another mechanism changes them.">none
+    <values>
+     <value>none</value>
+     <value>shown</value>
+     <value>hidden</value>
+    </values>
+   </configenum>
+   <configboolean name="change_server" desc="If we are not using the server
+   list, should we allow users to type in a mail server?">false</configboolean>
+   <configboolean name="change_port" desc="If we are not using the server list,
+   should we allow users to select the mail server's
+   port?">false</configboolean>
+   <configboolean name="change_protocol" desc="If we are not using the server
+   list, should we allow users to select the mail server's
+   protocol?">false</configboolean>
+  </configsection>
+ </configtab>
+
+ <configtab name="mailbox" desc="Mailbox Settings">
+  <configsection name="mailbox">
+   <configheader>Mailbox Settings</configheader>
+   <configinteger name="max_from_chars" desc="In the mailbox view, we will chop
+   off From: addresses longer than this value.">10</configinteger>
+   <configinteger name="max_subj_chars" desc="In the mailbox view, we will chop
+   off Subjects longer than this value.">20</configinteger>
+  </configsection>
+ </configtab>
+ 
+ <configtab name="msg" desc="Message Settings">
+  <configsection name="msg">
+   <configheader>Message Settings</configheader>
+   <configboolean name="prepend_header" desc="Should we include the contents of
+   mimp/config/header.txt in the headers of every message
+   sent?">true</configboolean>
+   <configboolean name="append_trailer" desc="Should we append the contents of
+   mimp/config/trailer.txt to the end of every message
+   sent?">true</configboolean>
+   <configsection name="filtering">
+    <configstring name="words" desc="If filtering of message content is turned
+   on, where should we find the list of words to filter
+   out?">./config/filter.txt</configstring>
+    <configstring name="replacement" desc="What should we replace filtered
+   words with?">****</configstring>
+   </configsection>
+  </configsection>
+ </configtab>
+ 
+ <configtab name="compose" desc="Compose Settings">
+  <configsection name="compose">
+   <configheader>Compose Settings</configheader>
+   <configboolean name="use_vfs" desc="Should we use the Horde VFS system for
+   storing attachments (used when forwarding messages with
+   attachments)?">false</configboolean>
+   <configboolean name="allow_cc" desc="Should we allow users to set the Cc:
+   header?">false</configboolean>
+   <configboolean name="allow_bcc" desc="Should we allow users to set the Bcc:
+   header?">false</configboolean>
+  </configsection>
+ </configtab>
+
+ <configtab name="hooks" desc="Custom Hooks">
+  <configsection name="hooks">
+   <configheader>Custom Hooks</configheader>
+   <configboolean name="vinfo" required="false" desc="Should we use a custom
+   virtual users hook? If so, make sure you define _mimp_hook_vinfo() in
+   horde/config/hooks.php. The hook will be used to set $mimp['user'] at login
+   time. There are examples in
+   horde/config/hooks.php.dist.">false</configboolean>
+   <configboolean name="trailer" required="false" desc="Should we use a custom
+   function to set the trailer text (if trailer text is appended to outgoing
+   messages)? If so, make sure you define _mimp_hook_trailer() in
+   horde/config/hooks.php. The function will be used to modify the trailer at
+   runtime. There are examples in
+   horde/config/hooks.php.dist.">false</configboolean>
+  </configsection>
+ </configtab>
+</configuration>

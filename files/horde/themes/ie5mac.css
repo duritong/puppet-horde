@@ -1,0 +1,25 @@
+/**
+ * $Horde: horde/themes/ie5mac.css,v 1.2.4.3 2005/10/18 11:34:10 jan Exp $
+ *
+ * CSS corrections for IE5/Mac.
+ */
+
+#menu li {
+    width: 40px;
+}
+.tabset {
+    white-space: nowrap;
+}
+.tabset li a {
+    float: left;
+}
+#sidebarPanel {
+    padding-bottom: 30px;
+}
+.header {
+    clear: none;
+}
+.header ul {
+    width: 1%;
+    white-space: nowrap;
+}

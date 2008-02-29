@@ -1,0 +1,541 @@
+# Mnemo Simplified Chinese Translation
+# Copyright (C) 2002 Peter Wang
+# Peter Wang <whw@oulink.net>, 2002
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mnemo 2.0-cvs\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2005-10-18 15:12+0200\n"
+"PO-Revision-Date: 2007-08-20 15:22+0800\n"
+"Last-Translator: \n"
+"Language-Team: Simplified Chinese <whw@oulink.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=GB2312\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/list/header.inc:3
+#, php-format
+msgid "%d notes"
+msgstr "%d 便签"
+
+#: templates/memo/memo.inc:26
+#, php-format
+msgid "%s characters"
+msgstr "%s 字符"
+
+#: data.php:187
+#, php-format
+msgid "%s file successfully imported"
+msgstr "成功导入 %s 文件"
+
+#: notepads.php:99 lib/base.php:103
+#, php-format
+msgid "%s's Notepad"
+msgstr "%s 的记事本"
+
+#: templates/list/header.inc:3
+msgid "1 note"
+msgstr "1 个便签"
+
+#: memo.php:162
+msgid "Access denied deleting note."
+msgstr "删除便签失败。"
+
+#: memo.php:112 memo.php:115
+msgid "Access denied moving the note."
+msgstr "移动便签失败。"
+
+#: memo.php:84
+#, php-format
+msgid "Access denied saving note to %s."
+msgstr "将便签保存到 %s 失败。"
+
+#: memo.php:82
+#, php-format
+msgid "Access denied saving note: %s"
+msgstr "保存便签失败：%s"
+
+#: templates/prefs/showsummaryselect.inc:103
+msgid "Add category"
+msgstr "添加类别"
+
+#: memo.php:52
+msgid "Adding A New Note"
+msgstr "添加便签"
+
+#: config/prefs.php.dist:44
+msgid "Ascending"
+msgstr "升序"
+
+#: templates/prefs/showsummaryselect.inc:99
+msgid "Available Categories:"
+msgstr "可用类别："
+
+#: templates/view/memo.inc:28 templates/view/memo.inc:67
+msgid "Back to Notepad"
+msgstr "返回便签"
+
+#: templates/notepads/notepads.inc:97
+msgid "Back to Notepad Options"
+msgstr "返回便签选项"
+
+#: data.php:32 templates/data/import.inc:17
+msgid "CSV"
+msgstr "CSV"
+
+#: data.php:54 templates/view/memo.inc:15
+msgid "Category"
+msgstr "类别"
+
+#: templates/notepads/notepads.inc:22
+msgid "Change"
+msgstr "更改"
+
+#: config/prefs.php.dist:15
+msgid "Change your note sorting and display options."
+msgstr "更改便签的排序和显示选项。"
+
+#: templates/prefs/showsummaryselect.inc:93
+msgid "Choose the memo categories to list in the summary view."
+msgstr "选择要在摘要视图中显示的备注类别。"
+
+#: config/prefs.php.dist:22
+msgid "Choose your default Notepad."
+msgstr "选择默认记事本。"
+
+#: templates/search/search.inc:32
+msgid "Clear Form"
+msgstr "清除表单"
+
+#: templates/notepads/notepads.inc:17 templates/notepads/notepads.inc:94
+#: templates/notepads/notepads.inc:96
+msgid "Create"
+msgstr "创建"
+
+#: templates/view/memo.inc:35
+msgid "Created"
+msgstr "已创建"
+
+#: config/prefs.php.dist:21
+msgid "Default Notepad"
+msgstr "默认记事本"
+
+#: config/prefs.php.dist:35
+msgid "Default sorting criteria:"
+msgstr "默认排序标准："
+
+#: config/prefs.php.dist:46
+msgid "Default sorting direction:"
+msgstr "默认排序方向："
+
+#: templates/notepads/notepads.inc:95 templates/view/memo.inc:25
+#: templates/view/memo.inc:64
+msgid "Delete"
+msgstr "删除"
+
+#: templates/memo/memo.inc:67
+msgid "Delete this note"
+msgstr "删除此便签"
+
+#: config/prefs.php.dist:45
+msgid "Descending"
+msgstr "降序"
+
+#: templates/notepads/notepads.inc:85
+msgid "Description:"
+msgstr "描述："
+
+#: config/prefs.php.dist:14
+msgid "Display Options"
+msgstr "显示选项"
+
+#: templates/view/memo.inc:21 templates/view/memo.inc:60
+msgid "Edit"
+msgstr "编辑"
+
+#: templates/list/memo_summaries.inc:5
+#, php-format
+msgid "Edit \"%s\""
+msgstr "编辑“%s”"
+
+#: templates/list/memo_headers.inc:44 lib/Block/summary.php:83
+msgid "Edit Note"
+msgstr "编辑便签"
+
+#: templates/list/memo_headers.inc:54
+msgid "Edit categories and colors"
+msgstr "编辑类别和色彩"
+
+#: templates/list/memo_summaries.inc:12
+msgid "Empty Note"
+msgstr "空便签"
+
+#: templates/data/export.inc:19
+msgid "Export"
+msgstr "导出"
+
+#: templates/data/export.inc:8
+msgid "Export Notes"
+msgstr "导出便签"
+
+#: templates/search/search.inc:21
+msgid "F_ull Text"
+msgstr "全文(_U)"
+
+#: templates/data/import.inc:8
+#, php-format
+msgid "Import Notes, Step %d"
+msgstr "导入便签，步骤 %d"
+
+#: data.php:193
+msgid "Import/Export Notes"
+msgstr "导入/导出便签"
+
+#: templates/view/memo.inc:43
+msgid "Last Modified"
+msgstr "上次修改"
+
+#: lib/api.php:72
+msgid "Maximum Number of Notes"
+msgstr "便签最大数量"
+
+#: data.php:53
+msgid "Memo Text"
+msgstr "备注信息"
+
+#: memo.php:68
+#, php-format
+msgid "Modifying %s"
+msgstr "正在修改 %s"
+
+#: list.php:35
+msgid "My Notes"
+msgstr "我的便签"
+
+#: lib/Block/summary.php:22
+msgid "New Note"
+msgstr "新建便签"
+
+#: templates/data/import.inc:40
+msgid "Next"
+msgstr "下一步"
+
+#: lib/api.php:206
+msgid "No iCalendar data was found."
+msgstr "未找到 iCalendar 数据。"
+
+#: templates/menu.inc:7
+msgid "No notepads are available to guests."
+msgstr "无来宾可用的记事本。"
+
+#: templates/list/header.inc:3
+msgid "No notes"
+msgstr "无便签"
+
+#: templates/list/empty.inc:3
+msgid "No notes match the current criteria."
+msgstr "无便签符合当前规则。"
+
+#: lib/Block/summary.php:109
+msgid "No notes to display"
+msgstr "无可显示的便签"
+
+#: templates/list/memo_headers.inc:46
+msgid "No_te"
+msgstr "便签(_T)"
+
+#: config/prefs.php.dist:34
+msgid "Note Category"
+msgstr "便签类别"
+
+#: view.php:80 templates/view/memo.inc:9
+msgid "Note Details"
+msgstr "便签详细内容"
+
+#: notepads.php:110
+msgid "Note Lists"
+msgstr "便签列表"
+
+#: config/prefs.php.dist:33
+msgid "Note Text"
+msgstr "便签内容"
+
+#: templates/memo/memo.inc:26
+msgid "Note _Text"
+msgstr "便签内容(_T)"
+
+#: view.php:57 memo.php:60
+msgid "Note not found."
+msgstr "未找到便签。"
+
+#: templates/memo/memo.inc:34
+msgid "Note_pad"
+msgstr "记事本(_P)"
+
+#: templates/notepads/notepads.inc:79
+msgid "Notepad's name:"
+msgstr "记事本名称："
+
+#: templates/notepads/notepads.inc:61
+msgid "Notepads"
+msgstr "记事本"
+
+#: notepads.php:33
+msgid "Notepads must have a name."
+msgstr "记事本必须有名称。"
+
+#: lib/Block/summary.php:3
+msgid "Notes Summary"
+msgstr "记事本摘要"
+
+#: config/prefs.php.dist:13 config/prefs.php.dist:20
+msgid "Other Options"
+msgstr "其他选项"
+
+#: lib/api.php:183 lib/api.php:274 lib/api.php:345 lib/api.php:374
+msgid "Permission Denied"
+msgstr "权限不足"
+
+#: templates/notepads/notepads.inc:82
+msgid "Permissions"
+msgstr "权限"
+
+#: templates/list/header.inc:5 templates/list/header.inc:6
+msgid "Refresh List"
+msgstr "刷新列表"
+
+#: templates/prefs/showsummaryselect.inc:105
+msgid "Remove category"
+msgstr "删除类别"
+
+#: templates/notepads/notepads.inc:96
+msgid "Reset"
+msgstr "重置"
+
+#: templates/memo/memo.inc:56
+msgid "Save"
+msgstr "保存"
+
+#: search.php:17 templates/search/search.inc:4 templates/search/search.inc:31
+msgid "Search"
+msgstr "搜索"
+
+#: list.php:57
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: templates/search/search.inc:17
+msgid "Search Scope"
+msgstr "搜索范围"
+
+#: templates/search/search.inc:9
+msgid "Search _Text"
+msgstr "搜索内容(_T)"
+
+#: templates/notepads/notepads.inc:67
+msgid "Select a notepad"
+msgstr "选择记事本"
+
+#: templates/menu.inc:16
+msgid "Select notepads to display:"
+msgstr "选择待显示的记事本："
+
+#: templates/data/export.inc:15
+msgid "Select the export format:"
+msgstr "选择导出格式："
+
+#: templates/data/import.inc:37
+msgid "Select the file to import:"
+msgstr "选择待导出的文件："
+
+#: templates/data/import.inc:15
+msgid "Select the format of the source file:"
+msgstr "选择源文件格式："
+
+#: templates/prefs/showsummaryselect.inc:109
+msgid "Selected Categories:"
+msgstr "所选类别："
+
+#: lib/Block/summary.php:38
+msgid "Show action buttons?"
+msgstr "显示操作按钮？"
+
+#: lib/Block/summary.php:41
+msgid "Show notepad name?"
+msgstr "显示记事本名称？"
+
+#: lib/Block/summary.php:44
+msgid "Show notes from these categories"
+msgstr "显示这些类别的便签"
+
+#: templates/list/memo_headers.inc:50
+msgid "Sort by Category"
+msgstr "按类别排序"
+
+#: templates/list/memo_headers.inc:46
+msgid "Sort by Note Text"
+msgstr "按便签内容排序"
+
+#: memo.php:135
+#, php-format
+msgid "Successfully saved \"%s\"."
+msgstr "成功保存“%s”。"
+
+#: memo.php:159
+msgid "The note was deleted."
+msgstr "已删除便签。"
+
+#: notepads.php:46
+#, php-format
+msgid "The notepad \"%s\" couldn't be created: %s"
+msgstr "无法创建记事本“%s”：%s"
+
+#: notepads.php:48
+#, php-format
+msgid "The notepad \"%s\" has been created."
+msgstr "已创建记事本“%s”。"
+
+#: notepads.php:85
+#, php-format
+msgid "The notepad \"%s\" has been deleted."
+msgstr "已删除记事本“%s”。"
+
+#: notepads.php:56
+#, php-format
+msgid "The notepad \"%s\" has been saved."
+msgstr "已保存记事本“%s”。"
+
+#: data.php:184
+#, php-format
+msgid "There was an error importing the data: %s"
+msgstr "导出数据时出错：%s"
+
+#: lib/api.php:200
+msgid "There was an error importing the iCalendar data."
+msgstr "导出 iCalendar 数据时出错。"
+
+#: lib/api.php:393
+msgid "There was an error importing the vNote data."
+msgstr "导出 vNote 数据时出错。"
+
+#: memo.php:157
+#, php-format
+msgid "There was an error removing the note: %s"
+msgstr "删除便签时出错：%s"
+
+#: memo.php:133
+#, php-format
+msgid "There was an error saving the note: %s"
+msgstr "保存便签时出错：%s"
+
+#: view.php:46
+#, php-format
+msgid "There was an error viewing this notepad: %s"
+msgstr "查看此记事本时出错：%s"
+
+#: data.php:79
+msgid "There were no memos to export."
+msgstr "无待导出的备注。"
+
+#: data.php:105
+msgid "This file format is not supported."
+msgstr "不支持此文件格式。"
+
+#: notepads.php:80
+#, php-format
+msgid "Unable to delete \"%s\": %s"
+msgstr "无法删除“%s”：%s"
+
+#: templates/memo/memo.inc:58
+msgid "Undo changes"
+msgstr "取消变更"
+
+#: templates/view/memo.inc:16 templates/list/memo_summaries.inc:14
+#: lib/Mnemo.php:206 lib/Mnemo.php:207 lib/Mnemo.php:221 lib/Mnemo.php:222
+#: lib/Block/summary.php:105
+msgid "Unfiled"
+msgstr "未分类"
+
+#: lib/api.php:236 lib/api.php:309 lib/api.php:401
+#, php-format
+msgid "Unsupported Content-Type: %s"
+msgstr "不支持的内容类型：%s"
+
+#: templates/data/import.inc:22
+msgid "Which Notepad should the notes be added to?"
+msgstr "选择要添加便签的记事本"
+
+#: data.php:42 data.php:125 memo.php:35
+#, php-format
+msgid "You are not allowed to create more than %d notes."
+msgstr "您创建的记事本不可以多于 %d 个。"
+
+#: view.php:50
+#, php-format
+msgid "You do not have permission to view the notepad %s."
+msgstr "您不具有查看记事本 %s 的权限。"
+
+#: notepads.php:65
+msgid "You must select a notepad to be deleted."
+msgstr "您必须选择至少一个待删除的记事本。"
+
+#: templates/prefs/notepadselect.inc:10
+msgid "Your default notepad:"
+msgstr "您的默认记事本："
+
+#: templates/notepads/notepads.inc:65
+msgid "Your notepads:"
+msgstr "您的记事本："
+
+#: templates/view/memo.inc:28 templates/view/memo.inc:67
+msgid "_Back to Notepad"
+msgstr "返回便签(_B)"
+
+#: templates/memo/memo.inc:51 templates/list/memo_headers.inc:50
+msgid "_Category"
+msgstr "类别(_C)"
+
+#: templates/view/memo.inc:25 templates/view/memo.inc:64
+msgid "_Delete"
+msgstr "删除(_D)"
+
+#: templates/view/memo.inc:21 templates/view/memo.inc:60
+msgid "_Edit"
+msgstr "编辑(_E)"
+
+#: templates/search/search.inc:20
+msgid "_First Line"
+msgstr "第一行(_F)"
+
+#: lib/Mnemo.php:281
+msgid "_Import/Export"
+msgstr "导入(_I)/导出"
+
+#: lib/Mnemo.php:264
+msgid "_List Notes"
+msgstr "列出便签(_L)"
+
+#: lib/Mnemo.php:276
+msgid "_My Notepads"
+msgstr "我的记事本(_M)"
+
+#: lib/Mnemo.php:269
+msgid "_New Note"
+msgstr "新建便笺(_N)"
+
+#: lib/Mnemo.php:286
+msgid "_Print"
+msgstr "打印(_P)"
+
+#: lib/Mnemo.php:272
+msgid "_Search"
+msgstr "搜索(_S)"
+
+#: data.php:91 templates/data/export.inc:1
+msgid "notes.csv"
+msgstr "vNote"
+
+#: data.php:33 templates/data/import.inc:18
+msgid "vNote"
+msgstr "vNote"

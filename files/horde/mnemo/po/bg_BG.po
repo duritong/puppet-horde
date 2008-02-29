@@ -1,0 +1,582 @@
+# Bulgarian translations for Mnemo package.
+# Copyright (C) 2002 Horde Project
+# This file is distributed under the same license as the Whups package.
+# Miroslav Pendev <miro@cybershade.us>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mnemo 2.0-cvs\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2005-10-18 15:12+0200\n"
+"PO-Revision-Date: 2002-11-19 20:44-0500\n"
+"Last-Translator: Miroslav Pendev <miro@cybershade.us>\n"
+"Language-Team: BG i18n@lists.horde.org\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CP1251\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/list/header.inc:3
+#, php-format
+msgid "%d notes"
+msgstr "%d бележки"
+
+#: templates/memo/memo.inc:26
+#, php-format
+msgid "%s characters"
+msgstr ""
+
+#: data.php:187
+#, php-format
+msgid "%s file successfully imported"
+msgstr "%s файл беше импортиран успешно"
+
+#: notepads.php:99 lib/base.php:103
+#, fuzzy, php-format
+msgid "%s's Notepad"
+msgstr "Бележник"
+
+#: templates/list/header.inc:3
+msgid "1 note"
+msgstr "1 бележка"
+
+#: memo.php:162
+msgid "Access denied deleting note."
+msgstr "Отказан достъп за изтриване на бележка"
+
+#: memo.php:112 memo.php:115
+#, fuzzy
+msgid "Access denied moving the note."
+msgstr "Отказан достъп за премахване на бележка"
+
+#: memo.php:84
+#, fuzzy, php-format
+msgid "Access denied saving note to %s."
+msgstr "Отказан достъп за изтриване на бележка"
+
+#: memo.php:82
+#, fuzzy, php-format
+msgid "Access denied saving note: %s"
+msgstr "Отказан достъп за изтриване на бележка"
+
+#: templates/prefs/showsummaryselect.inc:103
+#, fuzzy
+msgid "Add category"
+msgstr "Категория"
+
+#: memo.php:52
+msgid "Adding A New Note"
+msgstr "Добавяне на нова бележка"
+
+#: config/prefs.php.dist:44
+msgid "Ascending"
+msgstr "Нарастващи"
+
+#: templates/prefs/showsummaryselect.inc:99
+msgid "Available Categories:"
+msgstr ""
+
+#: templates/view/memo.inc:28 templates/view/memo.inc:67
+msgid "Back to Notepad"
+msgstr "Обратно в бележника"
+
+#: templates/notepads/notepads.inc:97
+#, fuzzy
+msgid "Back to Notepad Options"
+msgstr "Обратно в бележника"
+
+#: data.php:32 templates/data/import.inc:17
+msgid "CSV"
+msgstr ""
+
+#: data.php:54 templates/view/memo.inc:15
+msgid "Category"
+msgstr "Категория"
+
+#: templates/notepads/notepads.inc:22
+msgid "Change"
+msgstr ""
+
+#: config/prefs.php.dist:15
+msgid "Change your note sorting and display options."
+msgstr "Установете предпочитаните сортиране и опции на дисплея."
+
+#: templates/prefs/showsummaryselect.inc:93
+#, fuzzy
+msgid "Choose the memo categories to list in the summary view."
+msgstr "Да се показват ли засветени колони в обобщеният изглед?"
+
+#: config/prefs.php.dist:22
+#, fuzzy
+msgid "Choose your default Notepad."
+msgstr "Вашият бележник по подразбиране:"
+
+#: templates/search/search.inc:32
+msgid "Clear Form"
+msgstr ""
+
+#: templates/notepads/notepads.inc:17 templates/notepads/notepads.inc:94
+#: templates/notepads/notepads.inc:96
+#, fuzzy
+msgid "Create"
+msgstr "Частен"
+
+#: templates/view/memo.inc:35
+msgid "Created"
+msgstr ""
+
+#: config/prefs.php.dist:21
+#, fuzzy
+msgid "Default Notepad"
+msgstr "Вашият бележник по подразбиране:"
+
+#: config/prefs.php.dist:35
+msgid "Default sorting criteria:"
+msgstr "Критерии за сортиране по подразбиране:"
+
+#: config/prefs.php.dist:46
+msgid "Default sorting direction:"
+msgstr "Посока на сортиране по подразбиране:"
+
+#: templates/notepads/notepads.inc:95 templates/view/memo.inc:25
+#: templates/view/memo.inc:64
+msgid "Delete"
+msgstr "Изтрий"
+
+#: templates/memo/memo.inc:67
+#, fuzzy
+msgid "Delete this note"
+msgstr "Изтрий бележка"
+
+#: config/prefs.php.dist:45
+msgid "Descending"
+msgstr "Намаляващи"
+
+#: templates/notepads/notepads.inc:85
+msgid "Description:"
+msgstr "Описание:"
+
+#: config/prefs.php.dist:14
+msgid "Display Options"
+msgstr "Дисплей Опции"
+
+#: templates/view/memo.inc:21 templates/view/memo.inc:60
+msgid "Edit"
+msgstr ""
+
+#: templates/list/memo_summaries.inc:5
+#, php-format
+msgid "Edit \"%s\""
+msgstr ""
+
+#: templates/list/memo_headers.inc:44 lib/Block/summary.php:83
+#, fuzzy
+msgid "Edit Note"
+msgstr "Списък с бележки"
+
+#: templates/list/memo_headers.inc:54
+msgid "Edit categories and colors"
+msgstr ""
+
+#: templates/list/memo_summaries.inc:12
+#, fuzzy
+msgid "Empty Note"
+msgstr "Експорт бележки"
+
+#: templates/data/export.inc:19
+#, fuzzy
+msgid "Export"
+msgstr "Експорт бележки"
+
+#: templates/data/export.inc:8
+msgid "Export Notes"
+msgstr "Експорт бележки"
+
+#: templates/search/search.inc:21
+#, fuzzy
+msgid "F_ull Text"
+msgstr "Пълен текст"
+
+#: templates/data/import.inc:8
+#, fuzzy, php-format
+msgid "Import Notes, Step %d"
+msgstr "Импорт бележки"
+
+#: data.php:193
+msgid "Import/Export Notes"
+msgstr "Импорт/Експорт на бележки"
+
+#: templates/view/memo.inc:43
+msgid "Last Modified"
+msgstr ""
+
+#: lib/api.php:72
+msgid "Maximum Number of Notes"
+msgstr ""
+
+#: data.php:53
+msgid "Memo Text"
+msgstr "Текст"
+
+#: memo.php:68
+#, php-format
+msgid "Modifying %s"
+msgstr "Модифицирай %s"
+
+#: list.php:35
+#, fuzzy
+msgid "My Notes"
+msgstr "Моят Бележник"
+
+#: lib/Block/summary.php:22
+msgid "New Note"
+msgstr "Нова бележка"
+
+#: templates/data/import.inc:40
+#, fuzzy
+msgid "Next"
+msgstr "Бележка текст"
+
+#: lib/api.php:206
+msgid "No iCalendar data was found."
+msgstr ""
+
+#: templates/menu.inc:7
+msgid "No notepads are available to guests."
+msgstr ""
+
+#: templates/list/header.inc:3
+msgid "No notes"
+msgstr "Няма бележки"
+
+#: templates/list/empty.inc:3
+msgid "No notes match the current criteria."
+msgstr ""
+
+#: lib/Block/summary.php:109
+msgid "No notes to display"
+msgstr ""
+
+#: templates/list/memo_headers.inc:46
+#, fuzzy
+msgid "No_te"
+msgstr "Бележник"
+
+#: config/prefs.php.dist:34
+msgid "Note Category"
+msgstr "Бележка категория"
+
+#: view.php:80 templates/view/memo.inc:9
+msgid "Note Details"
+msgstr "Бележка детайли"
+
+#: notepads.php:110
+msgid "Note Lists"
+msgstr "Списък бележки"
+
+#: config/prefs.php.dist:33
+msgid "Note Text"
+msgstr "Бележка текст"
+
+#: templates/memo/memo.inc:26
+#, fuzzy
+msgid "Note _Text"
+msgstr "Бележка текст"
+
+#: view.php:57 memo.php:60
+msgid "Note not found."
+msgstr ""
+
+#: templates/memo/memo.inc:34
+#, fuzzy
+msgid "Note_pad"
+msgstr "Бележник"
+
+#: templates/notepads/notepads.inc:79
+msgid "Notepad's name:"
+msgstr "Име на бележника:"
+
+#: templates/notepads/notepads.inc:61
+msgid "Notepads"
+msgstr "Бележници"
+
+#: notepads.php:33
+#, fuzzy
+msgid "Notepads must have a name."
+msgstr "Име на бележника:"
+
+#: lib/Block/summary.php:3
+#, fuzzy
+msgid "Notes Summary"
+msgstr "Бележка категория"
+
+#: config/prefs.php.dist:13 config/prefs.php.dist:20
+msgid "Other Options"
+msgstr "Други Опции"
+
+#: lib/api.php:183 lib/api.php:274 lib/api.php:345 lib/api.php:374
+msgid "Permission Denied"
+msgstr ""
+
+#: templates/notepads/notepads.inc:82
+msgid "Permissions"
+msgstr ""
+
+#: templates/list/header.inc:5 templates/list/header.inc:6
+msgid "Refresh List"
+msgstr "Опресни списъка"
+
+#: templates/prefs/showsummaryselect.inc:105
+#, fuzzy
+msgid "Remove category"
+msgstr "Бележка категория"
+
+#: templates/notepads/notepads.inc:96
+msgid "Reset"
+msgstr ""
+
+#: templates/memo/memo.inc:56
+#, fuzzy
+msgid "Save"
+msgstr "Поделен"
+
+#: search.php:17 templates/search/search.inc:4 templates/search/search.inc:31
+msgid "Search"
+msgstr "Търси"
+
+#: list.php:57
+msgid "Search Results"
+msgstr "Резултати от търсенето"
+
+#: templates/search/search.inc:17
+msgid "Search Scope"
+msgstr "Обхват на търсене"
+
+#: templates/search/search.inc:9
+#, fuzzy
+msgid "Search _Text"
+msgstr "Текст за търсене"
+
+#: templates/notepads/notepads.inc:67
+msgid "Select a notepad"
+msgstr "Избери бележник"
+
+#: templates/menu.inc:16
+#, fuzzy
+msgid "Select notepads to display:"
+msgstr "Избери бележник"
+
+#: templates/data/export.inc:15
+#, fuzzy
+msgid "Select the export format:"
+msgstr "Изберете източника за импорт:"
+
+#: templates/data/import.inc:37
+msgid "Select the file to import:"
+msgstr "Изберете файл за импорт:"
+
+#: templates/data/import.inc:15
+#, fuzzy
+msgid "Select the format of the source file:"
+msgstr "Изберете формат, към който да се експортира:"
+
+#: templates/prefs/showsummaryselect.inc:109
+#, fuzzy
+msgid "Selected Categories:"
+msgstr "Избери Категория"
+
+#: lib/Block/summary.php:38
+msgid "Show action buttons?"
+msgstr ""
+
+#: lib/Block/summary.php:41
+#, fuzzy
+msgid "Show notepad name?"
+msgstr "Име на бележника:"
+
+#: lib/Block/summary.php:44
+msgid "Show notes from these categories"
+msgstr ""
+
+#: templates/list/memo_headers.inc:50
+msgid "Sort by Category"
+msgstr "Сортирай по категория"
+
+#: templates/list/memo_headers.inc:46
+#, fuzzy
+msgid "Sort by Note Text"
+msgstr "Бележка текст"
+
+#: memo.php:135
+#, php-format
+msgid "Successfully saved \"%s\"."
+msgstr ""
+
+#: memo.php:159
+msgid "The note was deleted."
+msgstr "Бележката беше изтрита."
+
+#: notepads.php:46
+#, fuzzy, php-format
+msgid "The notepad \"%s\" couldn't be created: %s"
+msgstr "Бележника \"%s\" беше създаден."
+
+#: notepads.php:48
+#, php-format
+msgid "The notepad \"%s\" has been created."
+msgstr "Бележника \"%s\" беше създаден."
+
+#: notepads.php:85
+#, php-format
+msgid "The notepad \"%s\" has been deleted."
+msgstr "Бележника \"%s\" беше премахнат."
+
+#: notepads.php:56
+#, php-format
+msgid "The notepad \"%s\" has been saved."
+msgstr "Бележника \"%s\" беше записан."
+
+#: data.php:184
+#, fuzzy, php-format
+msgid "There was an error importing the data: %s"
+msgstr "Грешка при импорт на данните."
+
+#: lib/api.php:200
+#, fuzzy
+msgid "There was an error importing the iCalendar data."
+msgstr "Грешка при импорт на данните."
+
+#: lib/api.php:393
+#, fuzzy
+msgid "There was an error importing the vNote data."
+msgstr "Грешка при импорт на данните."
+
+#: memo.php:157
+#, fuzzy, php-format
+msgid "There was an error removing the note: %s"
+msgstr "Грешка при преместване на бележката."
+
+#: memo.php:133
+#, fuzzy, php-format
+msgid "There was an error saving the note: %s"
+msgstr "Грешка при записа на бележката."
+
+#: view.php:46
+#, fuzzy, php-format
+msgid "There was an error viewing this notepad: %s"
+msgstr "Грешка при записа на бележката."
+
+#: data.php:79
+msgid "There were no memos to export."
+msgstr "Няма бележки за експорт."
+
+#: data.php:105
+msgid "This file format is not supported."
+msgstr ""
+
+#: notepads.php:80
+#, php-format
+msgid "Unable to delete \"%s\": %s"
+msgstr "Грешка при изтриване \"%s\": %s."
+
+#: templates/memo/memo.inc:58
+msgid "Undo changes"
+msgstr ""
+
+#: templates/view/memo.inc:16 templates/list/memo_summaries.inc:14
+#: lib/Mnemo.php:206 lib/Mnemo.php:207 lib/Mnemo.php:221 lib/Mnemo.php:222
+#: lib/Block/summary.php:105
+msgid "Unfiled"
+msgstr "Непопълнен"
+
+#: lib/api.php:236 lib/api.php:309 lib/api.php:401
+#, php-format
+msgid "Unsupported Content-Type: %s"
+msgstr ""
+
+#: templates/data/import.inc:22
+msgid "Which Notepad should the notes be added to?"
+msgstr "Към кой бележник да бъде добавена бележката?"
+
+#: data.php:42 data.php:125 memo.php:35
+#, php-format
+msgid "You are not allowed to create more than %d notes."
+msgstr ""
+
+#: view.php:50
+#, php-format
+msgid "You do not have permission to view the notepad %s."
+msgstr ""
+
+#: notepads.php:65
+msgid "You must select a notepad to be deleted."
+msgstr "Трябва да изберете бележник, който да бъде изтрит."
+
+#: templates/prefs/notepadselect.inc:10
+msgid "Your default notepad:"
+msgstr "Вашият бележник по подразбиране:"
+
+#: templates/notepads/notepads.inc:65
+msgid "Your notepads:"
+msgstr "Вашите бележници::"
+
+#: templates/view/memo.inc:28 templates/view/memo.inc:67
+#, fuzzy
+msgid "_Back to Notepad"
+msgstr "Обратно в бележника"
+
+#: templates/memo/memo.inc:51 templates/list/memo_headers.inc:50
+#, fuzzy
+msgid "_Category"
+msgstr "Категория"
+
+#: templates/view/memo.inc:25 templates/view/memo.inc:64
+#, fuzzy
+msgid "_Delete"
+msgstr "Изтрий"
+
+#: templates/view/memo.inc:21 templates/view/memo.inc:60
+msgid "_Edit"
+msgstr ""
+
+#: templates/search/search.inc:20
+msgid "_First Line"
+msgstr ""
+
+#: lib/Mnemo.php:281
+#, fuzzy
+msgid "_Import/Export"
+msgstr "Импорт/Експорт"
+
+#: lib/Mnemo.php:264
+#, fuzzy
+msgid "_List Notes"
+msgstr "Списък с бележки"
+
+#: lib/Mnemo.php:276
+#, fuzzy
+msgid "_My Notepads"
+msgstr "Моят Бележник"
+
+#: lib/Mnemo.php:269
+#, fuzzy
+msgid "_New Note"
+msgstr "Нова бележка"
+
+#: lib/Mnemo.php:286
+#, fuzzy
+msgid "_Print"
+msgstr "Отпечатай"
+
+#: lib/Mnemo.php:272
+#, fuzzy
+msgid "_Search"
+msgstr "Търси"
+
+#: data.php:91 templates/data/export.inc:1
+msgid "notes.csv"
+msgstr ""
+
+#: data.php:33 templates/data/import.inc:18
+#, fuzzy
+msgid "vNote"
+msgstr "Бележник"

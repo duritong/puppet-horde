@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<!-- $Horde: vacation/config/conf.xml,v 1.15.2.8 2006/10/13 16:03:33 jan Exp $ -->
+<configuration>
+ <configsection name="vacation">
+  <configheader>Vacation Settings</configheader>
+  <configstring name="path" required="false" desc="Location of the vacation
+  program, if necessary for your server">
+   /usr/local/bin/vacation
+  </configstring>
+  <configstring name="validation_pattern" required="false" desc="You can
+   restrict vacation messages to match a certain pattern, if you like. If this
+   config value is non-empty, it is expected to be a PCRE regular
+   expression. Include the pattern delimiters, and any modifiers that you want
+   applied. See:
+   http://www.php.net/manual/en/pcre.pattern.syntax.php. Example: |^Subject:
+   .+\n.+|"/>
+  <configphp name="default" required="false" desc="The default vacation
+  message">'Subject: ' . _("On vacation message") . "\n" . _("I'm on vacation and will not be reading my mail for a while.") . "\n" . _("Your mail will be dealt with when I return.") . "\n";</configphp>
+  <configboolean name="subject" desc="Does your vacation setup support
+   configurable email subjects?">true</configboolean>
+  <configboolean name="from" desc="Does your vacation setup support
+   configurable email senders (From: headers)?">true</configboolean>
+ </configsection>
+ <configsection name="server">
+  <configheader>Server configuration</configheader>
+  <configswitch name="driver" desc="The driver to use">forwards
+   <case name="forwards" desc="FTP driver for dot-forward compliant mailers">
+    <configdescription>
+     If not using realms (multiple domains or virtual hosting) then there is
+     only one possible default configuration.
+     Even if you are using realms/hosting, you have to set a default
+     configuration.  This may be overriden by realm/domain specific values by
+     defining additional arrays, one per realm/domain, with the realm/domain
+     name as the key instead of the key 'default'. This not possible with this
+     interface though.
+    </configdescription>
+    <configsection name="params">
+     <configsection name="default">
+      <configstring name="host" desc="Hostname where the FTP server is running
+       on">localhost</configstring>
+      <configinteger name="port" desc="Port that the FTP server is
+       using">21</configinteger>
+      <configenum name="pasv" desc="Use FTP passive mode?">false
+       <values>
+        <value desc="No">false</value>
+        <value desc="Yes">true</value>
+       </values>
+      </configenum>
+      <configenum name="hordeauth" desc="Should we log the user automatically
+       in with the username and password he uses to login to Horde?">
+       <values>
+        <value desc="No">false</value>
+        <value desc="Yes, with the full username">full</value>
+        <value desc="Yes, but with everything after the @ stripped from the
+        username">true</value>
+       </values>
+      </configenum>
+      <configboolean name="norealm" desc="Check this if the domain information
+       shouldn't be added to the email address in .forward
+       files">false</configboolean>
+      <configenum name="dbtype" desc="The type of database file to use">empty
+       <values>
+        <value desc="An empty file">empty</value>
+        <value desc="Berkeley DB 2.x hash, little endian">hash</value>
+        <value desc="Berkeley DB 3.x hash, little endian">hash3</value>
+        <value desc="Berkeley DB 4.x hash, little endian">hash4</value>
+        <value desc="Berkeley DB 4.x hash, big endian">hash4b</value>
+        <value desc="Berkeley DB 2.x btree, little endian">btree</value>
+        <value desc="GNU dbm (gdbm) database, little endian">gdbm</value>
+       </values>
+      </configenum>
+     </configsection>
+    </configsection>
+   </case>
+   <case name="qmail" desc="FTP driver for qmail compliant mailers">
+    <configdescription>
+     If not using realms (multiple domains or virtual hosting) then there is
+     only one possible default configuration.
+     Even if you are using realms/hosting, you have to set a default
+     configuration.  This may be overriden by realm/domain specific values by
+     defining additional arrays, one per realm/domain, with the realm/domain
+     name as the key instead of the key 'default'. This not possible with this
+     interface though.
+    </configdescription>
+    <configsection name="params">
+     <configsection name="default">
+      <configstring name="host" desc="Hostname where the FTP server is running
+       on">localhost</configstring>
+      <configinteger name="port" desc="Port that the FTP server is
+       using">21</configinteger>
+      <configenum name="pasv" desc="Use FTP passive mode?">false
+       <values>
+        <value desc="No">false</value>
+        <value desc="Yes">true</value>
+       </values>
+      </configenum>
+      <configenum name="hordeauth" desc="Should we log the user automatically
+       in with the username and password he uses to login to Horde?">
+       <values>
+        <value desc="No">false</value>
+        <value desc="Yes, with the full username">full</value>
+        <value desc="Yes, but with everything after the @ stripped from the
+         username">true</value>
+       </values>
+      </configenum>
+      <configboolean name="norealm" desc="Check this if the domain information
+       shouldn't be added to the email address in .forward
+       files">false</configboolean>
+     </configsection>
+    </configsection>
+   </case>
+   <case name="sql" desc="SQL driver">
+    <configdescription>
+     If not using realms (multiple domains or virtual hosting) then there is
+     only one possible default configuration.
+     Even if you are using realms/hosting, you have to set a default
+     configuration.  This may be overriden by realm/domain specific values by
+     defining additional arrays, one per realm/domain, with the realm/domain
+     name as the key instead of the key 'default'. This not possible with this
+     interface though.
+    </configdescription>
+    <configsection name="params">
+     <configsection name="default">
+      <configsql switchname="driverconfig">
+       <configstring name="table" desc="Database table">users</configstring>
+       <configstring name="user_col" desc="Column which contains user
+        names">user</configstring>
+       <configstring name="pass_col" desc="Column with
+        passwords">password</configstring>
+       <configstring name="message" desc="Column with vacation
+        message">vacation_sub</configstring>
+       <configstring name="subject" desc="Column with vacation
+        subject">vacation_sub</configstring>
+       <configstring name="vacation" desc="Vacation message yes or
+        no">vacation</configstring>
+      </configsql>
+      <configenum name="hordeauth" desc="Should we log the user automatically
+       in with the username and password he uses to login to Horde?">
+       <values>
+        <value desc="No">false</value>
+        <value desc="Yes, with the full username">full</value>
+        <value desc="Yes, but with everything after the @ stripped from the
+         username">true</value>
+       </values>
+      </configenum>
+     </configsection>
+     <configenum name="encryption" required="false" desc="The encryption to
+      use to store the password in the table">md5-hex
+      <values>
+       <value>crypt</value>
+       <value>crypt-blowfish</value>
+       <value>crypt-des</value>
+       <value>crypt-md5</value>
+       <value>md5-base64</value>
+       <value>md5-hex</value>
+       <value>plain</value>
+       <value>sha</value>
+       <value>smd5</value>
+       <value>ssha</value>
+      </values>
+     </configenum>
+     <configboolean name="show_encryption" required="false" desc="Prepend the
+      encryption in the password field?">false</configboolean>
+   </configsection>
+   </case>
+   <case name="ldap" desc="LDAP driver">
+    <configdescription>
+     If not using realms (multiple domains or virtual hosting) then there is
+     only one possible default configuration.
+     Even if you are using realms/hosting, you have to set a default
+     configuration.  This may be overriden by realm/domain specific values by
+     defining additional arrays, one per realm/domain, with the realm/domain
+     name as the key instead of the key 'default'. This not possible with this
+     interface though.
+    </configdescription>
+    <configsection name="params">
+     <configsection name="default">
+      <configstring name="host" desc="Hostname where the LDAP server is
+       running on">localhost</configstring>
+      <configinteger name="port" desc="Port that the LDAP server is
+       using">389</configinteger>
+      <configinteger name="timeout" desc="The timeout for searching the LDAP
+      server in seconds. 0 means no limit.">0</configinteger>
+      <configenum name="version" desc="LDAP Protocol Version">3
+       <values>
+        <value desc="LDAPv2 (Deprecated)">2</value>
+        <value desc="LDAPv3">3</value>
+       </values>
+      </configenum>
+      <configstring name="basedn"
+       desc="Basedn">ou=mailaccount,dc=example,dc=com</configstring>
+      <configphp name="userdn" required="false" desc="Alternative way to build
+      the userdn, e.g. &lt;code style=&quot;white-space:nowrap&quot;&gt;'uid=' . Auth::getAuth()
+      . ',ou=mailaccounts,dc=example.com'&lt;/code&gt;"/>
+      <configstring name="vacation" desc="The attribute to search for. If it
+       exists it defines the vacation message">autoreply</configstring>
+      <configstring name="active" required="true" desc="The attribute which
+       contains the vacation status">active</configstring>
+      <configstring name="enabled" required="true" desc="The value of the
+       status attribute if the vacation is enabled">Y</configstring>
+      <configstring name="disabled" required="true" desc="The value of the
+       status attribute if the vacation is disabled">N</configstring>
+      <configstring name="uid" required="true" desc="The name of the attribute
+       which acts as the RDN for the ldap entry">uid</configstring>
+      <configswitch name="hordeauth" desc="Should we log the user automatically
+       in with the username and password he uses to login to Horde?">
+       <case name="false" desc="No, allow the user to enter username and
+       password."/>
+       <case name="full" desc="Yes, with the full username">
+        <configstring name="binddn" required="false" desc="The DN used to bind
+        to the LDAP server. If empty, we will bind anonymously to search for
+        the user DN and bind with the user name and password when setting the
+        vacation message, see below."/>
+        <configstring name="bindpw" required="false" desc="The password used to
+        bind to the LDAP server"/>
+       </case>
+       <case name="true" desc="Yes, but with the domain stripped from the
+       username">
+        <configstring name="binddn" required="false" desc="The DN used to bind
+        to the LDAP server. If empty, we will bind anonymously to search for
+        the user DN and bind with the user name and password when setting the
+        vacation message, see below."/>
+        <configstring name="bindpw" required="false" desc="The password used to
+        bind to the LDAP server"/>
+       </case>
+      </configswitch>
+     </configsection>
+    </configsection>
+   </case>
+  </configswitch>
+ </configsection>
+
+ <configsection name="aliases">
+  <configheader>Aliases</configheader>
+  <configboolean name="show" desc="Give the user the ability to change which
+   aliases to use?">yes</configboolean>
+  <configswitch name="driver" desc="Method to retrieve aliases">
+   <case name="none" desc="None"/>
+   <case name="ftp" desc="Retrieve an aliases or virtual file with FTP">
+    <configsection name="params">
+     <configstring name="host" desc="The host to retrieve the file
+      from">localhost</configstring>
+     <configstring name="port" desc="The FTP port to use">21</configstring>
+     <configenum name="pasv" desc="Use FTP passive mode?">false
+      <values>
+       <value desc="No">false</value>
+       <value desc="Yes">true</value>
+      </values>
+     </configenum>
+     <configstring name="username" desc="Login name"></configstring>
+     <configstring name="password" desc="Password"></configstring>
+     <configstring name="path" desc="Path to
+      file">/etc/postfix/virtual</configstring>
+     <configlist name="mydomains" desc="Comma-separated list of domains
+      handled locally (only used to determine local aliases when parsing a
+      'virtual' file)"></configlist>
+    </configsection>
+   </case>
+  </configswitch>
+ </configsection>
+
+ <configsection name="user">
+  <configheader>Refused user names</configheader>
+   <configlist name="refused" desc="Define usernames for which we will refuse
+    to activate
+    vacation.">root,bin,daemon,adm,lp,shutdown,halt,uucp,ftp,anonymous,nobody,httpd,operator,guest,diginext,bind,cyrus,courier,games,kmem,mailnull,man,mysql,news,postfix,sshd,tty,www</configlist>
+ </configsection>
+
+ <configsection name="menu">
+  <configheader>Menu Settings</configheader>
+  <configmultienum name="apps" desc="Select any applications that should be
+   linked in Vacation's menu">
+   <values>
+    <configspecial name="list-horde-apps" />
+   </values>
+  </configmultienum>
+ </configsection>
+</configuration>

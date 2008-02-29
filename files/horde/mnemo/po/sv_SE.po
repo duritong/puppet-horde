@@ -1,0 +1,568 @@
+# Swedish translations for Mnemo package.
+# Copyright (C) 2005 Horde Project
+# This file is distributed under the same license as the Mnemo package.
+# Joaquim Homrighausen <joho@webbplatsen.se>, 2006.
+# Andreas Dahlen <andreas@dahlen.ws>, 2002-2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mnemo 2.1\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2006-01-31 21:52+0100\n"
+"PO-Revision-Date: 2006-01-31 22:00+0100\n"
+"Last-Translator: Joaquim Homrighausen <joho@webbplatsen.se>\n"
+"Language-Team: Swedish <i18n@lists.horde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/list/header.inc:3
+#, php-format
+msgid "%d notes"
+msgstr "%d anteckningar"
+
+#: templates/memo/memo.inc:26
+#, php-format
+msgid "%s characters"
+msgstr "%s tecken"
+
+#: data.php:187
+#, php-format
+msgid "%s file successfully imported"
+msgstr "Filen %s importerades"
+
+#: notepads.php:99 lib/base.php:103
+#, php-format
+msgid "%s's Notepad"
+msgstr "Anteckningar för %s"
+
+#: templates/list/header.inc:3
+msgid "1 note"
+msgstr "1 anteckning"
+
+#: memo.php:162
+msgid "Access denied deleting note."
+msgstr "Åtkomst nekad."
+
+#: memo.php:112 memo.php:115
+msgid "Access denied moving the note."
+msgstr "Behörighet saknas att flytta anteckning."
+
+#: memo.php:84
+#, php-format
+msgid "Access denied saving note to %s."
+msgstr "Behörighet saknas att spara anteckning till %s."
+
+#: memo.php:82
+#, php-format
+msgid "Access denied saving note: %s"
+msgstr "Behörighet saknas att spara anteckning: %s"
+
+#: templates/prefs/showsummaryselect.inc:103
+msgid "Add category"
+msgstr "Lägg till kategori"
+
+#: memo.php:52
+msgid "Adding A New Note"
+msgstr "Lägger till en anteckning"
+
+#: config/prefs.php.dist:51
+msgid "Ascending"
+msgstr "Stigande"
+
+#: templates/prefs/showsummaryselect.inc:99
+msgid "Available Categories:"
+msgstr "Tillgängliga kategorier:"
+
+#: templates/view/memo.inc:18
+msgid "Back to Notepad"
+msgstr "Tillbaka till anteckningsblock"
+
+#: templates/notepads/notepads.inc:97
+msgid "Back to Notepad Options"
+msgstr "Tillbaka till inställningar för anteckningsblock"
+
+#: data.php:32 templates/data/import.inc:17
+msgid "CSV"
+msgstr "CSV"
+
+#: data.php:54 templates/view/memo.inc:26
+msgid "Category"
+msgstr "Kategori"
+
+#: templates/notepads/notepads.inc:22
+msgid "Change"
+msgstr "Ändra"
+
+#: config/prefs.php.dist:15
+msgid "Change your note sorting and display options."
+msgstr "Ändra sorterings- och visningsinställningar för anteckningar."
+
+#: templates/prefs/showsummaryselect.inc:93
+msgid "Choose the memo categories to list in the summary view."
+msgstr "Välj anteckningskategorier som skall visas i sammanställningsvyn."
+
+#: config/prefs.php.dist:22
+msgid "Choose your default Notepad."
+msgstr "Välj ditt förvalda anteckningsblockk."
+
+#: templates/search/search.inc:32
+msgid "Clear Form"
+msgstr "Rensa formulär"
+
+#: templates/notepads/notepads.inc:17 templates/notepads/notepads.inc:94
+#: templates/notepads/notepads.inc:96
+msgid "Create"
+msgstr "Skapa"
+
+#: templates/view/memo.inc:32
+msgid "Created"
+msgstr "Skapad"
+
+#: config/prefs.php.dist:21
+msgid "Default Notepad"
+msgstr "Förvalt anteckningsblock"
+
+#: config/prefs.php.dist:42
+msgid "Default sorting criteria:"
+msgstr "Förvald sorteringskriteria:"
+
+#: config/prefs.php.dist:53
+msgid "Default sorting direction:"
+msgstr "Förvald sorteringsordning"
+
+#: templates/notepads/notepads.inc:95 templates/view/memo.inc:15
+msgid "Delete"
+msgstr "Radera"
+
+#: config/prefs.php.dist:28
+msgid "Delete Confirmation"
+msgstr "Radera bekräftelse"
+
+#: config/prefs.php.dist:29
+msgid "Delete button behaviour"
+msgstr "Funktion för knappen Radera"
+
+#: templates/memo/memo.inc:67
+msgid "Delete this note"
+msgstr "Radera anteckning"
+
+#: config/prefs.php.dist:52
+msgid "Descending"
+msgstr "Fallande"
+
+#: templates/notepads/notepads.inc:85
+msgid "Description:"
+msgstr "Beskrivning:"
+
+#: config/prefs.php.dist:14
+msgid "Display Options"
+msgstr "Visningsinställningar"
+
+#: config/prefs.php.dist:98
+msgid "Do you want to confirm deleting entries?"
+msgstr "Vill du bekräfta radering av poster?"
+
+#: templates/view/memo.inc:11
+msgid "Edit"
+msgstr "Ändra"
+
+#: templates/list/memo_summaries.inc:5
+#, php-format
+msgid "Edit \"%s\""
+msgstr "Ändra '%s'"
+
+#: templates/list/memo_headers.inc:42 lib/Block/summary.php:82
+msgid "Edit Note"
+msgstr "Ändra anteckning"
+
+#: templates/list/memo_headers.inc:52
+msgid "Edit categories and colors"
+msgstr "Ändra kategorier och färger"
+
+#: templates/list/memo_summaries.inc:12
+msgid "Empty Note"
+msgstr "Tom anteckning"
+
+#: templates/data/export.inc:19
+msgid "Export"
+msgstr "Exportera"
+
+#: templates/data/export.inc:8
+msgid "Export Notes"
+msgstr "Exportera anteckningar"
+
+#: templates/search/search.inc:21
+msgid "F_ull Text"
+msgstr "Hela texten"
+
+#: config/prefs.php.dist:13 config/prefs.php.dist:20 config/prefs.php.dist:27
+msgid "General Options"
+msgstr "Allmänna inställningar"
+
+#: templates/data/import.inc:8
+#, php-format
+msgid "Import Notes, Step %d"
+msgstr "Importera anteckningar, steg %d"
+
+#: data.php:193
+msgid "Import/Export Notes"
+msgstr "Importera/exportera anteckningar"
+
+#: templates/view/memo.inc:39
+msgid "Last Modified"
+msgstr "Senast ändrad"
+
+#: lib/api.php:72
+msgid "Maximum Number of Notes"
+msgstr "Maximalt antal anteckningar"
+
+#: data.php:53
+msgid "Memo Text"
+msgstr "Anteckningstext"
+
+#: memo.php:68
+#, php-format
+msgid "Modifying %s"
+msgstr "Ändrar %s"
+
+#: list.php:35
+msgid "My Notes"
+msgstr "Mina anteckningar"
+
+#: lib/Block/summary.php:22
+msgid "New Note"
+msgstr "Ny anteckning"
+
+#: templates/data/import.inc:40
+msgid "Next"
+msgstr "Nästa"
+
+#: lib/api.php:206
+msgid "No iCalendar data was found."
+msgstr "iCalendar-information saknas."
+
+#: templates/menu.inc:7
+msgid "No notepads are available to guests."
+msgstr "Inga anteckningsblock tillgängliga för gäster."
+
+#: templates/list/header.inc:3
+msgid "No notes"
+msgstr "Inga anteckningar"
+
+#: templates/list/empty.inc:3
+msgid "No notes match the current criteria."
+msgstr "Inga anteckningar matchar aktuellt urval."
+
+#: lib/Block/summary.php:108
+msgid "No notes to display"
+msgstr "Inga anteckningar att visa"
+
+#: templates/list/memo_headers.inc:44
+msgid "No_te"
+msgstr "An_teckning"
+
+#: config/prefs.php.dist:41
+msgid "Note Category"
+msgstr "Anteckningskategori"
+
+#: view.php:80 templates/view/memo.inc:21
+msgid "Note Details"
+msgstr "Anteckningsdetaljer"
+
+#: notepads.php:110
+msgid "Note Lists"
+msgstr "Anteckningslistor"
+
+#: templates/view/memo.inc:45 config/prefs.php.dist:40
+msgid "Note Text"
+msgstr "Anteckningstext"
+
+#: templates/memo/memo.inc:26
+msgid "Note _Text"
+msgstr "Antecknings_text"
+
+#: view.php:57 memo.php:60
+msgid "Note not found."
+msgstr "Anteckning saknas."
+
+#: templates/memo/memo.inc:34
+msgid "Note_pad"
+msgstr "Antecknings_block"
+
+#: templates/notepads/notepads.inc:79
+msgid "Notepad's name:"
+msgstr "Anteckningsblocksnamn:"
+
+#: templates/notepads/notepads.inc:61
+msgid "Notepads"
+msgstr "Anteckningsblock"
+
+#: notepads.php:33
+msgid "Notepads must have a name."
+msgstr "Anteckningsblock måste ha ett namn."
+
+#: lib/Block/summary.php:3
+msgid "Notes Summary"
+msgstr "Antecknings summering"
+
+#: lib/api.php:183 lib/api.php:279 lib/api.php:355 lib/api.php:384
+msgid "Permission Denied"
+msgstr "Åtkomst nekad"
+
+#: templates/notepads/notepads.inc:82
+msgid "Permissions"
+msgstr "Behörigheter"
+
+#: templates/view/memo.inc:15
+msgid "Really delete this note?"
+msgstr "Radera denna anteckning?"
+
+#: templates/list/header.inc:5 templates/list/header.inc:6
+msgid "Refresh List"
+msgstr "Uppdatera lista"
+
+#: templates/prefs/showsummaryselect.inc:105
+msgid "Remove category"
+msgstr "Radera kategori"
+
+#: templates/notepads/notepads.inc:96
+msgid "Reset"
+msgstr "Återställ"
+
+#: templates/memo/memo.inc:56
+msgid "Save"
+msgstr "Spara"
+
+#: search.php:17 templates/search/search.inc:4 templates/search/search.inc:31
+msgid "Search"
+msgstr "Sök"
+
+#: list.php:57
+msgid "Search Results"
+msgstr "Sökresultat"
+
+#: templates/search/search.inc:17
+msgid "Search Scope"
+msgstr "Urval för sökning"
+
+#: templates/search/search.inc:9
+msgid "Search _Text"
+msgstr "Sök _text"
+
+#: templates/notepads/notepads.inc:67
+msgid "Select a notepad"
+msgstr "Välj ett anteckningsblock"
+
+#: templates/menu.inc:16
+msgid "Select notepads to display:"
+msgstr "Ange anteckningsblock att visa:"
+
+#: templates/data/export.inc:15
+msgid "Select the export format:"
+msgstr "Välj exportformat:"
+
+#: templates/data/import.inc:37
+msgid "Select the file to import:"
+msgstr "Välj fil som skall importeras:"
+
+#: templates/data/import.inc:15
+msgid "Select the format of the source file:"
+msgstr "Välj format på importfilen:"
+
+#: templates/prefs/showsummaryselect.inc:109
+msgid "Selected Categories:"
+msgstr "Valda kategorier:"
+
+#: templates/menu/menu.inc:38
+msgid "Show"
+msgstr "Visa"
+
+#: templates/menu/menu.inc:43
+msgid "Show Notepads:"
+msgstr "Visa anteckningsblock:"
+
+#: lib/Block/summary.php:37
+msgid "Show action buttons?"
+msgstr "Visa aktivitetsknappar?"
+
+#: lib/Block/summary.php:40
+msgid "Show notepad name?"
+msgstr "Visa anteckningsblockets namn?"
+
+#: lib/Block/summary.php:43
+msgid "Show notes from these categories"
+msgstr "Visa anteckningar med dessa kategorier"
+
+#: templates/list/memo_headers.inc:48
+msgid "Sort by Category"
+msgstr "Sortera på kategori"
+
+#: templates/list/memo_headers.inc:44
+msgid "Sort by Note Text"
+msgstr "Sortera på anteckningstext"
+
+#: memo.php:135
+#, php-format
+msgid "Successfully saved \"%s\"."
+msgstr "'%s' sparades."
+
+#: memo.php:159
+msgid "The note was deleted."
+msgstr "Anteckningen raderades."
+
+#: notepads.php:46
+#, php-format
+msgid "The notepad \"%s\" couldn't be created: %s"
+msgstr "Anteckningsblock '%s' kunde inte skapas: %s"
+
+#: notepads.php:48
+#, php-format
+msgid "The notepad \"%s\" has been created."
+msgstr "Anteckningsblocket '%s' skapades."
+
+#: notepads.php:85
+#, php-format
+msgid "The notepad \"%s\" has been deleted."
+msgstr "Anteckningsblocket '%s' raderades."
+
+#: notepads.php:56
+#, php-format
+msgid "The notepad \"%s\" has been saved."
+msgstr "Anteckningsvlocket '%s' sparats."
+
+#: data.php:184
+#, php-format
+msgid "There was an error importing the data: %s"
+msgstr "Det uppstod fel vid import av data: %s."
+
+#: lib/api.php:200
+msgid "There was an error importing the iCalendar data."
+msgstr "Fel vid import av iCalendar-data."
+
+#: lib/api.php:403
+msgid "There was an error importing the vNote data."
+msgstr "Fel vid import av vNote-data."
+
+#: memo.php:157
+#, php-format
+msgid "There was an error removing the note: %s"
+msgstr "Det uppstod fel när anteckningen skulle raderas: %s"
+
+#: memo.php:133
+#, php-format
+msgid "There was an error saving the note: %s"
+msgstr "Det uppstod fel när anteckningen skulle sparas: %s"
+
+#: view.php:46
+#, php-format
+msgid "There was an error viewing this notepad: %s"
+msgstr "Det uppstod fel vid visning av anteckningen: %s"
+
+#: data.php:79
+msgid "There were no memos to export."
+msgstr "Inga anteckning att exportera."
+
+#: data.php:105
+msgid "This file format is not supported."
+msgstr "Filformatet stöds inte."
+
+#: notepads.php:80
+#, php-format
+msgid "Unable to delete \"%s\": %s"
+msgstr "Kunde inte radera '%s': %s"
+
+#: templates/memo/memo.inc:58
+msgid "Undo changes"
+msgstr "Ångra ändringar"
+
+#: templates/view/memo.inc:27 templates/list/memo_summaries.inc:14
+#: scripts/convert_categories.php:49
+#: scripts/upgrades/2004-05-19_convert_categories_to_strings.php:49
+#: lib/Mnemo.php:206 lib/Mnemo.php:207 lib/Mnemo.php:221 lib/Mnemo.php:222
+#: lib/Block/summary.php:103
+msgid "Unfiled"
+msgstr "Ej kategoriserad"
+
+#: lib/api.php:236 lib/api.php:319 lib/api.php:411
+#, php-format
+msgid "Unsupported Content-Type: %s"
+msgstr "Content-Type stöds inte: %s"
+
+#: templates/data/import.inc:22
+msgid "Which Notepad should the notes be added to?"
+msgstr "Till vilket anteckningsblock skall anteckningar läggas till?"
+
+#: data.php:42 data.php:125 memo.php:35
+#, php-format
+msgid "You are not allowed to create more than %d notes."
+msgstr "Du har inte behörighet att skapa fler än %d anteckningar."
+
+#: view.php:50
+#, php-format
+msgid "You do not have permission to view the notepad %s."
+msgstr "Du har inte behörig att visa anteckningsblock '%s'."
+
+#: notepads.php:65
+msgid "You must select a notepad to be deleted."
+msgstr "Du måste ange ett anteckningsblock som skall raderas."
+
+#: templates/prefs/notepadselect.inc:10
+msgid "Your default notepad:"
+msgstr "Ditt förvalda anteckningsblock:"
+
+#: templates/notepads/notepads.inc:65
+msgid "Your notepads:"
+msgstr "Dina anteckningsblock:"
+
+#: templates/view/memo.inc:18
+msgid "_Back to Notepad"
+msgstr "_Tillbaka till anteckningsblock"
+
+#: templates/memo/memo.inc:51 templates/list/memo_headers.inc:48
+msgid "_Category"
+msgstr "_Kategori"
+
+#: templates/view/memo.inc:15
+msgid "_Delete"
+msgstr "_Radera"
+
+#: templates/view/memo.inc:11
+msgid "_Edit"
+msgstr "Ändra"
+
+#: templates/search/search.inc:20
+msgid "_First Line"
+msgstr "_Första raden"
+
+#: templates/menu/menu.inc:16 lib/Mnemo.php:281
+msgid "_Import/Export"
+msgstr "_Import/Export"
+
+#: templates/menu/menu.inc:6 lib/Mnemo.php:264
+msgid "_List Notes"
+msgstr "_Lista anteckningar"
+
+#: lib/Mnemo.php:276
+msgid "_My Notepads"
+msgstr "_Mina anteckningsblock"
+
+#: templates/menu/menu.inc:8 lib/Mnemo.php:269
+msgid "_New Note"
+msgstr "_Ny anteckning"
+
+#: templates/menu/menu.inc:21 lib/Mnemo.php:286
+msgid "_Print"
+msgstr "_Utskrift"
+
+#: templates/menu/menu.inc:11 lib/Mnemo.php:272
+msgid "_Search"
+msgstr "_Sök"
+
+#: data.php:91 templates/data/export.inc:1
+msgid "notes.csv"
+msgstr "anteckningar.csv"
+
+#: data.php:33 templates/data/import.inc:18
+msgid "vNote"
+msgstr "vNote"

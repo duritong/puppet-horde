@@ -7,3 +7,16 @@
 class horde {
     
 }
+
+define horde::files (
+    $location='/var/www/horde'
+) {
+    file {
+        $location:
+            source => "puppet://$servername/horde/files/horde",
+            ensure => directory, 
+            recurse => true, 
+            mode => 0444, 
+            owner => apache, group => apache;
+    }
+}

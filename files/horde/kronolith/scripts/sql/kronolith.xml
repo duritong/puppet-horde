@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<database>
+
+ <name><variable>name</variable></name>
+ <create>false</create>
+ <overwrite>false</overwrite>
+
+ <table>
+
+  <name>kronolith_events</name>
+
+  <declaration>
+
+   <field>
+    <name>event_id</name>
+    <type>text</type>
+    <length>32</length>
+    <notnull>true</notnull>
+   </field>
+
+   <field>
+    <name>event_uid</name>
+    <type>text</type>
+    <length>255</length>
+    <notnull>true</notnull>
+   </field>
+
+   <field>
+    <name>calendar_id</name>
+    <type>text</type>
+    <length>255</length>
+    <notnull>true</notnull>
+   </field>
+
+   <field>
+    <name>event_creator_id</name>
+    <type>text</type>
+    <length>255</length>
+    <notnull>true</notnull>
+   </field>
+
+   <field>
+    <name>event_description</name>
+    <type>clob</type>
+   </field>
+
+   <field>
+    <name>event_location</name>
+    <type>clob</type>
+   </field>
+
+   <field>
+    <name>event_status</name>
+    <type>integer</type>
+    <default>0</default>
+   </field>
+
+   <field>
+    <name>event_attendees</name>
+    <type>clob</type>
+   </field>
+
+   <field>
+    <name>event_keywords</name>
+    <type>clob</type>
+   </field>
+
+   <field>
+    <name>event_exceptions</name>
+    <type>clob</type>
+   </field>
+
+   <field>
+    <name>event_title</name>
+    <type>text</type>
+    <length>255</length>
+   </field>
+
+   <field>
+    <name>event_category</name>
+    <type>text</type>
+    <length>80</length>
+   </field>
+
+   <field>
+    <name>event_recurtype</name>
+    <type>integer</type>
+    <default>0</default>
+   </field>
+
+   <field>
+    <name>event_recurinterval</name>
+    <type>integer</type>
+   </field>
+
+   <field>
+    <name>event_recurdays</name>
+    <type>integer</type>
+   </field>
+
+   <field>
+    <name>event_recurenddate</name>
+    <type>timestamp</type>
+    <default></default>
+   </field>
+
+   <field>
+    <name>event_start</name>
+    <type>timestamp</type>
+    <default></default>
+   </field>
+
+   <field>
+    <name>event_end</name>
+    <type>timestamp</type>
+    <default></default>
+   </field>
+
+   <field>
+    <name>event_alarm</name>
+    <type>integer</type>
+    <default>0</default>
+   </field>
+
+   <field>
+    <name>event_modified</name>
+    <type>integer</type>
+    <notnull>true</notnull>
+   </field>
+
+   <index>
+    <name>kronolith_primary</name>
+    <primary>true</primary>
+    <field>
+     <name>event_id</name>
+    </field>
+   </index>
+
+   <index>
+    <name>kronolith_calendar</name>
+    <field>
+     <name>calendar_id</name>
+     <sorting>ascending</sorting>
+    </field>
+   </index>
+
+   <index>
+    <name>kronolith_uid</name>
+    <field>
+     <name>event_uid</name>
+     <sorting>ascending</sorting>
+    </field>
+   </index>
+
+  </declaration>
+
+ </table>
+
+ <table>
+
+  <name>kronolith_storage</name>
+
+  <declaration>
+
+   <field>
+    <name>vfb_owner</name>
+    <type>text</type>
+    <length>255</length>
+   </field>
+
+   <field>
+    <name>vfb_email</name>
+    <type>text</type>
+    <length>255</length>
+    <notnull>true</notnull>
+   </field>
+
+   <field>
+    <name>vfb_serialized</name>
+    <type>clob</type>
+   </field>
+
+   <index>
+    <name>kronolith_vfb_owner</name>
+    <field>
+     <name>vfb_owner</name>
+     <sorting>ascending</sorting>
+    </field>
+   </index>
+
+   <index>
+    <name>kronolith_vfb_email</name>
+    <field>
+     <name>vfb_email</name>
+     <sorting>ascending</sorting>
+    </field>
+   </index>
+
+  </declaration>
+
+ </table>
+
+</database>

@@ -1,0 +1,295 @@
+# Passwd Romanian Translation.
+# Copyright (C) 2003 Horde Project
+# Eugen Hoanca <eugenh@urban-grafx.ro>, 2003.
+# Marius Dragulescu <mariusd@urban-grafx.ro>, 2003.
+msgid ""
+msgstr ""
+"Project-Id-Version: Passwd 2.2\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2005-10-13 17:13+0200\n"
+"PO-Revision-Date: 2003-03-01 12:00+0200\n"
+"Last-Translator: Eugen Hoanca <eugenh@urban-grafx.ro>\n"
+"Language-Team: Romanian <i18n@lists.horde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/Driver/expect.php:34
+#, php-format
+msgid "%s does not exist or is not executable."
+msgstr ""
+
+#: lib/Driver/composite.php:65
+#, php-format
+msgid "%s: unable to load driver: %s"
+msgstr ""
+
+#: lib/Driver/adsi.php:61
+#, php-format
+msgid "ADSI error %s."
+msgstr ""
+
+#: lib/Driver/pspasswd.php:105 lib/Driver/adsi.php:64
+msgid "Access Denied."
+msgstr ""
+
+#: lib/Driver.php:85
+msgid "Backend not correctly implemented."
+msgstr "Backend incorect implementat."
+
+#: main.php:255 templates/main/main.inc:142
+msgid "Change Password"
+msgstr "Schimba parola"
+
+#: templates/main/main.inc:127
+#, fuzzy
+msgid "Change password on:"
+msgstr "Schimba parola"
+
+#: templates/main/main.inc:62
+msgid "Change your password"
+msgstr "Schimba parola ta"
+
+#: templates/main/main.inc:69
+#, fuzzy, php-format
+msgid "Changing password on %s"
+msgstr "Schimbare parola la %s"
+
+#: templates/main/main.inc:114
+msgid "Confirm new password:"
+msgstr "Confirmare parola noua:"
+
+#: lib/Driver/ldap.php:95 lib/Driver/ldap.php:263 lib/Driver/kolab.php:54
+msgid "Could not bind to ldap server"
+msgstr "Conectare nereusita la serverul ldap"
+
+#: lib/Driver/ldap.php:70 lib/Driver/kolab.php:46
+msgid "Could not connect to ldap server"
+msgstr "Conectare nereusita la serverul ldap"
+
+#: lib/Driver/smbpasswd.php:57
+msgid "Could not open pipe to smbpasswd."
+msgstr "Legatura imposibila cu smbpasswd"
+
+#: lib/Driver/smbpasswd.php:79
+msgid "Error sending data to smbpasswd."
+msgstr "Eroare la trimiterea datelor catre smbpasswd."
+
+#: lib/Driver/pspasswd.php:93
+#, fuzzy
+msgid "Failed to verify old password."
+msgstr "Trebuie verificata noua parola"
+
+#: main.php:211 lib/Driver/composite.php:99
+#, fuzzy, php-format
+msgid "Failure in changing password on %s: %s"
+msgstr "Eroare in schimbarea parolei : "
+
+#: lib/Driver.php:56 lib/Driver/ldap.php:264 lib/Driver/vmailmgr.php:42
+#: lib/Driver/kolab.php:78 lib/Driver/poppassd.php:114
+#, fuzzy
+msgid "Incorrect Password"
+msgstr "Parola incorecta"
+
+#: lib/Driver/ldap.php:255
+msgid "Minimum password age has not yet expired"
+msgstr ""
+
+#: templates/main/main.inc:102
+msgid "New password:"
+msgstr "Parola noua:"
+
+#: lib/Driver.php:112
+#, php-format
+msgid "No such backend \"%s\" found."
+msgstr ""
+
+#: templates/main/main.inc:90
+msgid "Old password:"
+msgstr "Parola veche:"
+
+#: lib/Driver/smbpasswd.php:47
+#, fuzzy
+msgid "Passwd is not properly configured."
+msgstr "Modulul de parole incorect configurat"
+
+#: main.php:203
+#, fuzzy, php-format
+msgid "Password changed on %s."
+msgstr "Parola schimbata!"
+
+#: lib/Driver/sql.php:120
+#, php-format
+msgid "Password column \"%s\" not found in password table."
+msgstr ""
+
+#: lib/Driver/pspasswd.php:75
+#, fuzzy
+msgid "Password module can't find the supplied bin."
+msgstr "Modulul de parole incorect configurat"
+
+#: lib/Driver/pspasswd.php:73
+#, fuzzy
+msgid "Password module is missing required parameters."
+msgstr "Modulul de parole incorect configurat"
+
+#: lib/Driver/adsi.php:51
+#, fuzzy
+msgid "Password module is missing target parameter."
+msgstr "Modulul de parole incorect configurat"
+
+#: main.php:178 lib/Driver/servuftp.php:71
+msgid "Password module is not properly configured"
+msgstr "Modulul de parole incorect configurat"
+
+#: lib/Driver/servuftp.php:98
+#, fuzzy
+msgid "Password module is not properly configured."
+msgstr "Modulul de parole incorect configurat"
+
+#: templates/main/main.inc:11
+#, fuzzy
+msgid "Please provide a new password"
+msgstr "Trebuie introdusa o noua parola"
+
+#: templates/main/main.inc:7
+msgid "Please provide your current password"
+msgstr ""
+
+#: templates/main/main.inc:15
+#, fuzzy
+msgid "Please verify your new password"
+msgstr "Trebuie verificata noua parola"
+
+#: lib/Driver/composite.php:41
+#, fuzzy
+msgid "Required 'drivers' is misconfigured in Composite configuration."
+msgstr "'phptype' nespecificat in configuratia SQL."
+
+#: lib/Driver/sql.php:46
+#, fuzzy
+msgid "Required 'phptype' not specified in Passwd SQL configuration."
+msgstr "'phptype' nespecificat in configuratia SQL."
+
+#: lib/Driver/vpopmail.php:49
+msgid "Required 'phptype' not specified in SQL configuration."
+msgstr "'phptype' nespecificat in configuratia SQL."
+
+#: templates/main/main.inc:143
+msgid "Reset"
+msgstr "Resetare"
+
+#: lib/Driver/sql.php:75 lib/Driver/vpopmail.php:83
+msgid "Unable to connect to SQL server."
+msgstr "Conectare la serverul SQL esuata."
+
+#: lib/Driver/sql.php:128 lib/Driver/poppassd.php:108
+#: lib/Driver/vpopmail.php:143
+msgid "User not found"
+msgstr "Utilizator negasit"
+
+#: lib/Driver/ldap.php:131 lib/Driver/kolab.php:70 lib/Driver/pine.php:231
+msgid "User not found."
+msgstr "Utilizator negasit."
+
+#: templates/main/main.inc:77
+msgid "Username:"
+msgstr "Utilizator:"
+
+#: main.php:47
+#, php-format
+msgid "You can't change password for user %s"
+msgstr "Nu poti schimba parola pentru utilizatorul %s"
+
+#: main.php:55
+#, fuzzy
+msgid "You must give your current password"
+msgstr "Trebuie introdusa o noua parola"
+
+#: main.php:64
+msgid "You must give your new password"
+msgstr "Trebuie introdusa o noua parola"
+
+#: main.php:68
+msgid "You must verify your new password"
+msgstr "Trebuie verificata noua parola"
+
+#: main.php:88
+#, php-format
+msgid ""
+"Your new password is too long; passwords may not be more than %d characters "
+"long!"
+msgstr ""
+"Noua parola e prea lunga; parolele nu pot fi mai lungi de %d caractere!"
+
+#: main.php:167
+msgid "Your new password is too simple to guess!  Not changed!"
+msgstr "Noua parola e prea simplu de ghicit! Neschimbata!"
+
+#: main.php:158
+#, fuzzy
+msgid "Your new password is too simple to guess. Not changed!"
+msgstr "Noua parola e prea simplu de ghicit! Neschimbata!"
+
+#: main.php:83
+#, php-format
+msgid "Your new password must be at least %d characters long!"
+msgstr "Noua parola trebuie sa fie de minim %d caractere!"
+
+#: main.php:76
+msgid "Your new password must be different from your current password"
+msgstr "Noua parola trebuie sa fie diferita de parola curenta"
+
+#: main.php:128
+#, php-format
+msgid "Your new password must contain at least %d alphabetic characters."
+msgstr "Noua parola trebuie sa contina minim %d caractere alfabetice."
+
+#: main.php:133
+#, php-format
+msgid "Your new password must contain at least %d alphanumeric characters."
+msgstr "Noua parola trebuie sa contina minim %d caractere alfanumerice."
+
+#: main.php:138
+#, fuzzy, php-format
+msgid ""
+"Your new password must contain at least %d different types of characters. "
+"The types are: lower, upper, numeric, and symbols."
+msgstr "Noua parola trebuie sa contina minim %d caractere minuscule."
+
+#: main.php:118
+#, php-format
+msgid "Your new password must contain at least %d lowercase characters."
+msgstr "Noua parola trebuie sa contina minim %d caractere minuscule."
+
+#: main.php:123
+#, php-format
+msgid "Your new password must contain at least %d numeric characters."
+msgstr "Noua parola trebuie sa contina cel putin %d caractere numerice."
+
+#: main.php:113
+#, php-format
+msgid "Your new password must contain at least %d uppercase characters."
+msgstr "Noua parola trebuie sa contina minim %d caractere majuscule."
+
+#: main.php:144
+#, fuzzy, php-format
+msgid "Your new password must contain less than %d whitespace characters."
+msgstr "Noua parola trebuie sa contina mai putin de %d spatii."
+
+#: main.php:146
+msgid "Your new password must not contain whitespace characters."
+msgstr "Noua parola nu trebuie sa contina spatii."
+
+#: main.php:72
+msgid "Your new passwords didn't match"
+msgstr "Parolele noi nu se potrivesc"
+
+#: templates/main/main.inc:19
+#, fuzzy
+msgid "Your passwords do not match"
+msgstr "Parolele noi nu se potrivesc"
+
+#: lib/Driver/ldap.php:76
+msgid "ldap_start_tls failed"
+msgstr ""

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<!-- $Horde: kronolith/locale/tr_TR/help.xml,v 1.1.2.1 2005/10/18 12:27:38 jan Exp $ -->
+<help>
+<!-- English entry:
+<entry id="Overview">
+    <title>Kronolith: Overview</title>
+    <heading>What is Kronolith?</heading>
+    <para>
+    Kronolith is a web-based calendar application.  In addition to the
+    required functions of creating, modifying, and deleting events, it
+    currently supports recurring events (with exceptions and various deletion
+    options), alarms, import and export functions (iCalendar and CSV formats),
+    iCalendar invitations, multiple calendar views, shared calendars, display
+    of Task List (Nag) tasks (if Tasks List is installed), and ability to show
+    events in the Horde summary screen.
+    </para>
+</entry>
+-->
+
+<entry id="Overview" md5="1585927d48e4627c792fe0332c41fd39" state="uptodate">
+<title>Kronolith: Genel Bakış</title>
+<heading>Kronolith nedir?</heading>
+<para>
+Kronolith ağ tabanlı takvim uygulamasıdır.İçerisinde, ihtiyaç duydugunuz yaratma,değiştirme ve silme işlemlerini barındırır.Ayrıca tekrar eden olayları (istisna ve çeşitli silme seçenekleri), hatırlatmaları,alma ve verme seçeneklerini (elektronik takvim ve csv formunda), elektronik takvim davetiyeleri, çok seçenekli takvim olayları , paylaştırılmış takvimler , görev listesinin görüntülenmesi (görev listesi yüklenmişse), ve de anasayfa ekranında olayları görüntüleme yeteneğine sahiptir.
+</para>
+</entry>
+
+<!-- English entry:
+<entry id="menu-today">
+    <title>Menu: Today</title>
+    <para>
+    The <i>Today</i> menu item will display your default view (month, week,
+    day, etc. as set in Options) for the current date.
+    </para>
+</entry>
+-->
+
+<entry id="menu-today" md5="c6d0c0f366175a38d0655ed9969ed4a6" state="uptodate">
+<title>Menü: Bugün</title>
+<para>
+Bugün menü seçeneği,şu anki geçerli tarihte sizin varsayılan olarak atamış olduğunuz ayarları (Ay,Hafta,Gün vs.. seçenek düzenini) görüntüler.
+</para>
+</entry>
+
+<!-- English entry:
+<entry id="menu-Goto">
+    <title>Menu: Goto</title>
+    <para>
+    The <i>Goto</i> menu item will display a small pop-up window in which you
+    can quickly select a month, week of the year, or day of the month to <i>go
+    to</i>.  This is usually the quickest way to move within the calendar.
+    </para>
+</entry>
+-->
+
+<entry id="menu-Goto" md5="566191775ba90b769f2e3f7cdf24cbfa" state="uptodate">
+<title>Menü: Git</title>
+<para>
+Git menü seçeneği,küçük bir pencerecik açar.Ve çok hızlı bir şekilde seçtiğiniz yılın herhangi bir ay veya haftasına, yada ayın herhangi bir gününe gitmenizi saglar.Bu seçenek takvim içerisinde hareket etmenin en hızlı ve en sık tercih edilen yoludur.
+</para>
+</entry>
+
+<!-- English entry:
+<entry id="menu-Day">
+    <title>Menu: Day</title>
+    <para>
+    The <i>Day</i> tab will display the day view of the currently selected
+    day.
+    </para>
+</entry>
+-->
+
+<entry id="menu-Day" md5="3cd62e10116058db52a15fecd7ddbcb0" state="uptodate">
+<title>Menü: Gün</title>
+<para>
+Gün sekmesi,şu anki geçerli seçilmiş günden başlayarak o günü görüntüler.
+</para>
+</entry>
+
+<!-- English entry:
+<entry id="menu-work-week">
+    <title>Menu: Work Week</title>
+    <para>
+    The <i>Work Week</i> tab will display the work week view (Monday through
+    Friday) closest to the currently selected day.
+    </para>
+</entry>
+-->
+
+<entry id="menu-work-week" md5="f9a63585c81dca63887e130dbbea91de" state="uptodate">
+<title>Menü: Çalışma Haftası</title>
+<para>
+Çalışma Haftası sekmesi,şu anki geçerli seçilmiş güne en yakın çalışma haftasını (pazartesi-Cuma) görüntüler.
+</para>
+</entry>
+
+<!-- English entry:
+<entry id="menu-week">
+    <title>Menu: Week</title>
+    <para>
+    The <i>Week</i> tab will display the week view (7 day view) for the week
+    containing the currently selected day.
+    </para>
+</entry>
+-->
+
+<entry id="menu-week" md5="3d8a3bfda629bb6e09819b2e660546e5" state="uptodate">
+<title>Menü: Hafta</title>
+<para>
+Hafta sekmesi,şu anki geçerli seçilmiş günden başlayarak tüm haftayı (7 gün) görüntüler.
+</para>
+</entry>
+
+
+<!-- English entry:
+<entry id="menu-month">
+    <title>Menu: Month</title>
+    <para>
+    The <i>Month</i> tab will display the month view for the month containing
+    the currenly selected day.
+    </para>
+</entry>
+-->
+
+<entry id="menu-month" md5="4be2056875775ec1f5b0f920a1dab608" state="uptodate">
+<title>Menü: Ay</title>
+<para>
+Ay sekmesi,şu anki geçerli seçilmiş günden başlayarak tüm ay'ı görüntüler.
+</para>
+</entry>
+
+<!-- English entry:
+<entry id="menu-new-event">
+    <title>Menu: New Event</title>
+    <para>
+    The <i>New Event</i> menu item will allow you to create a new event to be
+    added to a calendar.
+    </para>
+</entry>
+-->
+
+<entry id="menu-new-event" md5="37406cc2ee51040862df1eaa2f645d4e" state="uptodate">
+<title>Menu:Yeni olay</title>
+<para>
+Yeni olay menüsü seçenekleri takvimde yeni olaylar oluşturmamıza izin verir.
+</para>
+</entry>
+
+
+<!-- English entry:
+<entry id="menu-options">
+    <title>Menu: Options</title>
+    <para>
+    The <i>Options</i> menu item allows you to set <i>Options</i> (or
+    preferences) that control the look and feel of Kronolith, Kronolith's
+    interaction with Horde and other Horde applications, and manage multiple
+    and shared calendars.
+    </para>
+</entry>
+-->
+
+<entry id="menu-options" md5="d7df2c0cda84c89c638d9d6e59307976" state="uptodate">
+<title>Menu:seçenekler</title>
+<para>
+Seçenekler menüsü seçenekleri çoklu ve paylaşılan takvimleri yönetir ve Horde ve diğer Horde uygulamalarıyla etkileşim içindedir ve bize Kronolithin bakışını ve yorumlayışını kontrol etmemize izin verir.
+</para>
+</entry>
+
+<!-- English entry:
+<entry id="menu-import-export">
+    <title>Menu: Import/Export</title>
+    <para>
+    The <i>Import/Export</i> menu item allows you to import or export calendar
+    events.  Currently you can import files in CSV, Microsoft Outlook, and
+    vCalendar/iCalendar formats.  You can export to only CSV and iCalendar
+    formats.
+    </para>
+</entry>
+-->
+
+<entry id="menu-import-export" md5="34bc9dfc4d6302fc1011696a1b8d1ca8" state="uptodate">
+<title>Menu:Alım ve Gönderim</title>
+<para>
+Alım/Gönderim menü seçeneği takvim olaylarını almana veya göndermene izin verir. Şu an CSV, Microsoft Outlook ve vCalendar/iCalendar formatındaki dosyaları alabilirsin. Sadece CSV ve iCalender formatındaki dosyaları gönderebilirsin.
+</para>
+</entry>
+
+<!-- English entry:
+<entry id="alarms">
+    <title>Alarms</title>
+    <para>
+    Kronolith can generate alarms for events in a calendar.  By default, the
+    first alarm is generated fifteen minutes before the appointment is
+    supposed to start, but the alarm can be set (per event) to occur at almost
+    any interval before the event start time.
+    </para>
+</entry>
+-->
+
+<entry id="alarms" md5="4c1c6f3eb13a416031ffbee4fce99ea1" state="uptodate">
+<title>Alarmlar</title>
+<para>
+Kronolith olaylar için bir takvimde alarmlar oluşturabilir. Otomatik olarak, ilk alarm toplantının başlamasından 15 dakika önceye oluşturulur ama bu alarm olayın başlamasından önce olan herhangi bir aralık olarakta ayarlanabilir.
+</para>
+</entry>
+
+<!-- English entry:
+<entry id="recurring-events">
+    <title>Recurring Events</title>
+    <para>
+    Events can be made to repeat in various ways. Many events repeat in
+    certain frequently used ways. For example, the <i>Monthly</i> recurrence
+    types make the selected item repeat each month and the <i>Weekly</i>
+    recurrence type makes the selected item repeat each per week. These can be
+    made to represent events that repeat in complex ways: for example, an item
+    that occurs on the third Friday of each month, or an item that occurs on
+    Monday, Wednesday, and Friday every week. 
+    </para>
+    <para>
+    You can also restrict how long an event repeats by selecting the <i>end
+    date</i> for the event's recurrence.
+    </para>
+    <para>
+    Normally, a modification to a repeating event applies to all occurrences
+    of that event. A single occurrence of a repeating event can be modified by
+    editing the occurrence, removing its recurrence information, and then
+    choosing the <i>Save as New</i> option from the Repeat menu. The selected
+    occurrence can now be modified independently of the other occurences.
+    </para>
+</entry>
+-->
+
+<!-- BURASI EKSIK VE KOTU OLMUS!!-->
+<entry id="recurring-events" md5="83a0c3a8a2d2f5ce8b5510bda255643d" state="uptodate">
+<title>Tekrarlayan Olaylar</title>
+<para>
+Olayın son tekrarlanma tarihini belirleyerek tekrarlanmasını sonlandırabilirsiniz.
+</para>
+<para>
+Olaylar değişik şekillerde tekrarlanacak şekilde yapılmış olabilir. Bir çok olay belli aralıklarla tekrarlar. Örneğin, aylık olarak tekrarlayan tip seçilirse her ay tekrarlarlar ve haftalık tekrarlayan tip seçilirse seçilen öğe her hafta kendini tekrarlayacaktır. Bunlar karmaşık yönlerle gösterilen olaylar yapılabilir: Örneğin, bir öğe her ayın üçüncü cuması oluyor, veya bir öğe haftanın Pazartesi, Çarşamba, ve Cuma günleri oluşuyor.
+Aynı zamanda bir olayın ne kar sürede ne kadar tekrarlayacağını olayın sonlandırma tarihini seçerek ayarlayabiliriz.
+Normalde, tekrarlayan bir olayın değişimi bu olayın bütün oluşumlarına uygulanır.Tekrarla menüsünden yapılan pek çok ayarına ardından Yeni şekliyle kaydet’i seçerek değişiklikler yapılabilir. Seçilen olay diğer olaylardan bağımsız olarak değiştirilecektir.
+</para>
+</entry>
+
+<!-- English entry:
+<entry id="Printing">
+    <title>Printing</title>
+    <heading>Printing Calendars and Events</heading>
+    <para>
+    Certain views are designed to be printable.  When in one of these views, a
+    <i>Print</i> icon will appear in the top menu bar.  Use this menu icon to
+    print the current view.
+    </para>
+</entry>
+-->
+
+<entry id="Printing" md5="2f90d14e34b715a054fb52bb919ac5f8" state="uptodate">
+<title>Çıktı Alma</title>
+<heading>Olayları ve Takvimlerin Çıktısı</heading>
+<para>
+Sayfanın düzgün olarak çıktısının alınabilinmesini sağlayan görüntüleme mekanizması bulunmaktadır. Bu mekanizmanın çalışması sonucunda sayfada gözükecek olan yazıcı ikonuna tıklayarak çıktı alabilirsiniz.
+</para>
+</entry>
+
+
+</help>

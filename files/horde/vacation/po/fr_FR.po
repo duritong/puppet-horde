@@ -1,0 +1,229 @@
+# translation of fr_FR.po to Français
+# vacation module translations
+# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
+# Daniel Huhardeaux <daniel.huhardeaux@tootai.com>, 2002.
+# Pierre Lachance <pl@pierrelachance.net> et Benoit St-André (ben@benoitst-andre.net), 2003, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fr_FR\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2004-09-05 15:13-0400\n"
+"PO-Revision-Date: 2004-09-07 10:21-0400\n"
+"Last-Translator: Pierre Lachance <pl@pierrelachance.net> et Benoit St-André "
+"(ben@benoitst-andre.net)\n"
+"Language-Team: Français <i18n@lists.horde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9\n"
+
+#: templates/main/main.inc:34
+msgid ""
+"A vacation notice will automatically reply to any incoming mail you receive "
+"while you are away or unable to attend to your e-mail -- for example while "
+"on vacation or out of town on business."
+msgstr ""
+"Une information concernant votre absence ou votre indisponibilité à "
+"consulter votre boîte aux lettres sera automatiquement envoyée à "
+"l'expéditeur d'un message entrant, comme par exemple lorsque vous êtes en "
+"congé ou déplacement professionnel."
+
+#: templates/main/main.inc:64
+msgid "Alias address for this account (optional):"
+msgstr "Adresse de transfert pour ce compte de courriel (facultatif):"
+
+#: lib/Driver.php:172
+msgid "Can't parse your email address"
+msgstr "Ne peut pas analyser votre adresse de courriel"
+
+#: main.php:125 templates/main/main.inc:27
+msgid "Change Vacation Notices"
+msgstr "Modification des règles d'information d'absence"
+
+#: lib/Driver/ldap.php:185
+msgid "Check your password"
+msgstr "Vérifiez votre mot de passe"
+
+#: lib/Driver/forwards.php:92 lib/Driver/forwards.php:180
+#: lib/Driver/forwards.php:235 lib/Driver/qmail.php:96
+#: lib/Driver/qmail.php:184 lib/Driver/qmail.php:241
+msgid "Check your username and password."
+msgstr "Veuillez vérifier vos nom d'utilisateur et mot de passe."
+
+#: lib/Driver/ldap.php:80 lib/Driver/ldap.php:230 lib/Driver/ldap.php:298
+msgid "Could not bind to ldap server"
+msgstr "Ne peut se connecter au serveur LDAP"
+
+#: lib/Driver/ldap.php:66
+msgid "Could not connect to ldap server"
+msgstr "Échec de la connexion au serveur LDAP"
+
+#: lib/Block/summary.php:37
+msgid "Failed to create a vacation driver"
+msgstr "Impossible de créer un pilote d'absence"
+
+#: main.php:84
+#, php-format
+msgid "Failure in modifying vacation notice: %s"
+msgstr "Echec de la modification du message d'information d'absence: %s"
+
+#: main.php:94
+#, php-format
+msgid "Failure in removing vacation notice: %s"
+msgstr "Echec en suppression du message d'information d'absence: %s"
+
+#: templates/main/main.inc:75
+msgid ""
+"For your protection and safety, you must identify yourself with your login "
+"password to verify this change."
+msgstr ""
+"Pour votre protection et sécurité, vous devez vous identifier avec votre mot "
+"de passe afin de vérifier cette modification."
+
+#: templates/menu/menu.inc:18
+msgid "Help"
+msgstr "Aide"
+
+#: lib/Driver/ldap.php:231 lib/Driver/ldap.php:299
+msgid "Incorrect Password"
+msgstr "Mot de passe incorrect "
+
+#: templates/main/main.inc:35
+msgid ""
+"It could be used as a courtesy to let others know why you are not answering "
+"their e-mail to you."
+msgstr ""
+"Cela peut être utilisé comme une règle de politesse permettant d'informer "
+"vos relations pourquoi elles n'obtiennent aucune réponse de votre part."
+
+#: lib/Driver/forwards.php:187 lib/Driver/qmail.php:192
+msgid "Maybe you didn't have a vacation notice installed?"
+msgstr "Vous n'avez peut être pas de message d'absence d'installé?"
+
+#: templates/main/main.inc:57
+msgid "Message:"
+msgstr "Corps de l'article :"
+
+#: templates/menu/menu.inc:13
+msgid "Problem"
+msgstr "Problème"
+
+#: templates/main/main.inc:43
+msgid "Set/install vacation notice"
+msgstr "Mise en place/activation de règles d'information d'absence"
+
+#: templates/main/main.inc:50
+msgid "Subject:"
+msgstr "Objet :"
+
+#: templates/main/main.inc:82
+msgid "Submit"
+msgstr "Soumettre"
+
+#: lib/Driver/ldap.php:115 lib/Driver/qmail.php:53
+msgid "The module is not properly configured!"
+msgstr "Ce module n'est pas configuré correctement!"
+
+#: lib/Driver/forwards.php:51 lib/Driver/sql.php:50
+msgid "The vacation application is not properly configured."
+msgstr "Le module d'information d'absence n'est pas correctement configuré."
+
+#: templates/main/main.inc:76
+msgid "Then submit the form so that your vacation notice can be updated."
+msgstr ""
+"Puis soumettez le formulaire de manière à pouvoir mettre à jour vos règles "
+"d'information d'absence."
+
+#: templates/main/main.inc:36
+msgid ""
+"This form lets you install or remove a vacation notice for your e-mail "
+"account. You should edit the default message to meet your needs."
+msgstr ""
+"Ce formulaire vous permet d'installer ou supprimer une information d'absence "
+"concernant votre compte e-mail. Vous devriez modifier le message par défaut "
+"afin de l'adapter à votre situation. "
+
+#: lib/Driver/sql.php:249
+msgid "Unable to connect to SQL server."
+msgstr "Connexion impossible au serveur SQL."
+
+#: templates/main/main.inc:46
+msgid "Unset/remove vacation notice"
+msgstr "Suppression/désactivation de règles d'information d'absence"
+
+#: lib/Driver/ldap.php:147
+msgid "User not found."
+msgstr "Utilisateur non trouvé"
+
+#: lib/Block/summary.php:3
+msgid "Vacation Summary"
+msgstr "Sommaire du message d'absence"
+
+#: lib/Block/summary.php:41
+msgid "Vacation is active."
+msgstr "Le module d'absence est actif"
+
+#: lib/Block/summary.php:40
+msgid "Vacation is not active."
+msgstr "Absence n'est pas activé."
+
+#: main.php:82
+msgid "Vacation notice successfully enabled."
+msgstr "Le message d'absence fut activé avec succès."
+
+#: main.php:92
+msgid "Vacation notice successfully removed."
+msgstr "Le message d'absence a été supprimé avec succès."
+
+#: main.php:43
+#, php-format
+msgid "You can't change the vacation notice for %s."
+msgstr "Vous ne pouvez pas changer le message d'information d'absence pour %s"
+
+#: main.php:65
+msgid "You must give a vacation message."
+msgstr "Vous devez saisir un message d'information d'absence."
+
+#: main.php:50
+msgid "You must give your password"
+msgstr "Vous devez saisir motre mot de passe"
+
+#: templates/main/main.inc:14
+msgid "You must provide some message text to set a vacation notice"
+msgstr "Vous devez fournir un message pour activer le message d'absence"
+
+#: templates/main/main.inc:8
+msgid "You must provide your password"
+msgstr "Vous devez saisir votre mot de passe"
+
+#: main.php:37
+msgid "You must specify the mode (set or remove)"
+msgstr "Vous devez spécifier un mode (mise en place ou supprimer)"
+
+#: templates/main/main.inc:79
+msgid "Your password:"
+msgstr "Votre mot de passe:"
+
+#: main.php:70
+msgid "Your vacation message is not in the proper format."
+msgstr "Votre message d'absence n'est pas dans un format adéquat."
+
+#: main.php:111
+msgid "Your vacation notice is currently disabled."
+msgstr "Le message d'absence est désactivé."
+
+#: main.php:108
+msgid "Your vacation notice is currently enabled."
+msgstr "Le message d'absence est présentement activé."
+
+msgid "I'm on vacation and will not be reading my mail for a while."
+msgstr ""
+"Je suis absent présentement et je ne pourrai lire mes courriels pour un "
+"moment."
+
+msgid "Your mail will be dealt with when I return."
+msgstr "Votre courriel sera traité à mon retour."
+
+msgid "On vacation message"
+msgstr "Message d'absence"

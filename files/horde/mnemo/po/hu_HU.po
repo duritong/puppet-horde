@@ -1,0 +1,558 @@
+# Mnemo Hungarian translation file.
+# Copyright (C) 2002-2006 Laszlo L. Tornoci
+# This file is distributed under the same license as the Mnemo Horde package.
+# Latest versions: ftp://xenia.sote.hu/pub/linux/horde/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mnemo 2.1\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2006-02-17 10:00+0100\n"
+"PO-Revision-Date: 2006-02-17 12:15+0200\n"
+"Last-Translator: Laszlo L. Tornoci <torlasz@xenia.sote.hu>\n"
+"Language-Team: Hungarian <i18n@lists.horde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/list/header.inc:3
+#, php-format
+msgid "%d notes"
+msgstr "%d feljegyzés"
+
+#: templates/memo/memo.inc:26
+#, php-format
+msgid "%s characters"
+msgstr "%s karakter"
+
+#: data.php:187
+#, php-format
+msgid "%s file successfully imported"
+msgstr "A %s fájl importálása sikeresen megtörtént"
+
+#: notepads.php:99 lib/base.php:103
+#, php-format
+msgid "%s's Notepad"
+msgstr "%s feljegyzései"
+
+#: templates/list/header.inc:3
+msgid "1 note"
+msgstr "1 feljegyzés"
+
+#: memo.php:162
+msgid "Access denied deleting note."
+msgstr "Nincs jogosultsága a feljegyzés törléséhez."
+
+#: memo.php:112 memo.php:115
+msgid "Access denied moving the note."
+msgstr "Nincs jogosultsága a feljegyzés áthelyezéséhez."
+
+#: memo.php:84
+#, php-format
+msgid "Access denied saving note to %s."
+msgstr "Nincs jogosultsága a feljegyzés %s-be történõ mentéséhez."
+
+#: memo.php:82
+#, php-format
+msgid "Access denied saving note: %s"
+msgstr "Nincs jogosultsága a feljegyzés elmentéséhez: %s."
+
+#: templates/prefs/showsummaryselect.inc:103
+msgid "Add category"
+msgstr "Kategória hozzáadása"
+
+#: memo.php:52
+msgid "Adding A New Note"
+msgstr "Új feljegyzés készítése"
+
+#: config/prefs.php.dist:51
+msgid "Ascending"
+msgstr "növekvõ"
+
+#: templates/prefs/showsummaryselect.inc:99
+msgid "Available Categories:"
+msgstr "A rendelkezésre álló kategóriák:"
+
+#: templates/view/memo.inc:18
+msgid "Back to Notepad"
+msgstr "Vissza a feljegyzésekhez"
+
+#: templates/notepads/notepads.inc:97
+msgid "Back to Notepad Options"
+msgstr "Vissza a feljegyzések beállításaihoz"
+
+#: data.php:32 templates/data/import.inc:17
+msgid "CSV"
+msgstr "CSV"
+
+#: data.php:54 templates/view/memo.inc:26
+msgid "Category"
+msgstr "Kategória"
+
+#: templates/notepads/notepads.inc:22
+msgid "Change"
+msgstr "Változtatás"
+
+#: config/prefs.php.dist:15
+msgid "Change your note sorting and display options."
+msgstr "A sorrendre és megjelenítésre vonatkozó beállítások megváltoztatása."
+
+#: templates/prefs/showsummaryselect.inc:93
+msgid "Choose the memo categories to list in the summary view."
+msgstr ""
+"Válassza ki, mely kategóriájú feljegyzések jelenjenek meg az összefoglalóban."
+
+#: config/prefs.php.dist:22
+msgid "Choose your default Notepad."
+msgstr "Válassza ki az Ön alapértelmezés szerinti jegyzettömbjét."
+
+#: templates/search/search.inc:32
+msgid "Clear Form"
+msgstr "A mezõk törlése"
+
+#: templates/notepads/notepads.inc:17 templates/notepads/notepads.inc:94
+#: templates/notepads/notepads.inc:96
+msgid "Create"
+msgstr "Létrehozás"
+
+#: templates/view/memo.inc:32
+msgid "Created"
+msgstr "Létrehozva"
+
+#: config/prefs.php.dist:21
+msgid "Default Notepad"
+msgstr "Az Ön alapértelmezés szerinti jegyzettömbje"
+
+#: config/prefs.php.dist:42
+msgid "Default sorting criteria:"
+msgstr "A sorbarendezés alapértelmezés szerinti szempontja:"
+
+#: config/prefs.php.dist:53
+msgid "Default sorting direction:"
+msgstr "A sorbarendezés alapértelmezés szerinti iránya:"
+
+#: templates/notepads/notepads.inc:95 templates/view/memo.inc:15
+msgid "Delete"
+msgstr "Törlés"
+
+#: config/prefs.php.dist:28
+msgid "Delete Confirmation"
+msgstr "A törlés megerõsítése"
+
+#: config/prefs.php.dist:29
+msgid "Delete button behaviour"
+msgstr "A törlés gomb viselkedése"
+
+#: templates/memo/memo.inc:67
+msgid "Delete this note"
+msgstr "Töröljük ezt a feljegyzést"
+
+#: config/prefs.php.dist:52
+msgid "Descending"
+msgstr "csökkenõ"
+
+#: templates/notepads/notepads.inc:85
+msgid "Description:"
+msgstr "Leírás:"
+
+#: config/prefs.php.dist:14
+msgid "Display Options"
+msgstr "Megjelenítési beállítások"
+
+#: config/prefs.php.dist:98
+msgid "Do you want to confirm deleting entries?"
+msgstr "Az adatok törlését megelõzõen óhajt-e egy megerõsítõ kérdést?"
+
+#: templates/view/memo.inc:11
+msgid "Edit"
+msgstr "Módosítás"
+
+#: templates/list/memo_summaries.inc:5
+#, php-format
+msgid "Edit \"%s\""
+msgstr "\"%s\" módosítása"
+
+#: templates/list/memo_headers.inc:42 lib/Block/summary.php:77
+msgid "Edit Note"
+msgstr "A feljegyzés módosítása"
+
+#: templates/list/memo_headers.inc:52
+msgid "Edit categories and colors"
+msgstr "Kategóriák és színeik változtatása"
+
+#: templates/list/memo_summaries.inc:12
+msgid "Empty Note"
+msgstr "A feljegyzés üres"
+
+#: templates/data/export.inc:19
+msgid "Export"
+msgstr "Exportálás"
+
+#: templates/data/export.inc:8
+msgid "Export Notes"
+msgstr "Jegyzettömbök exportálása"
+
+#: templates/search/search.inc:21
+msgid "F_ull Text"
+msgstr "Teljes szöveg"
+
+#: config/prefs.php.dist:13 config/prefs.php.dist:20 config/prefs.php.dist:27
+msgid "General Options"
+msgstr "Általános beállítások"
+
+#: templates/data/import.inc:8
+#, php-format
+msgid "Import Notes, Step %d"
+msgstr "Feljegyzések importálása, %d. lépés"
+
+#: data.php:193
+msgid "Import/Export Notes"
+msgstr "Feljegyzések importálása/exportja"
+
+#: templates/view/memo.inc:39
+msgid "Last Modified"
+msgstr "Utolsó módosítás"
+
+#: lib/api.php:72
+msgid "Maximum Number of Notes"
+msgstr "A feljegyzések maximális száma"
+
+#: data.php:53
+msgid "Memo Text"
+msgstr "A feljegyzés szövege"
+
+#: memo.php:68
+#, php-format
+msgid "Modifying %s"
+msgstr "%s változtatása"
+
+#: list.php:35
+msgid "My Notes"
+msgstr "Jegyzettömbjeim"
+
+#: lib/Block/summary.php:22
+msgid "New Note"
+msgstr "Új feljegyzés"
+
+#: templates/data/import.inc:40
+msgid "Next"
+msgstr "Következõ"
+
+#: lib/api.php:206
+msgid "No iCalendar data was found."
+msgstr "Nem található iCalendar adat."
+
+#: templates/menu.inc:7
+msgid "No notepads are available to guests."
+msgstr "A vendég felhasználók részére nem áll rendelkezésre jegyzettömb."
+
+#: templates/list/header.inc:3
+msgid "No notes"
+msgstr "Nincs egy feljegyzés sem"
+
+#: templates/list/empty.inc:3
+msgid "No notes match the current criteria."
+msgstr "Nincs a feltételeknek megfelelõ feljegyzés."
+
+#: lib/Block/summary.php:103
+msgid "No notes to display"
+msgstr "Nincs megjeleníthetõ feljegyzés"
+
+#: templates/list/memo_headers.inc:44
+msgid "No_te"
+msgstr "Feljegyzés"
+
+#: config/prefs.php.dist:41
+msgid "Note Category"
+msgstr "A feljegyzés kategóriája"
+
+#: view.php:80 templates/view/memo.inc:21
+msgid "Note Details"
+msgstr "A feljegyzés részletesen"
+
+#: notepads.php:110
+msgid "Note Lists"
+msgstr "Feljegyzések listája"
+
+#: templates/view/memo.inc:45 config/prefs.php.dist:40
+msgid "Note Text"
+msgstr "A feljegyzés szövege"
+
+#: templates/memo/memo.inc:26
+msgid "Note _Text"
+msgstr "A feljegyzés szövege"
+
+#: view.php:57 memo.php:60
+msgid "Note not found."
+msgstr "A feljegyzés nem található."
+
+#: templates/memo/memo.inc:34
+msgid "Note_pad"
+msgstr "Jegyzettömb"
+
+#: templates/notepads/notepads.inc:79
+msgid "Notepad's name:"
+msgstr "A jegyzettömb neve:"
+
+#: templates/notepads/notepads.inc:61
+msgid "Notepads"
+msgstr "Jegyzettömbök"
+
+#: notepads.php:33
+msgid "Notepads must have a name."
+msgstr "A jegyzettömbnek nevet kell adni."
+
+#: lib/Block/summary.php:3
+msgid "Notes Summary"
+msgstr "Összefoglalás a jegyzetekrõl"
+
+#: lib/api.php:183 lib/api.php:279 lib/api.php:355 lib/api.php:384
+msgid "Permission Denied"
+msgstr "Önnek nincs ehhez elegendõ jogosultsága"
+
+#: templates/notepads/notepads.inc:82
+msgid "Permissions"
+msgstr "Jogosultságok"
+
+#: templates/view/memo.inc:15
+msgid "Really delete this note?"
+msgstr "Valóban törölni kívánja ezt a feljegyzést?"
+
+#: templates/list/header.inc:5 templates/list/header.inc:6
+msgid "Refresh List"
+msgstr "A lista frissítése"
+
+#: templates/prefs/showsummaryselect.inc:105
+msgid "Remove category"
+msgstr "A kategória törlése"
+
+#: templates/notepads/notepads.inc:96
+msgid "Reset"
+msgstr "Reset"
+
+#: templates/memo/memo.inc:56
+msgid "Save"
+msgstr "Mentés"
+
+#: search.php:17 templates/search/search.inc:4 templates/search/search.inc:31
+msgid "Search"
+msgstr "Keresés"
+
+#: list.php:57
+msgid "Search Results"
+msgstr "A keresés eredménye"
+
+#: templates/search/search.inc:17
+msgid "Search Scope"
+msgstr "A keresés határai"
+
+#: templates/search/search.inc:9
+msgid "Search _Text"
+msgstr "Keresés a szövegben"
+
+#: templates/notepads/notepads.inc:67
+msgid "Select a notepad"
+msgstr "Válasszon ki egy jegyzettömböt"
+
+#: templates/menu.inc:16
+msgid "Select notepads to display:"
+msgstr "Válassza ki a megjelenítendõ jegyzettömböket:"
+
+#: templates/data/export.inc:15
+msgid "Select the export format:"
+msgstr "Válassza ki az exportálás formátumát:"
+
+#: templates/data/import.inc:37
+msgid "Select the file to import:"
+msgstr "Válassza ki az importálandó fájlt:"
+
+#: templates/data/import.inc:15
+msgid "Select the format of the source file:"
+msgstr "Válassza ki, hogy milyen formátumú fájlból kíván importálni:"
+
+#: templates/prefs/showsummaryselect.inc:109
+msgid "Selected Categories:"
+msgstr "A kiválasztott kategóriák:"
+
+#: lib/Block/summary.php:37
+msgid "Show action buttons?"
+msgstr "Legyenek funkcióval ellátott ikonok? "
+
+#: lib/Block/summary.php:40
+msgid "Show notepad name?"
+msgstr "Mutassuk a jegyzettömb nevét?"
+
+#: lib/Block/summary.php:43
+msgid "Show notes from these categories"
+msgstr "A következõ kategóriájú feljegyzéseket jelenítsük meg"
+
+#: templates/list/memo_headers.inc:48
+msgid "Sort by Category"
+msgstr "Kategória szerinti sorrend"
+
+#: templates/list/memo_headers.inc:44
+msgid "Sort by Note Text"
+msgstr "Elnevezés szerinti sorrend"
+
+#: memo.php:135
+#, php-format
+msgid "Successfully saved \"%s\"."
+msgstr "Sikeresen elmentettük \"%s\"-t."
+
+#: memo.php:159
+msgid "The note was deleted."
+msgstr "Az feljegyzést kitöröltük."
+
+#: notepads.php:46
+#, php-format
+msgid "The notepad \"%s\" couldn't be created: %s"
+msgstr "A(z) \"%s\" jegyzettömböt nem sikerült létrehozni: %s"
+
+#: notepads.php:48
+#, php-format
+msgid "The notepad \"%s\" has been created."
+msgstr "Létrehoztuk a(z) \"%s\" jegyzettömböt."
+
+#: notepads.php:85
+#, php-format
+msgid "The notepad \"%s\" has been deleted."
+msgstr "A(z) \"%s\" jegyzettömböt kitöröltük."
+
+#: notepads.php:56
+#, php-format
+msgid "The notepad \"%s\" has been saved."
+msgstr "A(z) \"%s\" jegyzettömböt elmentettük."
+
+#: data.php:184
+#, php-format
+msgid "There was an error importing the data: %s"
+msgstr "Az importálás során hiba történt: %s"
+
+#: lib/api.php:200
+msgid "There was an error importing the iCalendar data."
+msgstr "Az iCalendar adatok importálása során hiba történt."
+
+#: lib/api.php:403
+msgid "There was an error importing the vNote data."
+msgstr "A vNote adatok importálása során hiba történt."
+
+#: memo.php:157
+#, php-format
+msgid "There was an error removing the note: %s"
+msgstr "Hiba történt a feljegyzés törlése során: %s"
+
+#: memo.php:133
+#, php-format
+msgid "There was an error saving the note: %s"
+msgstr "Hiba történt a feljegyzés elmentése során: %s"
+
+#: view.php:46
+#, php-format
+msgid "There was an error viewing this notepad: %s"
+msgstr "Hiba történt a feljegyzés megjelenítésekor: %s"
+
+#: data.php:79
+msgid "There were no memos to export."
+msgstr "Nem volt exportálható feljegyzés."
+
+#: data.php:105
+msgid "This file format is not supported."
+msgstr "Ismeretlen fájlformátum."
+
+#: notepads.php:80
+#, php-format
+msgid "Unable to delete \"%s\": %s"
+msgstr "Nem sikerült \"%s\"-t törölni: %s"
+
+#: templates/memo/memo.inc:58
+msgid "Undo changes"
+msgstr "Mégse mentsük el"
+
+#: templates/view/memo.inc:27 templates/list/memo_summaries.inc:14
+#: lib/Mnemo.php:206 lib/Mnemo.php:207 lib/Mnemo.php:221 lib/Mnemo.php:222
+#: lib/Block/summary.php:98
+msgid "Unfiled"
+msgstr "Besorolatlan"
+
+#: lib/api.php:236 lib/api.php:319 lib/api.php:411
+#, php-format
+msgid "Unsupported Content-Type: %s"
+msgstr "Nem támogatott tartalomtípus: %s"
+
+#: templates/data/import.inc:22
+msgid "Which Notepad should the notes be added to?"
+msgstr "Melyik jegyzettömbbe kívánja a feljegyzéseket tenni?"
+
+#: data.php:42 data.php:125 memo.php:35
+#, php-format
+msgid "You are not allowed to create more than %d notes."
+msgstr "Nem hozhat létre több, mint %d feljegyzést."
+
+#: view.php:50
+#, php-format
+msgid "You do not have permission to view the notepad %s."
+msgstr "Ön nem jogosult a(z) %s jegyzettömb használatára."
+
+#: notepads.php:65
+msgid "You must select a notepad to be deleted."
+msgstr "Elõször ki kell választania a törlendõ jegyzettömböt."
+
+#: templates/prefs/notepadselect.inc:10
+msgid "Your default notepad:"
+msgstr "Az Ön alapértelmezés szerinti jegyzettömbje:"
+
+#: templates/notepads/notepads.inc:65
+msgid "Your notepads:"
+msgstr "Az Ön jegyzettömbjei:"
+
+#: templates/view/memo.inc:18
+msgid "_Back to Notepad"
+msgstr "Vissza a Feljegyzésekhez"
+
+#: templates/memo/memo.inc:51 templates/list/memo_headers.inc:48
+msgid "_Category"
+msgstr "Kategória"
+
+#: templates/view/memo.inc:15
+msgid "_Delete"
+msgstr "Törlés"
+
+#: templates/view/memo.inc:11
+msgid "_Edit"
+msgstr "Módosítás"
+
+#: templates/search/search.inc:20
+msgid "_First Line"
+msgstr "Elsõ sor"
+
+#: lib/Mnemo.php:281
+msgid "_Import/Export"
+msgstr "Import/_Export"
+
+#: lib/Mnemo.php:264
+msgid "_List Notes"
+msgstr "_Lista"
+
+#: lib/Mnemo.php:276
+msgid "_My Notepads"
+msgstr "Jegyzettömbjei_m"
+
+#: lib/Mnemo.php:269
+msgid "_New Note"
+msgstr "Ú_j feljegyzés"
+
+#: lib/Mnemo.php:286
+msgid "_Print"
+msgstr "_Nyomtatás"
+
+#: lib/Mnemo.php:272
+msgid "_Search"
+msgstr "Kere_sés"
+
+#: data.php:91 templates/data/export.inc:1
+msgid "notes.csv"
+msgstr ""
+
+#: data.php:33 templates/data/import.inc:18
+msgid "vNote"
+msgstr ""

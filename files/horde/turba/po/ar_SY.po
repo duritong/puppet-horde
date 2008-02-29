@@ -1,0 +1,1385 @@
+# Turba Arabic Translation.
+# This file is distributed under the same license as the Turba package.
+# Copyright (C) 2003 Platinum Inc. <pl@tinum.info>
+# Custom Web Applications <http://platinum-sy.com>
+# Platinum Development Team <devteam@platinum-sy.net>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Turba \n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2005-10-18 15:12+0200\n"
+"PO-Revision-Date: 2003-04-30 12:00+0200\n"
+"Last-Translator:  Platinum Development Team <devteam@platinum-sy.com>\n"
+"Language-Team: Arabic <i18n@lists.horde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CP1256\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: templates/prefs/imsp_opt.inc:42
+#, fuzzy
+msgid " Add an IMSP Address Book"
+msgstr "œ› — «·⁄‰«ÊÌ‰ «·’‰Ê»—Ì"
+
+#: templates/prefs/imsp_opt.inc:31
+#, fuzzy
+msgid " Delete IMSP Address Book"
+msgstr "«Œ — œ› — ⁄‰«ÊÌ‰"
+
+#: data.php:325
+#, php-format
+msgid "\"%s\" already exists and was not imported."
+msgstr ""
+
+#: browse.php:126
+#, php-format
+msgid "\"%s\" was not copied because it is a list."
+msgstr ""
+
+#: browse.php:124
+#, php-format
+msgid "\"%s\" was not moved because it is a list."
+msgstr ""
+
+#: config/prefs.php.dist:137
+msgid "\"Firstname Lastname\"  (ie. John Doe)"
+msgstr "\"«·«”„ ° «··ﬁ»\"  („À«·: „Õ„œ «·⁄—»Ì)"
+
+#: config/prefs.php.dist:136
+msgid "\"Lastname, Firstname\" (ie. Doe, John)"
+msgstr "\"«··ﬁ» ° «·«”„\"  („À«·: «·⁄—»Ì „Õ„œ)"
+
+#: add.php:109
+#, php-format
+msgid "%s added."
+msgstr ""
+
+#: data.php:343
+#, php-format
+msgid "%s file successfully imported"
+msgstr " „ «” Ì—«œ «·„·› %s »‰Ã«Õ"
+
+#: templates/browse/footer.inc:5
+#, php-format
+msgid "%s to %s of %s"
+msgstr ""
+
+#: lib/Turba.php:446
+#, fuzzy, php-format
+msgid "%s's Address Book"
+msgstr "œ› — «·⁄‰«ÊÌ‰ «·’‰Ê»—Ì"
+
+#: lib/Block/minisearch.php:45
+msgid "A browser that supports iFrames is required"
+msgstr ""
+
+#: config/prefs.php.dist:159
+msgid "Above search form"
+msgstr ""
+
+#: view.php:52
+#, php-format
+msgid "Access denied to %s"
+msgstr ""
+
+#: add.php:56 templates/browse/actions.inc:22
+msgid "Add"
+msgstr "≈÷«›…"
+
+#: templates/prefs/addressbookselect.inc:174
+#, fuzzy
+msgid "Add address book"
+msgstr "œ› — ⁄‰«ÊÌ‰ €Ì— ’ÕÌÕ"
+
+#: config/prefs.php.dist:48
+#, fuzzy
+msgid "Add and Delete IMSP address books"
+msgstr "·«ÌÊÃœ œ› — ⁄‰«ÊÌ‰ ﬁ«»· ··ﬂ «»…."
+
+#: templates/prefs/columnselect.inc:237
+#, fuzzy
+msgid "Add column"
+msgstr "≈÷«›… ⁄„Êœ"
+
+#: edit.php:128
+#, fuzzy
+msgid "Add file"
+msgstr "Œÿ√ Œ·«· «·≈÷«›…"
+
+#: templates/browse/actions.inc:22
+msgid "Add to"
+msgstr "≈÷«›… ≈·Ï"
+
+#: templates/addressbooks.inc:86
+#, fuzzy
+msgid "Address Book"
+msgstr "œ› — «·⁄‰«ÊÌ‰ «·’‰Ê»—Ì"
+
+#: browse.php:28 config/prefs.php.dist:125
+msgid "Address Book Listing"
+msgstr "ﬁ«∆„… œ› — «·⁄‰«ÊÌ‰"
+
+#: config/prefs.php.dist:10
+#, fuzzy
+msgid "Address Books"
+msgstr "Œ—ÊÃ „‰ œ› — «·⁄‰«ÊÌ‰"
+
+#: add.php:108
+#, fuzzy
+msgid "Address book entry"
+msgstr "œ› — «·⁄‰«ÊÌ‰ ··ﬁ—«¡… ›ﬁÿ"
+
+#: data.php:305
+#, fuzzy
+msgid "Address book successfully purged."
+msgstr " „ «” Ì—«œ œ› — «·⁄‰«ÊÌ‰ «·’‰Ê»—Ì »‰Ã«Õ"
+
+#: templates/addressbooks.inc:62
+#, fuzzy
+msgid "Address book to delete "
+msgstr "œ› — «·⁄‰«ÊÌ‰ ··ﬁ—«¡… ›ﬁÿ"
+
+#: templates/prefs/addressbookselect.inc:170
+msgid "Address books that will not be displayed:"
+msgstr ""
+
+#: search.php:88 templates/browse/search.inc:37
+msgid "Advanced Search"
+msgstr "»ÕÀ „ ﬁœ„"
+
+#: config/attributes.php.dist:64
+msgid "Alias"
+msgstr "«”„ »œÌ·"
+
+#: templates/browse/footerAlpha.inc:7 templates/browse/footerAlpha.inc:10
+#: templates/browse/actions.inc:41
+msgid "All"
+msgstr "«·Ã„Ì⁄"
+
+#: lib/api.php:552
+msgid "Already Exists"
+msgstr ""
+
+#: templates/browse/javascript.inc:93
+#, php-format
+msgid "Are you sure that you want to delete %s?"
+msgstr ""
+
+#: templates/browse/javascript.inc:67
+msgid "Are you sure that you want to delete the selected entries?"
+msgstr ""
+
+#: config/prefs.php.dist:96
+msgid "Ascending"
+msgstr " ’«⁄œÌ"
+
+#: search.php:85 templates/browse/search.inc:36
+#, fuzzy
+msgid "Basic Search"
+msgstr "»ÕÀ"
+
+#: config/prefs.php.dist:158
+msgid "Below search form"
+msgstr ""
+
+#: lib/Driver/ldap.php:77 lib/Driver/ldap.php:80
+#, php-format
+msgid "Bind failed: (%s) %s"
+msgstr ""
+
+#: config/attributes.php.dist:178
+msgid "Birthday"
+msgstr ""
+
+#: templates/menu.inc:7
+msgid "Browse"
+msgstr " ’›Õ"
+
+#: config/attributes.php.dist:173
+msgid "Business Category"
+msgstr ""
+
+#: data.php:49
+msgid "CSV"
+msgstr ""
+
+#: lib/Object/Group.php:57
+msgid "Can't add a group to itself."
+msgstr ""
+
+#: templates/browse/column_headers.inc:7
+msgid "Check _All/None"
+msgstr ""
+
+#: templates/addressbooks.inc:44
+msgid "Choose a name"
+msgstr ""
+
+#: add.php:48
+#, fuzzy
+msgid "Choose an address book"
+msgstr "œ› — ⁄‰«ÊÌ‰ €Ì— ’ÕÌÕ"
+
+#: templates/prefs/columnselect.inc:221
+#, fuzzy
+msgid "Choose an address book:"
+msgstr "œ› — ⁄‰«ÊÌ‰ €Ì— ’ÕÌÕ"
+
+#: templates/prefs/addressbookselect.inc:165
+msgid "Choose which address books to display, and in what order:"
+msgstr ""
+
+#: config/prefs.php.dist:11
+msgid "Choose which address books to use."
+msgstr ""
+
+#: templates/prefs/columnselect.inc:228
+#, fuzzy
+msgid "Choose which columns to display and in what order:"
+msgstr "«Œ —  Ê÷⁄ «·√⁄„œ… ·≈ŸÂ«—Â« ›Ì ﬁ«∆„… «·⁄‰«ÊÌ‰"
+
+#: config/prefs.php.dist:17
+msgid "Column Options"
+msgstr "ŒÌ«—«  «·√⁄„œ…"
+
+#: templates/prefs/columnselect.inc:233
+msgid "Columns that will not be displayed:"
+msgstr ""
+
+#: templates/data/import.inc:13 templates/data/export.inc:12
+msgid "Comma separated values"
+msgstr "ﬁÌ„ „›’Ê·… »›«—“…"
+
+#: templates/data/export.inc:13
+#, fuzzy
+msgid "Comma separated values (Microsoft Outlook)"
+msgstr "ﬁÌ„ „›’Ê·… »›«—“…"
+
+#: config/attributes.php.dist:76
+msgid "Company"
+msgstr "«·‘—ﬂ…"
+
+#: config/attributes.php.dist:144
+#, fuzzy
+msgid "Company Address"
+msgstr "⁄‰Ê«‰ «·„‰“·"
+
+#: lib/api.php:318 lib/api.php:363 lib/api.php:407 lib/api.php:491
+#: lib/api.php:601 lib/api.php:688 lib/api.php:741 lib/api.php:819
+#: lib/api.php:1006 lib/api.php:1094
+#, fuzzy, php-format
+msgid "Connection failed: %s"
+msgstr "Œÿ√ Œ·«· «·Õ–›"
+
+#: lib/Driver/ldap.php:58
+#, fuzzy
+msgid "Connection failure"
+msgstr "Œÿ√ Œ·«· «·Õ–›"
+
+#: browse.php:191 browse.php:232
+#, fuzzy
+msgid "Contact added to list."
+msgstr "« ’«· „Õ–Ê› „‰ «·ﬁ«∆„…."
+
+#: browse.php:60
+msgid "Contact removed from list."
+msgstr "« ’«· „Õ–Ê› „‰ «·ﬁ«∆„…."
+
+#: browse.php:266
+#, fuzzy, php-format
+msgid "Contacts in list: %s"
+msgstr "⁄œœ «·⁄‰«ÊÌ‰ ›Ì «·ﬁ«∆„…: %s"
+
+#: templates/browse/actions.inc:12
+#, fuzzy
+msgid "Copy"
+msgstr "«·‘—ﬂ…"
+
+#: templates/addressbooks.inc:53
+msgid "Create"
+msgstr ""
+
+#: templates/addressbooks.inc:40
+#, fuzzy
+msgid "Create Address Book"
+msgstr " ’œÌ— œ› — «·⁄‰«ÊÌ‰"
+
+#: lib/ListView.php:315
+msgid "Create a new Contact List in:"
+msgstr ""
+
+#: lib/ObjectView.php:133
+msgid "Created"
+msgstr ""
+
+#: config/prefs.php.dist:98
+msgid "Default sorting direction:"
+msgstr "« Ã«Â «·›—“ «·«› —«÷Ì:"
+
+#: templates/addressbooks.inc:76 templates/browse/actions.inc:2
+#: lib/Object.php:328 lib/Renderer.php:47 lib/Renderer.php:50
+msgid "Delete"
+msgstr "Õ–›"
+
+#: templates/addressbooks.inc:58
+#, fuzzy
+msgid "Delete Address Book"
+msgstr "«Œ — œ› — ⁄‰«ÊÌ‰"
+
+#: config/prefs.php.dist:38
+msgid "Delete Confirmation"
+msgstr ""
+
+#: config/prefs.php.dist:39
+msgid "Delete button behaviour"
+msgstr ""
+
+#: lib/Driver/ldap.php:270
+#, fuzzy, php-format
+msgid "Delete failed: (%s) %s"
+msgstr "Œÿ√ Œ·«· «·Õ–›"
+
+#: delete.php:38
+msgid "Deletion failed"
+msgstr "Œÿ√ Œ·«· «·Õ–›"
+
+#: config/attributes.php.dist:213
+msgid "Department"
+msgstr ""
+
+#: config/prefs.php.dist:97
+msgid "Descending"
+msgstr " ‰«“·Ì"
+
+#: templates/addressbooks.inc:115
+#, fuzzy
+msgid "Description"
+msgstr "ŒÌ«—«  «·„” Œœ„"
+
+#: templates/browse/search.inc:118
+msgid "Directory"
+msgstr "„Ã·œ"
+
+#: config/prefs.php.dist:24
+#, fuzzy
+msgid "Display"
+msgstr "ŒÌ«—«  «·≈ŸÂ«—"
+
+#: config/prefs.php.dist:9 config/prefs.php.dist:16 config/prefs.php.dist:23
+#: config/prefs.php.dist:30
+msgid "Display Options"
+msgstr "ŒÌ«—«  «·≈ŸÂ«—"
+
+#: config/prefs.php.dist:176
+msgid "Do you want to confirm deleting entries?"
+msgstr ""
+
+#: lib/Object.php:297
+msgid "Download"
+msgstr ""
+
+#: templates/browse/row.inc:17 templates/browse/contactrow.inc:25
+msgid "Download vCard"
+msgstr ""
+
+#: templates/addressbooks.inc:102 templates/browse/row.inc:25
+#: templates/browse/column_headers.inc:10 templates/browse/actions.inc:3
+#: templates/browse/contactrow.inc:33 lib/Renderer.php:42
+msgid "Edit"
+msgstr " Õ—Ì—"
+
+#: templates/browse/row.inc:25 templates/browse/contactrow.inc:33
+#, fuzzy, php-format
+msgid "Edit \"%s\""
+msgstr " Õ—Ì— ´†%s†ª"
+
+#: templates/addressbooks.inc:81
+#, fuzzy
+msgid "Edit Address Books"
+msgstr "Œ—ÊÃ „‰ œ› — «·⁄‰«ÊÌ‰"
+
+#: edit.php:78 edit.php:154
+#, fuzzy, php-format
+msgid "Edit entry for %s"
+msgstr "·«  ÊÃœ »Ì«‰«  %s „‰ √Ã· %s"
+
+#: config/attributes.php.dist:58
+msgid "Email"
+msgstr "»—Ìœ ≈·ﬂ —Ê‰Ì"
+
+#: edit.php:147
+#, php-format
+msgid "Entry for %s updated, but saving the uploaded file failed: %s"
+msgstr ""
+
+#: edit.php:149 edit.php:152
+#, php-format
+msgid "Entry for %s updated."
+msgstr ""
+
+#: browse.php:74
+#, fuzzy
+msgid "Entry successfully deleted."
+msgstr " „ «” Ì—«œ «·„·› %s »‰Ã«Õ"
+
+#: lib/api.php:413
+#, fuzzy, php-format
+msgid "Error searching the address book: %s"
+msgstr "·«ÌÊÃœ œ› — ⁄‰«ÊÌ‰ ﬁ«»· ··ﬂ «»…."
+
+#: templates/browse/actions.inc:6 templates/data/export.inc:41
+msgid "Export"
+msgstr " ’œÌ—"
+
+#: templates/data/export.inc:6
+msgid "Export Address Book"
+msgstr " ’œÌ— œ› — «·⁄‰«ÊÌ‰"
+
+#: templates/data/export.inc:21
+msgid "Export only the selected contacts."
+msgstr ""
+
+#: templates/data/export.inc:27
+msgid "Export the following address book completely."
+msgstr ""
+
+#: data.php:134 data.php:228 data.php:297 browse.php:35 browse.php:90
+#: browse.php:112 add.php:67 search.php:37
+#, fuzzy, php-format
+msgid "Failed to access the address book: %s"
+msgstr "Œÿ√ ›Ì › Õ œ› — «·⁄‰«ÊÌ‰ «·„ÿ·Ê»."
+
+#: browse.php:139
+#, fuzzy, php-format
+msgid "Failed to add %s to %s: %s"
+msgstr "Œÿ√ Œ·«· «·»ÕÀ ›Ì «·„Ã·œ: %s"
+
+#: browse.php:272
+msgid "Failed to browse list"
+msgstr "Œÿ√ ›Ì  ’›Õ «·ﬁ«∆„…"
+
+#: browse.php:310
+msgid "Failed to browse the directory"
+msgstr "Œÿ√ ›Ì  ’›Õ «·„Ã·œ"
+
+#: lib/Driver/ldap.php:309
+#, php-format
+msgid "Failed to change name: (%s) %s; Old DN = %s, New DN = %s, Root = %s"
+msgstr ""
+
+#: browse.php:120
+#, fuzzy, php-format
+msgid "Failed to find object to be added: %s"
+msgstr "Œÿ√ Œ·«· «·»ÕÀ ›Ì «·„Ã·œ: %s"
+
+#: search.php:79
+#, fuzzy
+msgid "Failed to search the address book"
+msgstr "Œÿ√ ›Ì › Õ œ› — «·⁄‰«ÊÌ‰ «·„ÿ·Ê»."
+
+#: data.php:149
+#, php-format
+msgid "Failed to search the directory: %s"
+msgstr "Œÿ√ Œ·«· «·»ÕÀ ›Ì «·„Ã·œ: %s"
+
+#: config/attributes.php.dist:167
+msgid "Fax"
+msgstr "›«ﬂ”"
+
+#: edit.php:124 display.php:100
+#, fuzzy
+msgid "Files"
+msgstr "«··ﬁ»"
+
+#: templates/browse/search.inc:70
+msgid "Find"
+msgstr "√ÊÃœ"
+
+#: edit.php:97 edit.php:187
+#, fuzzy
+msgid "Finish"
+msgstr "√ÊÃœ"
+
+#: config/attributes.php.dist:48
+msgid "First Name"
+msgstr ""
+
+#: config/attributes.php.dist:202
+msgid "Freebusy URL"
+msgstr ""
+
+#: templates/browse/search.inc:83
+msgid "From"
+msgstr "„‰"
+
+#: config/sources.php.dist:604
+#, fuzzy
+msgid "Global Address Book"
+msgstr "œ› — ⁄‰«ÊÌ‰ «· Ê Ì"
+
+#: templates/browse/row.inc:43 templates/browse/contactrow.inc:44
+msgid "Group"
+msgstr "„Ã„Ê⁄…"
+
+#: config/attributes.php.dist:82
+msgid "Home Address"
+msgstr "⁄‰Ê«‰ «·„‰“·"
+
+#: config/attributes.php.dist:93
+msgid "Home City"
+msgstr ""
+
+#: config/attributes.php.dist:108
+#, fuzzy
+msgid "Home Country"
+msgstr "Â« › «·„‰“·"
+
+#: config/attributes.php.dist:150
+msgid "Home Phone"
+msgstr "Â« › «·„‰“·"
+
+#: config/attributes.php.dist:103
+#, fuzzy
+msgid "Home Postal Code"
+msgstr "Â« › «·„‰“·"
+
+#: config/attributes.php.dist:98
+#, fuzzy
+msgid "Home State/Province"
+msgstr "Â« › «·„‰“·"
+
+#: config/attributes.php.dist:88
+#, fuzzy
+msgid "Home Street Address"
+msgstr "⁄‰Ê«‰ «·„‰“·"
+
+#: config/sources.php.dist:506
+msgid "IMSP"
+msgstr ""
+
+#: config/prefs.php.dist:47
+#, fuzzy
+msgid "IMSP Address Book Administration"
+msgstr "ﬁ«∆„… œ› — «·⁄‰«ÊÌ‰"
+
+#: templates/data/import.inc:7
+#, fuzzy, php-format
+msgid "Import Address Book, Step %d"
+msgstr "«” Ì—«œ œ› — ⁄‰«ÊÌ‰"
+
+#: data.php:361
+#, fuzzy
+msgid "Import/Export Address Books"
+msgstr "«” Ì—«œ/ ’œÌ— œ›« — ⁄‰«ÊÌ‰"
+
+#: lib/api.php:596 lib/api.php:683
+#, fuzzy
+msgid "Invalid ID"
+msgstr "Œÿ√ ›Ì «·«”„"
+
+#: lib/api.php:230 lib/api.php:402 lib/api.php:486 lib/api.php:592
+#: lib/api.php:679 lib/api.php:731 lib/api.php:1077
+#, fuzzy
+msgid "Invalid address book"
+msgstr "œ› — ⁄‰«ÊÌ‰ €Ì— ’ÕÌÕ"
+
+#: lib/api.php:1081 lib/api.php:1154 lib/api.php:1207
+#, fuzzy
+msgid "Invalid email"
+msgstr "»—Ìœ ≈·ﬂ —Ê‰Ì €Ì— ’ÕÌÕ"
+
+#: lib/api.php:1089
+#, fuzzy
+msgid "Invalid entry"
+msgstr "Œÿ√ ›Ì ﬁÌ„ «·≈œŒ«·"
+
+#: lib/Driver/ldap.php:266
+#, fuzzy
+msgid "Invalid key specified."
+msgstr "»—Ìœ ≈·ﬂ —Ê‰Ì €Ì— ’ÕÌÕ"
+
+#: lib/api.php:1085
+#, fuzzy
+msgid "Invalid name"
+msgstr "Œÿ√ ›Ì «·«”„"
+
+#: lib/api.php:735
+#, fuzzy
+msgid "Invalid objectId"
+msgstr "Œÿ√ ›Ì ﬁÌ„ «·≈œŒ«·"
+
+#: lib/Driver/ldap.php:30
+msgid ""
+"LDAP support is required but the LDAP module is not available or not loaded."
+msgstr ""
+
+#: lib/ObjectView.php:138
+msgid "Last Modified"
+msgstr ""
+
+#: config/attributes.php.dist:53
+#, fuzzy
+msgid "Last Name"
+msgstr "«”„"
+
+#: templates/browse/column_headers.inc:16
+#, fuzzy
+msgid "List"
+msgstr "ﬁ«∆„… ÃœÌœ…"
+
+#: templates/browse/search.inc:77
+msgid "Matching"
+msgstr "„ÿ«»ﬁ… ’ÕÌÕ…"
+
+#: lib/api.php:205
+msgid "Maximum Number of Contacts"
+msgstr ""
+
+#: config/prefs.php.dist:107
+msgid "Maximum number of pages"
+msgstr ""
+
+#: lib/Block/tree_menu.php:3
+#, fuzzy
+msgid "Menu List"
+msgstr "ﬁ«∆„… ÃœÌœ…"
+
+#: lib/Block/minisearch.php:3
+#, fuzzy
+msgid "Mini Search"
+msgstr "»ÕÀ"
+
+#: lib/Driver/ldap.php:302
+msgid "Missing DN in LDAP source configuration."
+msgstr ""
+
+#: config/attributes.php.dist:162
+msgid "Mobile Phone"
+msgstr "«·Â« › «·„Õ„Ê·"
+
+#: lib/Driver/ldap.php:332 lib/Driver/ldap.php:348
+#, php-format
+msgid "Modify failed: (%s) %s"
+msgstr ""
+
+#: lib/api.php:1193
+#, fuzzy
+msgid "More than 1 entry found"
+msgstr " „ ≈—Ã«⁄ √ﬂÀ— „‰ ﬁÌ„…"
+
+#: templates/browse/actions.inc:11
+msgid "Move"
+msgstr ""
+
+#: templates/prefs/columnselect.inc:247
+#: templates/prefs/addressbookselect.inc:184
+#, fuzzy
+msgid "Move left"
+msgstr " Õ—Ìﬂ ‰ÕÊ «·Ì”«—"
+
+#: templates/prefs/columnselect.inc:249
+#: templates/prefs/addressbookselect.inc:186
+#, fuzzy
+msgid "Move right"
+msgstr " Õ—Ìﬂ ‰ÕÊ «·Ì„Ì‰"
+
+#: data.php:52 templates/data/import.inc:16
+msgid "Mulberry Address Book"
+msgstr "œ› — ⁄‰«ÊÌ‰ «· Ê Ì"
+
+#: lib/api.php:1113
+#, php-format
+msgid ""
+"Multiple persons with address [%s], but none with name [%s] already exist"
+msgstr ""
+
+#: config/sources.php.dist:107 config/sources.php.dist:243
+#, fuzzy
+msgid "My Address Book"
+msgstr "œ› — ⁄‰«ÊÌ‰ «· Ê Ì"
+
+#: addressbooks.php:120
+#, fuzzy
+msgid "My Address Books"
+msgstr "œ› — ⁄‰«ÊÌ‰ «· Ê Ì"
+
+#: templates/addressbooks.inc:107 config/attributes.php.dist:42
+msgid "Name"
+msgstr "«”„"
+
+#: config/prefs.php.dist:31
+msgid "Name Format"
+msgstr " ‰”Ìﬁ «·«”„"
+
+#: config/sources.php.dist:315
+msgid "Netcenter Member Directory"
+msgstr ""
+
+#: add.php:36 add.php:124 lib/Block/minisearch.php:27
+#: lib/Block/tree_menu.php:27
+#, fuzzy
+msgid "New Contact"
+msgstr "≈ŸÂ«— «·« ’«·« "
+
+#: edit.php:88 edit.php:95 edit.php:202 templates/data/import.inc:45
+msgid "Next"
+msgstr ""
+
+#: config/attributes.php.dist:218
+#, fuzzy
+msgid "Nickname"
+msgstr "«”„"
+
+#: lib/api.php:1195 lib/api.php:1244
+#, fuzzy, php-format
+msgid "No %s entry found for %s"
+msgstr "·«  ÊÃœ »Ì«‰«  %s „‰ √Ã· %s"
+
+#: lib/api.php:1163
+#, fuzzy
+msgid "No address books found."
+msgstr "œ› — «·⁄‰«ÊÌ‰ ··ﬁ—«¡… ›ﬁÿ"
+
+#: minisearch.php:83
+#, fuzzy
+msgid "No contacts found"
+msgstr "≈ŸÂ«— «·« ’«·« "
+
+#: lib/api.php:511 lib/api.php:766
+msgid "No vCard data was found."
+msgstr ""
+
+#: templates/browse/footer.inc:7
+msgid "None"
+msgstr "·«ÌÊÃœ"
+
+#: config/attributes.php.dist:184
+msgid "Notes"
+msgstr "„·«ÕŸ« "
+
+#: config/prefs.php.dist:115
+msgid "Number of items per page"
+msgstr ""
+
+#: lib/api.php:614 lib/api.php:747
+msgid "Object not found"
+msgstr ""
+
+#: config/attributes.php.dist:223
+msgid "Office"
+msgstr ""
+
+#: templates/prefs/imsp_opt.inc:23
+msgid ""
+"Once you save this option page, the address book will be permanently "
+"deleted. If this is not what you want, then you must change your selection "
+"to \"None\"."
+msgstr ""
+
+#: lib/api.php:774
+msgid "Only one vcard supported."
+msgstr ""
+
+#: config/prefs.php.dist:37 config/prefs.php.dist:46
+#, fuzzy
+msgid "Other Options"
+msgstr "ŒÌ«—«  «·„” Œœ„"
+
+#: config/attributes.php.dist:190
+msgid "PGP Public Key"
+msgstr ""
+
+#: lib/api.php:495 lib/api.php:605 lib/api.php:692 lib/api.php:934
+#: lib/api.php:1098
+msgid "Permission Denied"
+msgstr ""
+
+#: lib/Driver.php:543
+msgid "Permission denied"
+msgstr ""
+
+#: templates/addressbooks.inc:99
+msgid "Permissions"
+msgstr ""
+
+#: data.php:53 templates/data/import.inc:17
+msgid "Pine Address Book"
+msgstr "œ› — «·⁄‰«ÊÌ‰ «·’‰Ê»—Ì"
+
+#: templates/browse/javascript.inc:28
+#, fuzzy
+msgid "Please name the new contact list:"
+msgstr "«·—Ã«¡ ≈œŒ«· «”„ «·ﬁ«∆„… «·ÃœÌœ…:"
+
+#: edit.php:91 edit.php:94 edit.php:194
+msgid "Previous"
+msgstr ""
+
+#: config/sources.php.dist:416
+#, fuzzy
+msgid "Private Address Book"
+msgstr "œ› — «·⁄‰«ÊÌ‰ «·’‰Ê»—Ì"
+
+#: lib/Driver/ldap.php:147
+#, php-format
+msgid "Query failed: (%s) %s"
+msgstr ""
+
+#: templates/block/minisearch.inc:18
+#, fuzzy
+msgid "Quick Search"
+msgstr "»ÕÀ"
+
+#: lib/Driver/ldap.php:191 lib/Driver/ldap.php:199 lib/Driver/ldap.php:429
+#, php-format
+msgid "Read failed: (%s) %s"
+msgstr ""
+
+#: lib/Renderer.php:49
+msgid "Really delete this contact?"
+msgstr ""
+
+#: templates/browse/footer.inc:2
+msgid "Records displayed:"
+msgstr ""
+
+#: templates/prefs/addressbookselect.inc:176
+#, fuzzy
+msgid "Remove address book"
+msgstr "œ› — ⁄‰«ÊÌ‰ €Ì— ’ÕÌÕ"
+
+#: templates/prefs/columnselect.inc:239
+#, fuzzy
+msgid "Remove column"
+msgstr "Õ–› ⁄„Êœ"
+
+#: templates/browse/actions.inc:2
+msgid "Remove from this list"
+msgstr "«Õ–› „‰ «·ﬁ«∆„…"
+
+#: templates/data/import.inc:21
+msgid ""
+"Replace existing address book with the imported one? <strong>Warning: This "
+"deletes all entries in your current address book.</strong>"
+msgstr ""
+
+#: lib/Driver.php:438
+msgid "Requested object not found."
+msgstr ""
+
+#: add.php:37 templates/browse/search.inc:113
+msgid "Reset to Defaults"
+msgstr ""
+
+#: config/attributes.php.dist:196
+msgid "S/MIME Public Certificate"
+msgstr ""
+
+#: lib/Driver/ldap.php:69
+#, php-format
+msgid "STARTTLS failed: (%s) %s"
+msgstr ""
+
+#: edit.php:99 add.php:37 templates/addressbooks.inc:124
+msgid "Save"
+msgstr "Õ›Ÿ"
+
+#: templates/browse/search.inc:96 templates/browse/search.inc:112
+#: templates/block/minisearch.inc:21 lib/Block/tree_menu.php:49
+#: config/prefs.php.dist:126
+msgid "Search"
+msgstr "»ÕÀ"
+
+#: minisearch.php:63
+#, fuzzy
+msgid "Search Results:"
+msgstr "‰ «∆Ã «·»ÕÀ"
+
+#: lib/api.php:1011
+#, fuzzy
+msgid "Search failed"
+msgstr "»ÕÀ"
+
+#: lib/api.php:1103 lib/api.php:1109 lib/api.php:1118 lib/api.php:1131
+#, php-format
+msgid "Search failed: %s"
+msgstr ""
+
+#: templates/block/minisearch.inc:22
+#, fuzzy
+msgid "Searching..."
+msgstr "»ÕÀ"
+
+#: templates/addressbooks.inc:66
+#, fuzzy
+msgid "Select an address book to delete"
+msgstr "«Œ — œ› — ⁄‰«ÊÌ‰"
+
+#: templates/addressbooks.inc:90
+#, fuzzy
+msgid "Select an address book to edit"
+msgstr "«Œ — œ› — ⁄‰«ÊÌ‰"
+
+#: templates/data/export.inc:32
+#, fuzzy
+msgid "Select the address book to export from:"
+msgstr "«Œ — «·„’œ— ·· ’œÌ— „‰Â:"
+
+#: templates/data/import.inc:26
+#, fuzzy
+msgid "Select the address book to import to:"
+msgstr "«Œ — «·ÊÃÂ… «· Ì  —Ìœ «·≈” Ì—«œ ≈·ÌÂ«:"
+
+#: templates/data/import.inc:35
+#, fuzzy
+msgid "Select the charset of the source file:"
+msgstr "«Œ — «·„’œ— ·· ’œÌ— „‰Â:"
+
+#: templates/data/export.inc:10
+#, fuzzy
+msgid "Select the export format:"
+msgstr "«Œ — «·„’œ— ·· ’œÌ— „‰Â:"
+
+#: templates/data/import.inc:43
+msgid "Select the file to import:"
+msgstr "«Œ — „·› ·Ì „ «” Ì—«œÂ:"
+
+#: templates/data/import.inc:11
+#, fuzzy
+msgid "Select the format of the source file:"
+msgstr "«Œ —  ‰”Ìﬁ «· ’œÌ—:"
+
+#: config/prefs.php.dist:135
+msgid "Select the format used to display names:"
+msgstr "«Œ —  ‰”Ìﬁ ≈ŸÂ«— «·√”„«¡:"
+
+#: config/prefs.php.dist:25
+#, fuzzy
+msgid "Select view to display by default, sort options, and paging options."
+msgstr "«Œ — ‘ﬂ· «·≈ŸÂ«— «·«› —«÷Ì."
+
+#: config/prefs.php.dist:18
+msgid "Select which fields to display in the address lists."
+msgstr "«Œ — ÕﬁÊ·« ·Ì „ ≈ŸÂ«—Â« ›Ì ﬁ«∆„… «·⁄‰«ÊÌ‰."
+
+#: config/prefs.php.dist:32
+msgid "Select which format to display names."
+msgstr "«Œ —  ‰”Ìﬁ ≈ŸÂ«— «·√”„«¡."
+
+#: add.php:54
+#, fuzzy, php-format
+msgid "Selected address book \"%s\"."
+msgstr "«Œ — œ› — ⁄‰«ÊÌ‰"
+
+#: config/sources.php.dist:173
+#, fuzzy
+msgid "Shared Directory"
+msgstr "„Ã·œ"
+
+#: templates/browse/actions.inc:39
+#, fuzzy, php-format
+msgid "Show %s"
+msgstr "≈ŸÂ«—"
+
+#: templates/browse/actions.inc:41
+msgid "Show All"
+msgstr "≈ŸÂ«— «·ﬂ·"
+
+#: templates/browse/actions.inc:40
+msgid "Show Contacts"
+msgstr "≈ŸÂ«— «·« ’«·« "
+
+#: templates/browse/actions.inc:39
+msgid "Show Lists"
+msgstr "≈ŸÂ«— «·ﬁÊ«∆„"
+
+#: templates/browse/column_headers.inc:21
+#: templates/browse/column_headers.inc:34
+msgid "Sort Direction"
+msgstr "« Ã«Â «·›—“"
+
+#: lib/api.php:198
+#, fuzzy
+msgid "Sources"
+msgstr " „ »‰Ã«Õ"
+
+#: config/prefs.php.dist:157
+msgid "Specify where you want advanced search results to appear."
+msgstr ""
+
+#: browse.php:141
+#, php-format
+msgid "Successfully added %s to %s"
+msgstr ""
+
+#: browse.php:222
+#, php-format
+msgid "Successfully created the contact list \"%s\"."
+msgstr ""
+
+#: data.php:50
+msgid "TSV"
+msgstr ""
+
+#: templates/data/import.inc:14 templates/data/export.inc:14
+msgid "Tab separated values"
+msgstr "ﬁÌ„ „›’Ê·… »„”«Õ…"
+
+#: view.php:15
+msgid "The VFS backend needs to be configured to enable attachment uploads."
+msgstr ""
+
+#: lib/Driver.php:1054
+#, php-format
+msgid "The address book \"%s\" does not exist."
+msgstr ""
+
+#: addressbooks.php:45
+#, php-format
+msgid "The address book \"%s\" was created successfully."
+msgstr ""
+
+#: addressbooks.php:70
+#, php-format
+msgid "The address book \"%s\" was removed successfully."
+msgstr ""
+
+#: addressbooks.php:89
+#, fuzzy, php-format
+msgid "The address book \"%s\" was successfully updated."
+msgstr " „ «” Ì—«œ œ› — «·⁄‰«ÊÌ‰ «·’‰Ê»—Ì »‰Ã«Õ"
+
+#: data.php:303
+#, php-format
+msgid "The address book could not be purged: %s"
+msgstr ""
+
+#: edit.php:47 vcard.php:22 display.php:23 view.php:26
+msgid "The contact you requested does not exist."
+msgstr ""
+
+#: edit.php:116
+#, fuzzy, php-format
+msgid "The file \"%s\" has successfully been deleted."
+msgstr " „ «” Ì—«œ «·„·› %s »‰Ã«Õ"
+
+#: data.php:284
+msgid "The import can be finished despite the warnings."
+msgstr ""
+
+#: browse.php:31
+msgid "There are no browseable address books."
+msgstr "·«ÌÊÃœ œ› — ⁄‰«ÊÌ‰ ﬁ«»· ·· ’›Õ."
+
+#: add.php:29
+#, fuzzy
+msgid ""
+"There are no writeable address books. None of the available address books "
+"are configured to allow you to add new entries to them. If you believe this "
+"is an error, please contact your system administrator."
+msgstr ""
+"·«ÌÊÃœ œ› — ⁄‰«ÊÌ‰ „⁄œ ·≈œŒ«· »Ì«‰«  ÃœÌœ…. ≈–« ﬂ‰   ⁄ ﬁœ √‰Â Œÿ√ „«° «·—Ã«¡ "
+"≈»·«€ „œÌ— «·‰Ÿ«„."
+
+#: add.php:121
+#, fuzzy
+msgid ""
+"There was an error adding the new contact. Contact your system administrator "
+"for further help."
+msgstr "Õ’· Œÿ√ Œ·«· «·≈÷«›…. «·—Ã«¡ ”ƒ«· „œÌ— «·‰Ÿ«„ ·ÿ·» «·„”«⁄œ…."
+
+#: browse.php:189 browse.php:230
+#, fuzzy
+msgid "There was an error adding this object."
+msgstr "Õ’· Œÿ√ Œ·«· «·Õ–›."
+
+#: browse.php:238
+msgid "There was an error creating a new list."
+msgstr "Õ’· Œÿ√ Œ·«· ≈‰‘«¡ ﬁ«∆„… ÃœÌœ…."
+
+#: addressbooks.php:35
+#, fuzzy, php-format
+msgid "There was an error creating this address book: %s"
+msgstr "Õ’· Œÿ√ Œ·«· ≈‰‘«¡ ﬁ«∆„… ÃœÌœ…."
+
+#: browse.php:147
+#, fuzzy, php-format
+msgid "There was an error deleting \"%s\" from the source address book."
+msgstr "Õ’· Œÿ√ Œ·«· «·Õ–›."
+
+#: delete.php:37
+#, fuzzy, php-format
+msgid "There was an error deleting this contact: %s"
+msgstr "Õ’· Œÿ√ Œ·«· «·Õ–›."
+
+#: browse.php:72
+msgid "There was an error deleting this object."
+msgstr "Õ’· Œÿ√ Œ·«· «·Õ–›."
+
+#: browse.php:278
+#, fuzzy
+msgid "There was an error displaying the list"
+msgstr "Õ’· Œÿ√ Œ·«· ≈ŸÂ«— «·ﬁ«∆„… «·„Œ «—…."
+
+#: data.php:335
+#, fuzzy, php-format
+msgid "There was an error importing the data: %s"
+msgstr "Õ’· Œÿ√ Œ·«· «” Ì—«œ «·»Ì«‰« ."
+
+#: lib/api.php:507 lib/api.php:761
+#, fuzzy
+msgid "There was an error importing the iCalendar data."
+msgstr "Õ’· Œÿ√ Œ·«· «” Ì—«œ »Ì«‰«  „‰ vCard"
+
+#: browse.php:58
+#, fuzzy
+msgid "There was an error removing a contact from the list."
+msgstr "Õ’· Œÿ√ Œ·«· ≈‰‘«¡ ﬁ«∆„… ÃœÌœ…."
+
+#: addressbooks.php:55 addressbooks.php:60 addressbooks.php:68
+#, fuzzy, php-format
+msgid "There was an error removing this address book: %s"
+msgstr "Õ’· Œÿ√ Œ·«· «·Õ–›."
+
+#: addressbooks.php:81 addressbooks.php:87
+#, fuzzy, php-format
+msgid "There was an error updating this address book: %s"
+msgstr "Õ’· Œÿ√ Œ·«· «·Õ–›."
+
+#: edit.php:158
+#, fuzzy, php-format
+msgid "There was an error updating this entry: %s"
+msgstr "Õ’· Œÿ√ Œ·«· «·Õ–›."
+
+#: data.php:179
+#, fuzzy
+msgid "There were no addresses to export."
+msgstr "·«ÌÊÃœ œ› — ⁄‰«ÊÌ‰ ﬁ«»· ··ﬂ «»…."
+
+#: templates/prefs/addressbookselect.inc:180
+msgid "These address books will display in this order:"
+msgstr ""
+
+#: templates/prefs/columnselect.inc:243
+msgid "These columns will display in this order:"
+msgstr ""
+
+#: data.php:269
+msgid "This file format is not supported."
+msgstr ""
+
+#: lib/api.php:1122 lib/api.php:1135
+#, fuzzy, php-format
+msgid "This person already has a %s entry in the address book"
+msgstr "ÌÕ ÊÌ œ› — «·⁄‰«ÊÌ‰ ≈œŒ«·«  ⁄œœ %s ·Â–« «·‘Œ’ ."
+
+#: config/prefs.php.dist:147
+msgid ""
+"This will be the default address book when adding or importing contacts."
+msgstr ""
+
+#: config/attributes.php.dist:70
+msgid "Title"
+msgstr "«··ﬁ»"
+
+#: lib/Turba.php:435
+#, php-format
+msgid "Unable to create new share.  Missing source type."
+msgstr ""
+
+#: lib/Driver.php:979
+#, php-format
+msgid "Unable to load the definition of %s."
+msgstr " ⁄–—  Õ„Ì·  ⁄—Ì›: %s."
+
+#: edit.php:88 edit.php:91 edit.php:94 edit.php:99 edit.php:196
+#, fuzzy
+msgid "Undo Changes"
+msgstr "Õ›Ÿ «· €ÌÌ—« "
+
+#: lib/api.php:540 lib/api.php:643 lib/api.php:779
+#, php-format
+msgid "Unsupported Content-Type: %s"
+msgstr ""
+
+#: config/sources.php.dist:376
+#, fuzzy
+msgid "Verisign Directory"
+msgstr "„Ã·œ"
+
+#: templates/browse/row.inc:19 templates/browse/contactrow.inc:27
+#, php-format
+msgid "View \"%s\""
+msgstr ""
+
+#: minisearch.php:78
+#, fuzzy
+msgid "View Contact"
+msgstr "≈ŸÂ«— «·« ’«·« "
+
+#: config/prefs.php.dist:124
+msgid "View to display by default:"
+msgstr "‘ﬂ· «·≈ŸÂ«— «·«› —«÷Ì:"
+
+#: config/attributes.php.dist:208
+msgid "Website URL"
+msgstr ""
+
+#: config/attributes.php.dist:113
+msgid "Work Address"
+msgstr "Â« › «·⁄„·"
+
+#: config/attributes.php.dist:124
+msgid "Work City"
+msgstr ""
+
+#: config/attributes.php.dist:139
+#, fuzzy
+msgid "Work Country"
+msgstr "Â« › «·⁄„·"
+
+#: config/attributes.php.dist:156
+msgid "Work Phone"
+msgstr "Â« › «·⁄„·"
+
+#: config/attributes.php.dist:134
+#, fuzzy
+msgid "Work Postal Code"
+msgstr "Â« › «·⁄„·"
+
+#: config/attributes.php.dist:129
+#, fuzzy
+msgid "Work State/Province"
+msgstr "Â« › «·⁄„·"
+
+#: config/attributes.php.dist:119
+#, fuzzy
+msgid "Work Street Address"
+msgstr "Â« › «·⁄„·"
+
+#: data.php:237 browse.php:93 browse.php:201 add.php:73
+#, php-format
+msgid "You are not allowed to create more than %d contacts in \"%s\"."
+msgstr ""
+
+#: edit.php:69 display.php:58 view.php:36
+msgid "You do not have permission to view this contact."
+msgstr ""
+
+#: vcard.php:40
+msgid "You do not have permission to view this object."
+msgstr ""
+
+#: templates/browse/javascript.inc:55
+#, fuzzy
+msgid "You must select a target address book."
+msgstr "ÌÃ»  ÕœÌœ « ’«· Ê«Õœ ⁄·Ï «·√ﬁ·."
+
+#: templates/browse/javascript.inc:23
+#, fuzzy
+msgid "You must select a target list."
+msgstr "ÌÃ»  ÕœÌœ « ’«· Ê«Õœ ⁄·Ï «·√ﬁ·."
+
+#: edit.php:32
+msgid "You must select at least one contact first."
+msgstr "ÌÃ»  ÕœÌœ « ’«· Ê«Õœ ⁄·Ï «·√ﬁ·."
+
+#: templates/browse/javascript.inc:17 templates/browse/javascript.inc:49
+#: templates/browse/javascript.inc:72
+#, fuzzy
+msgid "You must select at least one entry first."
+msgstr "ÌÃ»  ÕœÌœ « ’«· Ê«Õœ ⁄·Ï «·√ﬁ·."
+
+#: edit.php:73
+msgid "You only have permission to view this contact."
+msgstr ""
+
+#: browse.php:285
+msgid "Your default address book is not browseable."
+msgstr ""
+
+#: templates/browse/row.inc:6 templates/browse/contactrow.inc:12
+msgid "[no value]"
+msgstr ""
+
+#: lib/Turba.php:484
+#, fuzzy
+msgid "_Browse"
+msgstr " ’›Õ"
+
+#: templates/browse/actions.inc:40
+#, fuzzy
+msgid "_Contacts"
+msgstr "≈ŸÂ«— «·« ’«·« "
+
+#: templates/browse/actions.inc:2
+#, fuzzy
+msgid "_Delete"
+msgstr "Õ–›"
+
+#: lib/Turba.php:493
+#, fuzzy
+msgid "_Import/Export"
+msgstr "«” Ì—«œ/ ’œÌ—"
+
+#: templates/browse/actions.inc:39
+#, fuzzy
+msgid "_Lists"
+msgstr "≈ŸÂ«— «·ﬁÊ«∆„"
+
+#: lib/Turba.php:481
+#, fuzzy
+msgid "_My Address Books"
+msgstr "œ› — ⁄‰«ÊÌ‰ «· Ê Ì"
+
+#: lib/Turba.php:487
+#, fuzzy
+msgid "_New Contact"
+msgstr "≈ŸÂ«— «·« ’«·« "
+
+#: templates/browse/actions.inc:2
+#, fuzzy
+msgid "_Remove from this list"
+msgstr "«Õ–› „‰ «·ﬁ«∆„…"
+
+#: lib/Turba.php:489
+#, fuzzy
+msgid "_Search"
+msgstr "»ÕÀ"
+
+#: vcard.php:46
+msgid "contact.vcf"
+msgstr ""
+
+#: data.php:199 data.php:204 templates/data/export.inc:1
+msgid "contacts.csv"
+msgstr ""
+
+#: data.php:209
+msgid "contacts.tsv"
+msgstr ""
+
+#: data.php:219
+msgid "contacts.vcf"
+msgstr ""
+
+#: templates/prefs/imsp_opt.inc:34
+#, fuzzy
+msgid "none"
+msgstr "·«ÌÊÃœ"
+
+#: templates/browse/actions.inc:24
+#, fuzzy
+msgid "to a Contact List"
+msgstr "≈ŸÂ«— «·« ’«·« "
+
+#: templates/browse/actions.inc:14
+#, fuzzy
+msgid "to a different Address Book"
+msgstr "«Œ — œ› — ⁄‰«ÊÌ‰"
+
+#: data.php:51 templates/browse/column_headers.inc:13
+#: templates/data/import.inc:15 templates/data/export.inc:15
+msgid "vCard"
+msgstr "vCard"

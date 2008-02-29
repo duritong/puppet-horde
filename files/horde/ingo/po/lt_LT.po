@@ -1,0 +1,876 @@
+# Lithuanian translations for Ingo package.
+# Copyright (C) 2004 Horde Project
+# This file is distributed under the same license as the Ingo package.
+# Vilius Sumskas <vilius@lnk.lt>, 2003, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Ingo 2.0-cvs\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2005-10-18 15:12+0200\n"
+"PO-Revision-Date: 2004-11-30 15:54+0200\n"
+"Last-Translator: Vilius Sumskas <vilius@lnk.lt>\n"
+"Language-Team: Lithuanian <vilius@lnk.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-13\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: filters.php:185
+msgid " and"
+msgstr " ir"
+
+#: filters.php:185
+msgid " or"
+msgstr " arba"
+
+#: templates/blacklist/blacklist.inc:17
+msgid "Action for blacklisted addresses:"
+msgstr "Veiksmas adresams ið juodojo sàraðo:"
+
+#: templates/script/activate.inc:10
+msgid "Activate Script"
+msgstr "Ájungti skriptà"
+
+#: lib/Driver/ldap.php:232
+#, php-format
+msgid "Activating the script for \"%s\" failed: (%d) %s"
+msgstr ""
+
+#: templates/filters/settings.inc:6
+msgid "Additional Settings"
+msgstr "Papildomi nustatymai"
+
+#: templates/rule/header.inc:44
+msgid "All of the following"
+msgstr "Visas sekanèias sàlygas"
+
+#: lib/api.php:54
+#, fuzzy
+msgid "Allow Rules"
+msgstr "Nauja filtravimo taisyklë"
+
+#: templates/rule/footer.inc:33
+msgid "Answered"
+msgstr "Atsakyta"
+
+#: templates/rule/header.inc:45
+msgid "Any of the following"
+msgstr "Bet kurià sekanèià sàlygà"
+
+#: templates/filters/footer.inc:11
+msgid "Apply Filters"
+msgstr "Taikyti filtrus"
+
+#: filters.php:214
+msgid "Are you sure you want to delete this rule?"
+msgstr "Ar tikrai norite iðtrinti ðià filtravimo taisyklæ?"
+
+#: config/prefs.php.dist:33
+msgid "Automatically update the script after each change?"
+msgstr "Automatiðkai atnaujinti skriptà po kiekvieno atnaujinimo?"
+
+#: config/fields.php.dist:47
+msgid "Bcc"
+msgstr "Bcc"
+
+#: lib/Storage.php:344
+msgid "Begins with"
+msgstr "Prasideda"
+
+#: lib/Driver/ldap.php:106 lib/Driver/ldap.php:111
+#, php-format
+msgid "Bind failed: (%s) %s"
+msgstr ""
+
+#: filters.php:144 templates/blacklist/blacklist.inc:7
+msgid "Blacklist"
+msgstr "Juodasis sàraðas"
+
+#: blacklist.php:100
+msgid "Blacklist Edit"
+msgstr "Juodojo sàraðo redagavimas"
+
+#: blacklist.php:17
+msgid "Blacklist is not supported in the current filtering driver."
+msgstr "Dabartinë filtravimo posistemë nepalaiko juodojo sàraðo."
+
+#: lib/Script/procmail.php:207 lib/Script/maildrop.php:175
+msgid "Blacklisted Address"
+msgstr "Adresas átrauktas á juodàjá sàraðà"
+
+#: lib/Script/sieve.php:243
+msgid "Blacklisted Addresses"
+msgstr "Adresai átraukti á juodàjá sàraðà"
+
+#: config/fields.php.dist:88
+msgid "Body"
+msgstr "Laiðko turinys"
+
+#: filters.php:182 rule.php:281
+msgid "Case Sensitive"
+msgstr "Atkreipti dëmesá á didþiasias/maþasias raides"
+
+#: config/fields.php.dist:43
+msgid "Cc"
+msgstr "Cc"
+
+#: rule.php:122 whitelist.php:36 forward.php:33 vacation.php:41
+#: blacklist.php:69
+msgid "Changes saved."
+msgstr "Pakeitimai iðsaugoti."
+
+#: lib/Driver/ldap.php:75
+msgid "Connection failure"
+msgstr ""
+
+#: lib/Storage.php:340
+msgid "Contains"
+msgstr "Turi"
+
+#: filters.php:225 filters.php:226
+#, php-format
+msgid "Copy %s"
+msgstr "Kopijuoti %s"
+
+#: lib/Storage.php:763
+#, php-format
+msgid "Copy of %s"
+msgstr "%s kopija"
+
+#: lib/Ingo.php:52
+msgid "Create new folder"
+msgstr "Sukurti naujà katalogà"
+
+#: lib/Script/procmail.php:336 lib/Script/maildrop.php:279
+msgid "DISABLED: "
+msgstr "IÐJUNGTA: "
+
+#: templates/script/activate.inc:17
+msgid "Deactivate Script"
+msgstr "Iðjungti skriptà"
+
+#: filters.php:214 filters.php:215
+#, php-format
+msgid "Delete %s"
+msgstr "Iðtrinti %s"
+
+#: templates/rule/filter.inc:30
+msgid "Delete Condition"
+msgstr "Iðtrinti sàlygà"
+
+#: lib/Storage.php:292
+msgid "Delete message completely"
+msgstr "Visiðkai iðtrinti laiðkà"
+
+#: templates/rule/footer.inc:35
+msgid "Deleted"
+msgstr "Iðtrinta"
+
+#: lib/Storage.php:280
+msgid "Deliver into my INBOX"
+msgstr "Pristatyti á INBOX"
+
+#: lib/Storage.php:306
+msgid "Deliver into my INBOX and copy to"
+msgstr "Pristatyti á INBOX ir nukopijuoti á"
+
+#: lib/Storage.php:301
+msgid "Deliver into my INBOX and redirect to"
+msgstr "Pristatyti á INBOX ir nukreipti á"
+
+#: lib/Storage.php:286
+msgid "Deliver to folder"
+msgstr "Perkelti á katalogà"
+
+#: filters.php:241 filters.php:242
+#, php-format
+msgid "Disable %s"
+msgstr "Iðjungti %s"
+
+#: templates/whitelist/whitelist.inc:10 templates/blacklist/blacklist.inc:10
+#: templates/vacation/vacation.inc:6 templates/forward/forward.inc:10
+#: templates/rule/header.inc:26
+msgid "Disabled"
+msgstr "Iðjungta"
+
+#: templates/filters/settings.inc:13
+msgid "Display detailed notification when each filter is applied?"
+msgstr "Kai panaudojamas filtras rodyti detalø praneðimà?"
+
+#: templates/vacation/vacation.inc:34
+msgid "Do _not send responses to bulk or list messages"
+msgstr "Nesiøsti atsakymø á atsitiktinius arba _konferencijø laiðkus"
+
+#: templates/rule/footer.inc:10
+msgid "Do this:"
+msgstr "Vykdyti tai:"
+
+#: lib/Storage.php:345
+msgid "Doesn't begin with"
+msgstr "Neprasideda"
+
+#: lib/Storage.php:341
+msgid "Doesn't contain"
+msgstr "Neturi"
+
+#: lib/Storage.php:347
+msgid "Doesn't end with"
+msgstr "Nesibaigia"
+
+#: lib/Storage.php:349
+msgid "Doesn't exist"
+msgstr "Neegzistuoja"
+
+#: lib/Storage.php:352
+msgid "Doesn't match (with placeholders)"
+msgstr "Neatitinka"
+
+#: templates/filters/header.inc:31
+msgid "Edit"
+msgstr "Redagavimas"
+
+#: filters.php:203 filters.php:205 filters.php:209 filters.php:210
+#, php-format
+msgid "Edit %s"
+msgstr "Redaguoti %s"
+
+#: filters.php:245 filters.php:246
+#, php-format
+msgid "Enable %s"
+msgstr "Ájungti %s"
+
+#: templates/filters/header.inc:37
+msgid "Enabled"
+msgstr "Ájungta"
+
+#: lib/Storage.php:346
+msgid "Ends with"
+msgstr "Baigiasi"
+
+#: lib/Storage.php:357
+msgid "Equal to"
+msgstr "Lygus"
+
+#: lib/Driver/ldap.php:139 lib/Driver/ldap.php:149 lib/Driver/ldap.php:158
+#: lib/Driver/ldap.php:168
+#, php-format
+msgid "Error retrieving current script: (%d) %s"
+msgstr ""
+
+#: blacklist.php:67
+msgid "Error saving changes."
+msgstr ""
+
+#: templates/filters/header.inc:22
+msgid "Existing Rules"
+msgstr "Egzistuojanèios filtrø taisyklës"
+
+#: lib/Storage.php:348
+msgid "Exists"
+msgstr "Egzistuoja"
+
+#: lib/Driver/ldap.php:144
+#, php-format
+msgid "Expected 1 object, got %d."
+msgstr ""
+
+#: templates/filters/settings.inc:20
+msgid "Filter All Messages"
+msgstr "Filtruoti visus laiðkus"
+
+#: templates/filters/settings.inc:22
+msgid "Filter Only Seen Messages"
+msgstr "Filtruoti tik perskaitytus laiðkus"
+
+#: templates/filters/settings.inc:21
+msgid "Filter Only Unseen Messages"
+msgstr "Filtruoti tik neperskaitytus laiðkus"
+
+#: templates/filters/settings.inc:18
+msgid "Filter Options"
+msgstr "Filtrø parametrai"
+
+#: templates/rule/header.inc:25
+msgid "Filter Rule"
+msgstr "Filtravimo taisyklë"
+
+#: filters.php:109
+msgid "Filter Rules"
+msgstr "Filtravimo taisyklës"
+
+#: script.php:52
+msgid "Filter Script Display"
+msgstr "Filtro skripto rodymas"
+
+#: lib/Ingo.php:300
+msgid "Filter _Rules"
+msgstr "_Filtrai"
+
+#: lib/Script/imap.php:318
+#, php-format
+msgid "Filter activity: %s message(s) have been copied to the folder \"%s\"."
+msgstr "Filtravimas: %s laiðkas(ai, ø) nukopijuotas(i, a) á katalogà \"%s\"."
+
+#: lib/Script/imap.php:305
+#, php-format
+msgid "Filter activity: %s message(s) have been deleted."
+msgstr "Filtravimas: iðtrintas(i, a) %s laiðkas(ai, ø)."
+
+#: lib/Script/imap.php:283
+#, php-format
+msgid "Filter activity: %s message(s) have been moved to the folder \"%s\"."
+msgstr "Filtravimas: %s laiðkas(ai, ø) perkeltas(i, a) á katalogà \"%s\"."
+
+#: lib/Script/imap.php:186
+#, php-format
+msgid "Filter activity: %s message(s) that matched the blacklist were deleted."
+msgstr ""
+"Filtravimas: %s laiðkas(ai, ø) atitinkantis(ys, ø) juodàjá sàraðà iðtrintas"
+"(i, a)."
+
+#: lib/Script/imap.php:315
+#, php-format
+msgid ""
+"Filter activity: The message \"%s\" from \"%s\" has been copied to the "
+"folder \"%s\"."
+msgstr "Filtravimas: laiðkas \"%s\" nuo \"%s\" nukopijuotas á katalogà \"%s\"."
+
+#: lib/Script/imap.php:300
+#, php-format
+msgid "Filter activity: The message \"%s\" from \"%s\" has been deleted."
+msgstr "Filtravimas: laiðkas \"%s\" nuo \"%s\" iðtrintas."
+
+#: lib/Script/imap.php:277
+#, php-format
+msgid ""
+"Filter activity: The message \"%s\" from \"%s\" has been moved to the folder "
+"\"%s\"."
+msgstr "Filtravimas: laiðkas \"%s\" nuo \"%s\" perkeltas á katalogà \"%s\"."
+
+#: rule.php:160
+msgid "Filter not found."
+msgstr "Tokio filtro nëra."
+
+#: templates/rule/header.inc:42
+msgid "For an incoming message that matches:"
+msgstr "Visiems gaunamiems laiðkams kurie:"
+
+#: filters.php:162 templates/forward/forward.inc:8
+msgid "Forward"
+msgstr "Persiøsti"
+
+#: forward.php:16
+msgid "Forward is not supported in the current filtering driver."
+msgstr "Dabartinë filtravimo posistemë nepalaiko persiuntimø."
+
+#: lib/Script/procmail.php:282 lib/Script/maildrop.php:224
+msgid "Forwards"
+msgstr "Persiuntimai"
+
+#: forward.php:46
+msgid "Forwards Edit"
+msgstr "Persiuntimø redagavimas"
+
+#: config/fields.php.dist:39
+msgid "From"
+msgstr "Nuo"
+
+#: lib/Storage.php:355
+msgid "Greater than"
+msgstr "Daugiau nei"
+
+#: lib/Storage.php:356
+msgid "Greater than or equal to"
+msgstr "Daugiau arba lygu"
+
+#: templates/rule/footer.inc:31
+msgid "Important"
+msgstr "Svarbu"
+
+#: rule.php:36
+msgid "Individual rules are not supported in the current filtering driver."
+msgstr "Dabartinë filtravimo posistemë nepalaiko individualiø filtrø."
+
+#: lib/Script/sieve.php:1855
+msgid "Inexistant mailbox specified for message delivery."
+msgstr "Laiðkø gavimui nurodyta neegzistuojanti paðto dëþutë."
+
+#: lib/Storage.php:342
+msgid "Is"
+msgstr "Yra"
+
+#: lib/Storage.php:343
+msgid "Isn't"
+msgstr "Nëra"
+
+#: lib/Driver/ldap.php:23
+msgid ""
+"LDAP support is required but the LDAP module is not available or not loaded."
+msgstr ""
+
+#: lib/Storage.php:353
+msgid "Less than"
+msgstr "Maþiau nei"
+
+#: lib/Storage.php:354
+msgid "Less than or equal to"
+msgstr "Maþiau arba lygu"
+
+#: config/fields.php.dist:59
+msgid "List-ID"
+msgstr "Konferencijos ID"
+
+#: templates/blacklist/blacklist.inc:20
+msgid "Mar_k message as deleted"
+msgstr "Paþymëti laið_kus kaip iðtrintus"
+
+#: templates/rule/footer.inc:24
+msgid "Mark message as:"
+msgstr "Paþymëti laiðkà kaip:"
+
+#: lib/Storage.php:351
+msgid "Matches (with placeholders)"
+msgstr "Atitinka"
+
+#: lib/api.php:57
+msgid "Maximum Number of Rules"
+msgstr ""
+
+#: lib/Storage.php:478
+#, php-format
+msgid ""
+"Maximum number of blacklisted addresses exceeded (Total addresses: %s, "
+"Maximum addresses: %s).  Could not add new addresses to blacklist."
+msgstr ""
+"Pasiektas maksimalus adresø skaièius juodajame sàraðë. (Ið viso adresø: %s, "
+"maksimalus adresø kiekis: %s). Naujø adresø pridëti negalima."
+
+#: lib/Storage.php:531
+#, php-format
+msgid ""
+"Maximum number of whitelisted addresses exceeded (Total addresses: %s, "
+"Maximum addresses: %s).  Could not add new addresses to whitelist."
+msgstr ""
+"Pasiektas maksimalus adresø skaièius baltajame sàraðë. (Ið viso adresø: %s, "
+"maksimalus adresø kiekis: %s). Naujø adresø pridëti negalima."
+
+#: lib/Script/sieve.php:1723
+msgid "Missing address to redirect message to"
+msgstr "Laiðkø persiuntimui nenurodytas el. paðto adresas"
+
+#: lib/Script/sieve.php:1755
+msgid "Missing reason for reject"
+msgstr "Atmetimui nenurodyta prieþastis"
+
+#: lib/Script/sieve.php:1922
+msgid "Missing reason in vacation."
+msgstr "Atostogø modulyje nenurodyta prieþastis."
+
+#: templates/filters/header.inc:40
+msgid "Move"
+msgstr "Perkelti"
+
+#: filters.php:126 filters.php:238
+msgid "Move Rule Down"
+msgstr "Perkelti þemyn"
+
+#: filters.php:127 filters.php:237
+msgid "Move Rule Up"
+msgstr "Perkelti aukðtyn"
+
+#: templates/vacation/vacation.inc:42
+msgid "N_umber of days between vacation replies:"
+msgstr "Dienø skaièius tarp atostogø _atsakymø:"
+
+#: templates/filters/filter-none.inc:4 templates/filters/footer.inc:8
+#: lib/Storage.php:714
+msgid "New Rule"
+msgstr "Nauja filtravimo taisyklë"
+
+#: lib/Ingo.php:194 lib/Ingo.php:196
+#, fuzzy, php-format
+msgid "No \"%s\" element found in backend configuration."
+msgstr "Reikðmë '%s' nenurodyta posistemës nustatymuose."
+
+#: lib/Ingo.php:192
+msgid "No backend configured for this host"
+msgstr "Ðiame serveryje nesukonfigûruota posistemë"
+
+#: lib/Ingo.php:169
+msgid "No backends configured in backends.php"
+msgstr "Posistemë nesukonfigûruota backends.php faile"
+
+#: templates/filters/filter-none.inc:4
+#, fuzzy, php-format
+msgid "No filters. Click \"%s\" to create a new filter."
+msgstr "Filtrø nëra. Norëdami sukurti naujà filtrà, spauskite '%s'."
+
+#: lib/Script/sieve.php:1327 lib/Script/sieve.php:1420
+#: lib/Script/sieve.php:1594
+msgid "No headers specified"
+msgstr "Nëra antraðèiø specifikacijos"
+
+#: script.php:67
+msgid "No script generated."
+msgstr "Skriptas nesugeneruotas."
+
+#: lib/Script/sieve.php:1609
+msgid "No strings specified"
+msgstr "Neávestos reikðmës"
+
+#: lib/Storage.php:358
+msgid "Not equal to"
+msgstr "Nelygus"
+
+#: lib/Storage.php:316
+msgid "Only flag the message"
+msgstr ""
+
+#: config/prefs.php.dist:19
+msgid "Options about script updating."
+msgstr "Nustatymai susijæ su skriptø atnaujinimu."
+
+#: config/prefs.php.dist:17
+msgid "Other Options"
+msgstr "Kiti nustatymai"
+
+#: templates/javascript/new_folder.js:6
+msgid "Please enter the name of the new folder:"
+msgstr "Áveskite naujo katalogo pavadinimà:"
+
+#: templates/vacation/vacation.inc:60
+msgid "R_eason"
+msgstr "Prie_þastis"
+
+#: config/fields.php.dist:63
+msgid "Received"
+msgstr "Gauta"
+
+#: lib/Storage.php:297
+msgid "Redirect to"
+msgstr "Nukreipti á"
+
+#: lib/Storage.php:350
+msgid "Regular expression"
+msgstr "Reguliari iðraiðka"
+
+#: lib/Storage.php:312
+msgid "Reject with reason"
+msgstr "Atmesti su prieþastimi"
+
+#: config/fields.php.dist:55
+msgid "Resent To"
+msgstr "Persiøstas á"
+
+#: config/fields.php.dist:51
+msgid "Resent-from"
+msgstr "Persiøstas nuo"
+
+#: templates/rule/footer.inc:60
+msgid "Return to Filters List"
+msgstr "Gráþti á filtrø sàraðà"
+
+#: templates/whitelist/whitelist.inc:24 templates/blacklist/blacklist.inc:41
+#: templates/vacation/vacation.inc:71 templates/forward/forward.inc:34
+msgid "Return to Rules List"
+msgstr "Gráþti á filtrø sàraðà"
+
+#: templates/filters/header.inc:34
+msgid "Rule"
+msgstr "Taisyklë"
+
+#: filters.php:60
+msgid "Rule Copied"
+msgstr "Taisyklë nukopijuota"
+
+#: filters.php:39
+msgid "Rule Deleted"
+msgstr "Taisyklë iðtrinta"
+
+#: filters.php:76
+msgid "Rule Disabled"
+msgstr "Taisyklë iðjungta"
+
+#: filters.php:81
+msgid "Rule Enabled"
+msgstr "Taisyklë ájungta"
+
+#: templates/rule/header.inc:33
+msgid "Rule Name"
+msgstr "Taisyklës pavadinimas"
+
+#: lib/Driver/ldap.php:88
+#, php-format
+msgid "STARTTLS failed: (%s) %s"
+msgstr ""
+
+#: templates/whitelist/whitelist.inc:23 templates/blacklist/blacklist.inc:40
+#: templates/vacation/vacation.inc:70 templates/forward/forward.inc:33
+#: templates/rule/footer.inc:59
+msgid "Save"
+msgstr "Iðsaugoti"
+
+#: templates/filters/settings.inc:29
+msgid "Save Settings"
+msgstr "Iðsaugoti nustatymus"
+
+#: templates/script/header.inc:2
+msgid "Script"
+msgstr "Skriptas"
+
+#: config/prefs.php.dist:18
+msgid "Script Updating"
+msgstr "Skripto atnaujinimas"
+
+#: lib/Ingo.php:217
+msgid "Script not updated."
+msgstr "Skriptas neatnaujintas."
+
+#: lib/Ingo.php:130
+msgid "Script successfully activated."
+msgstr "Skriptas sëkmingai ájungtas."
+
+#: lib/Ingo.php:129
+msgid "Script successfully deactivated."
+msgstr "Skriptas sëkmingai iðjungtas."
+
+#: templates/rule/footer.inc:29
+msgid "Seen"
+msgstr "Skaityta"
+
+#: rule.php:190
+msgid "Select a field"
+msgstr "Pasirinkite laukà"
+
+#: lib/Ingo.php:49
+msgid "Select target folder"
+msgstr "Pasirinkite katalogà"
+
+#: rule.php:227
+msgid "Self-Defined Header"
+msgstr "Paèio apraðyta antraðtë"
+
+#: config/fields.php.dist:35
+msgid "Sender"
+msgstr "Siuntëjas"
+
+#: filters.php:95
+msgid "Settings successfully updated."
+msgstr "Nustatymai sëkmingai atnaujinti."
+
+#: templates/script/activate.inc:24
+msgid "Show Active Script"
+msgstr "Rodyti aktyvøjá skriptà"
+
+#: templates/script/activate.inc:31
+msgid "Show Current Script"
+msgstr "Rodyti dabartiná skriptà"
+
+#: config/fields.php.dist:83
+msgid "Size"
+msgstr "Dydis"
+
+#: templates/rule/footer.inc:49
+msgid "Stop checking if this rule matches?"
+msgstr "Nustoti tikrinti jeigu atitinka ðià taisyklæ?"
+
+#: templates/vacation/vacation.inc:51
+msgid "Subje_ct of vacation message:"
+msgstr "Atostogø laiðko _tema:"
+
+#: config/fields.php.dist:31
+msgid "Subject"
+msgstr "Tema"
+
+#: lib/api.php:85
+#, php-format
+msgid "The address \"%s\" has been added to your blacklist."
+msgstr ""
+
+#: lib/api.php:104
+#, php-format
+msgid "The address \"%s\" has been added to your whitelist."
+msgstr ""
+
+#: lib/Ingo.php:125
+msgid "The driver said: "
+msgstr "Posistemës praneðimas: "
+
+#: lib/Ingo.php:124
+msgid "There was an error activating the script."
+msgstr "Klaida ájungiant skriptà."
+
+#: lib/Ingo.php:123
+msgid "There was an error deactivating the script."
+msgstr "Klaida iðjungiant skriptà."
+
+#: config/fields.php.dist:27
+msgid "To"
+msgstr "Kam"
+
+#: templates/filters/filter.html:28
+#, fuzzy
+msgid "To:"
+msgstr "Kam"
+
+#: lib/Script.php:127
+#, php-format
+msgid "Unable to load the definition of %s."
+msgstr "Negaliu uþkrauti %s apraðymo."
+
+#: filters.php:156 templates/vacation/vacation.inc:5
+#: lib/Script/procmail.php:262
+msgid "Vacation"
+msgstr "Atostogos"
+
+#: vacation.php:72
+msgid "Vacation Edit"
+msgstr "Atostogø redagavimas"
+
+#: lib/Script/sieve.php:351
+msgid "Vacation Message"
+msgstr "Atostogø laiðkas"
+
+#: vacation.php:16
+msgid "Vacation is not supported in the current filtering driver."
+msgstr "Dabartinë filtravimo posistemë nepalaiko atostogø modulio."
+
+#: templates/whitelist/whitelist.inc:16
+msgid "Wh_itelist addresses:"
+msgstr "Baltojo sàraðo _adresai:"
+
+#: filters.php:150 templates/whitelist/whitelist.inc:8
+msgid "Whitelist"
+msgstr "Baltasis sàraðas"
+
+#: whitelist.php:55
+msgid "Whitelist Edit"
+msgstr "Baltojo sàraðo redagavimas"
+
+#: whitelist.php:18
+msgid "Whitelist is not supported in the current filtering driver."
+msgstr "Dabartinë filtravimo posistemë nepalaiko baltojo sàraðo."
+
+#: lib/Script/procmail.php:234 lib/Script/sieve.php:297
+#: lib/Script/maildrop.php:202
+msgid "Whitelisted Addresses"
+msgstr "Adresai átraukti á baltàjá sàraðà"
+
+#: config/fields.php.dist:79
+msgid "X-Priority"
+msgstr "Svarba"
+
+#: config/fields.php.dist:67
+msgid "X-Spam-Level"
+msgstr "X-Spam-Level"
+
+#: config/fields.php.dist:71
+msgid "X-Spam-Score"
+msgstr "X-Spam-Score"
+
+#: config/fields.php.dist:75
+msgid "X-Spam-Status"
+msgstr "X-Spam-Status"
+
+#: filters.php:53 rule.php:144
+#, php-format
+msgid "You are not allowed to create more than %d rules."
+msgstr ""
+
+#: filters.php:45 rule.php:21
+msgid "You are not allowed to create or edit custom rules."
+msgstr ""
+
+#: vacation.php:30
+msgid ""
+"You must specify at least one email address for which the vacation messages "
+"should be activated."
+msgstr ""
+"Atostogø laiðkø aktyvavimui turite nurodyti bent vienà el. paðto adresà."
+
+#: lib/Script/imap.php:278 lib/Script/imap.php:301 lib/Script/imap.php:315
+msgid "[No Subject]"
+msgstr "[be pavadinimo]"
+
+#: templates/forward/forward.inc:24
+msgid "_Address(es) to forward to:"
+msgstr "_Adresas(ai) persiunèiami á:"
+
+#: templates/vacation/vacation.inc:23
+msgid "_Addresses to not send responses to:"
+msgstr "A_dresai á kuriuos neatsakyti:"
+
+#: lib/Ingo.php:305
+msgid "_Blacklist"
+msgstr "_Juodasis sàraðas"
+
+#: templates/blacklist/blacklist.inc:18
+msgid "_Delete message completely"
+msgstr "_Visiðkai iðtrinti laiðkà"
+
+#: templates/blacklist/blacklist.inc:31
+msgid "_Enter each address on a new line:"
+msgstr "Kiekvienà _adresà raðykite naujoje eilutëje:"
+
+#: lib/Ingo.php:311
+msgid "_Forward"
+msgstr "P_ersiøsti"
+
+#: templates/forward/forward.inc:17
+msgid "_Keep a copy of messages in this account?"
+msgstr "Ar palikti laiðko kopijà ðioje paðto dëþutëje?"
+
+#: templates/blacklist/blacklist.inc:22
+msgid "_Move message to folder:"
+msgstr "Perkelti laiðkus á _katalogà:"
+
+#: templates/vacation/vacation.inc:13
+msgid "_My email addresses:"
+msgstr "_Mano El. paðto adresai"
+
+#: lib/Ingo.php:314
+msgid "_Script"
+msgstr "_Skriptas"
+
+#: lib/Ingo.php:308
+msgid "_Vacation"
+msgstr "At_ostogos"
+
+#: lib/Ingo.php:302
+msgid "_Whitelist"
+msgstr "_Baltasis sàraðas"
+
+#: templates/rule/filter.inc:4
+msgid "and"
+msgstr "ir"
+
+#: templates/filters/filter.html:16
+msgid "disabled - click to enable"
+msgstr ""
+
+#: filters.php:180
+msgid "field"
+msgstr "laukas"
+
+#: lib/Script/maildrop.php:120
+#, fuzzy
+msgid "maildrop script generated by Ingo"
+msgstr "procmail skriptas sugeneruotas su Ingo"
+
+#: filters.php:180
+msgid "match"
+msgstr "atitinka"
+
+#: templates/rule/filter.inc:4
+msgid "or"
+msgstr "arba"
+
+#: lib/Script/procmail.php:128
+msgid "procmail script generated by Ingo"
+msgstr "procmail skriptas sugeneruotas su Ingo"
+
+#: lib/Script/sieve.php:109
+msgid "sieve filter generated by Ingo"
+msgstr "sieve filtras sugeneruotas su Ingo"

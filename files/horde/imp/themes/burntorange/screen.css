@@ -1,0 +1,35 @@
+/**
+ * Theme by : Eric Jon ROSTETTER <eric.rostetter@physics.utexas.edu>
+ * Please contact the Theme's author for any missing style.
+ *
+ * $Horde: imp/themes/burntorange/screen.css,v 1.1 2004/10/17 20:49:39 mdjukic Exp $
+ */
+
+.deleted {
+    background-color: #cccccc;
+}
+.important {
+    background-color: yellow;
+}
+.unseen {
+    background-color: #ddffd5;
+}
+.answered {
+    background-color: #eeee90;
+}
+.quotawarn {
+    font-family: Verdana,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.quotaalert {
+    font-family: Verdana,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.control {
+    border-bottom: 1 px solid #ffffff;
+}
+.selected-control {
+    border-bottom: 1 px solid #ffffff;
+}

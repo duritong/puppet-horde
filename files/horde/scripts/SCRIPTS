@@ -1,0 +1,49 @@
+=======================
+ Horde Utility Scripts
+=======================
+
+Introduction
+~~~~~~~~~~~~
+This directory contains various utility scripts for the Horde distribution.
+They are here for your convenience.
+
+
+Script Index
+~~~~~~~~~~~~
+cookie_login.php
+    Allows to login with user credentials provided by cookies.
+
+count_sessions.php
+    Count the number of currently authenticated users.
+
+get_login.php
+    Allows to login with user credentials provided by GET parameters.
+
+http_login_refer.php
+    tbd
+
+remove_prefs.php
+    Remove a preference from a user's settings.
+
+set_perms.sh
+    Sets file ownership and permissions on the Horde tree for high security.
+
+temp-cleanup.cron
+    An example cron job shell script which will clean up any temporary files
+    which may get stranded by Horde users in the web server's temporary
+    directory.
+
+update_horde.sh
+    Facilitates the updating and/or installation of horde and its
+    applications.
+
+
+Database Scripts
+~~~~~~~~~~~~~~~~
+Database table schemas and associated utility scripts are located in the sql/
+subdirectory.
+
+
+LDAP Schemas
+~~~~~~~~~~~~
+LDAP schemas are located in the ldap/ subdirectory.

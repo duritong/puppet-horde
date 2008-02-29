@@ -1,0 +1,160 @@
+/**
+ * $Horde: imp/themes/screen.css,v 1.2.2.15 2006/07/13 11:55:49 jan Exp $
+ */
+
+/* Align styles, added for BC. */
+.leftAlign {
+   text-align: left;
+}
+.rightAlign {
+   text-align: right;
+}
+.leftFloat {
+   float: left;
+}
+.rightFloat {
+   float: right;
+}
+
+/* Menu bottom margin, added for BC. */
+#menu {
+    margin-bottom: 8px;
+}
+
+/* Message list table styles. */
+.messageList {
+    table-layout: fixed;
+    width: 100%;
+}
+.messageList tr {
+    height: 20px;
+}
+.messageList th {
+    text-align: left;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.messageList td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.messageList img {
+    vertical-align: middle;
+}
+
+/* Style for div that fixes KHTML browsers. */
+.ohide {
+    overflow: hidden;
+}
+
+/* Based on the Mozilla default defintions */
+#html-message td {
+    padding: 0;
+}
+#html-message ul {
+    display: block;
+    list-style-type: disc;
+    margin: 1em 0;
+    -moz-padding-start: 40px;
+}
+#html-message ol {
+    display: block;
+    list-style-type: decimal;
+    margin: 1em 0;
+    -moz-padding-start: 40px;
+}
+#html-message li {
+    display: list-item;
+}
+#html-message p {
+    display: block;
+    margin: 1em 0;
+}
+#html-message blockquote {
+    margin: 1em 40px;
+}
+#html-message blockquote[type="cite"] {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1em;
+}
+
+/* Legend styles. */
+.mailboxLegend {
+    padding: 5px;
+}
+.mailboxLegend li {
+    color: #000;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    list-style: none;
+    display: inline;
+}
+.mailboxLegend li div {
+    float: left;
+    margin-right: 1em;
+}
+.mailboxLegend li div div {
+    padding: 2px;
+    border: 1px solid #666;
+    margin-right: .3em;
+}
+
+.composebody {
+    font-family: monospace,fixed;
+    font-size: 12px;
+}
+.folders {
+    font-size: 12px;
+}
+.folderselect {
+    padding-top: 5px;
+}
+.seen {
+    background: #fff;
+}
+.seen:hover, .seen-over {
+    background: #f3f3f3;
+}
+.deleted {
+    background: #999;
+}
+tr.deleted:hover, tr.deleted-over {
+    background: #777;
+}
+.important {
+    background: #fcc;
+}
+tr.important:hover, tr.important-over {
+    background: #faa;
+}
+.unseen {
+    background: #eef;
+}
+tr.unseen:hover, tr.unseen-over {
+    background: #ccf;
+}
+.answered {
+    background: #cfc;
+}
+tr.answered:hover, tr.answered-over {
+    background: #9e9;
+}
+.folderunsub {
+    font-style: italic;
+}
+.quotawarn {
+    color: #000;
+    background: yellow;
+}
+.quotaalert {
+    color: #fff;
+    background: #f00;
+}
+
+/* Pad the addressbook icon in header compose links. */
+.msgheader img {
+    vertical-align: middle;
+    padding: 1px;
+}

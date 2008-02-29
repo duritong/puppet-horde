@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- $Horde: ingo/config/conf.xml,v 1.13 2004/02/11 19:24:23 slusarz Exp $ -->
+<configuration>
+ <configsection name="menu" desc="Menu settings">
+   <configheader>
+        Menu settings
+   </configheader>
+  <configmultienum name="apps" desc="Select any applications that should be linked in Ingo's menu">
+   <values>
+    <configspecial name="list-horde-apps" />
+   </values>
+  </configmultienum>
+ </configsection>
+
+ <configsection name="storage" desc="Ingo Rules Storage">
+  <configheader>
+  Ingo Rules Storage
+  </configheader>
+  <configenum name="driver" desc="What storage driver should we use?">prefs
+   <values>
+    <value>prefs</value>
+   </values>
+  </configenum>
+  <configinteger name="maxblacklist" desc="The maximum number of blacklist addresses a user can store.  Set to 0 for no limit.">0</configinteger>
+  <configinteger name="maxwhitelist" desc="The maximum number of whitelist addresses a user can store.  Set to 0 for no limit.">0</configinteger>
+ </configsection>
+
+ <configsection name="rules" desc="Ingo Rules Options">
+  <configheader>
+  Ingo Rules Options
+  </configheader>
+  <configboolean name="userheader" desc="Allow users to manually enter Header fields to search by in the Rule edit screen?">true</configboolean>
+  <configboolean name="usefolderapi" desc="Use the Horde 'mail/folderlist' API call to obtain the list of mail folders to use for various filtering rules? If IMP is installed it will provide the API call, so you should say true. If false, the user must manually enter the name of the folder (NOT RECOMMENDED).">true</configboolean>
+ </configsection>
+</configuration>

@@ -14,7 +14,6 @@ define horde::files (
     file {
         $location:
             source => "puppet://$servername/horde/files/horde",
-            ensure => directory, 
             recurse => true, 
             mode => 0444, 
             owner => apache, group => apache;

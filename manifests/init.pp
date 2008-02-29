@@ -13,9 +13,26 @@ define horde::files (
 ) {
     file {
         $location:
-            source => "puppet://$servername/horde/files/horde",
+            source => "puppet://$servername/horde/horde",
             recurse => true, 
             mode => 0444, 
             owner => apache, group => apache;
+    }
+}
+
+define horde::files::config (
+    $baselocation = '/var/www/horde',
+    $modulename = ''
+}{
+    file {
+        "$baselocation/$modulename/config":
+	        source => [
+	            "puppet://$server/dist/horde/configs/${fqdn}/config",
+	            "puppet://$server/horde/configs/${fqdn}/config",
+	            "puppet://$server/horde/configs/default/config",
+	        ],
+	        owner => root,
+	        group => 0,
+	        mode => 0644,
     }
 }

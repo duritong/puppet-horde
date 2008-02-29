@@ -1,9 +1,9 @@
-# modules/skeleton/manifests/init.pp - manage skeleton stuff
+# modules/horde/manifests/init.pp - manage horde stuff
 # Copyright (C) 2007 admin@immerda.ch
 #
 
-# modules_dir { "skeleton": }
+# modules_dir { "horde": }
 
-class skeleton {
-
+class horde {
+    
 }

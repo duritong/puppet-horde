@@ -23,7 +23,7 @@ define horde::files (
 define horde::files::config (
     $baselocation = '/var/www/horde',
     $modulename = ''
-}{
+){
     file {
         "$baselocation/$modulename/config":
 	        source => [

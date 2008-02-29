@@ -29,10 +29,12 @@ define horde::files::config (
 	        source => [
 	            "puppet://$server/dist/horde/configs/${fqdn}/config",
 	            "puppet://$server/horde/configs/${fqdn}/config",
-	            "puppet://$server/horde/configs/default/config",
+	            "puppet://$server/horde/configs/default/config"
 	        ],
 	        owner => root,
 	        group => 0,
 	        mode => 0644,
     }
 }
+
+

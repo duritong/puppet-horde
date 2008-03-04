@@ -8,17 +8,17 @@ class horde {
     
 }
 
-define horde::files (
-    $location='/var/www/horde'
-) {
-    file {
-        $location:
-            source => "puppet://$servername/horde/horde",
-            recurse => true, 
-            mode => 0444, 
-            owner => apache, group => apache;
-    }
-}
+#define horde::files (
+#    $location='/var/www/horde'
+#) {
+#    file {
+#        $location:
+#            source => "puppet://$servername/horde/horde",
+#            recurse => true, 
+#            mode => 0444, 
+#            owner => apache, group => apache;
+#    }
+#}
 
 define horde::files::config (
     $baselocation = '/var/www/horde',

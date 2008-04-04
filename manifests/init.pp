@@ -8,28 +8,22 @@ class horde {
     
 }
 
-#define horde::files (
-#    $location='/var/www/horde'
-#) {
-#    file {
-#        $location:
-#            source => "puppet://$servername/horde/horde",
-#            recurse => true, 
-#            mode => 0444, 
-#            owner => apache, group => apache;
-#    }
-#}
-
+#name is the module name here
 define horde::files::config (
     $baselocation = '/var/www/horde',
-    $modulename = ''
 ){
+    # horde module is / path
+    case $name {
+        horde: { $module = '' }
+        default: { $module = $name }
+        
+    }
     file {
-        "$baselocation/$modulename/config":
+        "$baselocation/${module}/config":
 	        source => [
-	            "puppet://$server/dist/horde/configs/${fqdn}/config",
-	            "puppet://$server/horde/configs/${fqdn}/config",
-	            "puppet://$server/horde/configs/default/config"
+	            "puppet://$server/files/horde/configs/${fqdn}/${name}/config",
+	            "puppet://$server/files/horde/configs/${name}/config",
+	            "puppet://$server/horde/configs/${name}/config"
 	        ],
 	        owner => root,
 	        group => 0,

@@ -10,11 +10,11 @@ class horde {
 
 #name is the module name here
 define horde::files::config (
-    $baselocation = '/var/www/horde',
+    $baselocation = '/var/www/horde'
 ){
     # horde module is / path
     case $name {
-        horde: { $module = '' }
+        'horde': { $module = '' }
         default: { $module = $name }
         
     }

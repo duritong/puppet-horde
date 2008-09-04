@@ -13,7 +13,9 @@ class horde::base {
 
     include php
 
-    package{'horde':
+    package{ [ 'horde', 'php-pear-MDB2',
+        'php-pear-MDB2-Driver-mysql', 
+        'php-pear-MDB2-Driver-pgsql' ]:
         ensure => installed,
         require => Package['php'],
     }

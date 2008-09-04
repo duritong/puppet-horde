@@ -12,10 +12,9 @@ class horde {
 class horde::base {
 
     include php
+    include geoip
 
-    package{ [ 'horde', 'php-pear-MDB2',
-        'php-pear-MDB2-Driver-mysql', 
-        'php-pear-MDB2-Driver-pgsql' ]:
+    package{'horde':
         ensure => installed,
         require => Package['php'],
     }

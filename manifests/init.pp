@@ -2,33 +2,26 @@
 # Copyright (C) 2007 admin@immerda.ch
 #
 
-# modules_dir { "horde": }
-
 class horde {
-    
-}
-
-#name is the module name here
-define horde::files::config (
-    $baselocation = '/var/www/horde'
-){
-    # horde module is / path
-    case $name {
-        'horde': { $module = '' }
-        default: { $module = $name }
-        
-    }
-    file {
-        "$baselocation/${module}/config":
-	        source => [
-	            "puppet://$server/files/horde/configs/${fqdn}/${name}/config",
-	            "puppet://$server/files/horde/configs/${name}/config",
-	            "puppet://$server/horde/configs/${name}/config"
-	        ],
-	        owner => root,
-	        group => 0,
-	        mode => 0644,
+    case $operatingsystem {
+        centos: { include horde::centos }
+        default: { include horde::base }
     }
 }
 
+class horde::base {
 
+    include php
+
+    package{'horde':
+        ensure => installed,
+        require => Package['php'],
+    }
+}
+
+class horde::centos inherits horde::base {
+    package{'horde-enhanced':
+        ensure => installed,
+        require => Package['horde'],
+    }
+}

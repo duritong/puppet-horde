@@ -12,7 +12,7 @@ class horde {
 class horde::base {
 
     include php
-    include geoip
+    include php::packages::geoip
 
     package{'horde':
         ensure => installed,

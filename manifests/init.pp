@@ -10,7 +10,6 @@ class horde {
 }
 
 class horde::base {
-
     include php
     include php::packages::geoip
     include php::packages::lzf

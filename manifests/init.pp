@@ -2,6 +2,8 @@
 # Copyright (C) 2007 admin@immerda.ch
 #
 
+import 'defines.pp'
+
 class horde {
     case $operatingsystem {
         centos: { include horde::centos }
@@ -25,13 +27,6 @@ class horde::base {
 class horde::centos inherits horde::base {
     package{'horde-enhanced':
         ensure => installed,
-        require => Package['horde'],
-    }
-}
-
-define horde::module($ensure = installed) {
-    package{"$name":
-        ensure => $ensure,
         require => Package['horde'],
     }
 }

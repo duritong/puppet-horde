@@ -2,6 +2,7 @@
 
 class horde::imp {
     include php::packages::idn
+    include php::package::mail_mimedecode
     include gpg
     horde::module{'imp': }
     if $use_shorewall {

@@ -4,8 +4,8 @@ define horde::module::config(
   $gid = 'apache'
 ){
     file{"/etc/horde/${name}":
-        source => [ "puppet://$server/modules/site-horde/configs/${fqdn}/${name}",
-                    "puppet://$server/modules/site-horde/configs/${name}" ],
+        source => [ "puppet:///modules/site-horde/configs/${fqdn}/${name}",
+                    "puppet:///modules/site-horde/configs/${name}" ],
         owner => $uid, group => $gid, mode => 0440;
     }
 }

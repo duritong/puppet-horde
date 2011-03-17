@@ -1,0 +1,37 @@
+  <Directory <%= documentroot %>/>
+    Options +FollowSymLinks
+    Allow from all
+    php_admin_flag engine on
+    php_admin_flag safe_mode Off
+
+    php_admin_flag register_globals off
+
+    php_admin_flag magic_quotes_runtime off
+    php_flag session.use_trans_sid off
+    php_flag session.auto_start off
+    php_admin_flag file_uploads on
+
+    php_admin_flag display_errors off 
+    php_admin_flag  register_globals off
+
+    php_admin_value open_basedir <%= documentroot %>/:/etc/horde/:/usr/share/pear/:/var/www/upload_tmp_dir/<%= name %>/:/var/www/session.save_path/<%= name %>:/var/log/httpd/
+    php_admin_value upload_tmp_dir /var/www/upload_tmp_dir/<%= name %>/
+    php_admin_value session.save_path /var/www/session.save_path/<%= name %>/
+    
+  </Directory>
+
+  <Directory /etc/horde>
+      Order Deny,Allow
+      Deny from all
+  </Directory>
+
+  <DirectoryMatch "^<%= documentroot %>/(.*/)?(config|lib|locale|po|scripts|templates)/(.*)?">
+    Order deny,allow
+    Deny  from all
+  </DirectoryMatch>
+
+  <LocationMatch "^/(.*/)?test.php">
+   Order deny,allow
+   Deny  from all
+   Allow from localhost
+  </LocationMatch>

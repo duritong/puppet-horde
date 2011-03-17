@@ -1,5 +1,3 @@
-# manifests/php.pp
-
 class horde::php {
   include php
 

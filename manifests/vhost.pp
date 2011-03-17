@@ -61,8 +61,8 @@ define horde::vhost(
     before => Service['apache']
   }
 
-    if (imp_configs != 'absent') {
-      horde::module::config{$imp_configs: }
+  if (imp_configs != 'absent') {
+    horde::module::config{$imp_configs: }
     if $use_shorewall {
         include shorewall::rules::out::imap
     }

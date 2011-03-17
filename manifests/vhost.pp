@@ -5,7 +5,7 @@ define horde::vhost(
     'conf.php',
     'prefs.php' ],
   $imp_configs = [
-  	'imp/servers.php',
+    'imp/servers.php',
     'imp/motd.php',
     'imp/conf.php',
     'imp/conf.xml',
@@ -15,14 +15,14 @@ define horde::vhost(
     'dimp/conf.php',
   ],
   $mimp_configs = [
-  	'mimp/conf.php',
+    'mimp/conf.php',
   ],
   $mnemo_configs = [
     'mnemo/conf.php',
     'mnemo/prefs.php',
   ],
   $turba_configs = [
-  	'turba/sources.php',
+    'turba/sources.php',
     'turba/conf.php',
     'turba/prefs.php',
   ],
@@ -47,53 +47,50 @@ define horde::vhost(
   $monitor_url = 'absent',
   $additional_options = 'absent'
 ){
-  if $ensure == 'present' {	
+  if $ensure == 'present' {
     file{"/etc/cron.hourly/horde_${name}_cache_cleanup.cron":
-	  content => "#!/bin/bash\n/usr/sbin/tmpwatch 24 /var/www/upload_tmp_dir/${name}/\n",
-	  owner => apache, group => apache, mode => 0700;
-	}
-	  
-	include horde::vhost::absent_webconfig
-	horde::config{$horde_configs:
+    content => "#!/bin/bash\n/usr/sbin/tmpwatch 24 /var/www/upload_tmp_dir/${name}/\n",
+    owner => apache, group => apache, mode => 0700;
+  }
+
+  include horde::vhost::absent_webconfig
+  horde::config{$horde_configs:
       before => Service['apache']
-	}
-	Horde::Module::Config{
-	  before => Service['apache']
-	}
-	
+  }
+  Horde::Module::Config{
+    before => Service['apache']
+  }
+
     if (imp_configs != 'absent') {
       horde::module::config{$imp_configs: }
-	  if $use_shorewall {
+    if $use_shorewall {
         include shorewall::rules::out::imap
-	  }
-	}
-	if (dimp_configs != 'absent') {
+    }
+  }
+  if (dimp_configs != 'absent') {
       horde::module::config{$dimp_configs: }
     }
-	if (mimp_configs != 'absent') {
+  if (mimp_configs != 'absent') {
         horde::module::config{$mimp_configs: }
-	}
-	if (mnemo_configs != 'absent') {
+  }
+  if (mnemo_configs != 'absent') {
       horde::module::config{$mnemo_configs: }
     }
-	if (mimp_configs != 'absent') {
-	  horde::module::config{$mimp_configs: }
-	}
-	if (turba_configs != 'absent') {
-	  horde::module::config{$turba_configs: }
-	}
-	if (ingo_configs != 'absent') {
-	  horde::module::config{$ingo_configs: }
-	}
-	if (passwd_configs != 'absent') {
-	  horde::module::config{$passwd_configs: }
-	}
-	if (nag_configs != 'absent') {
-	  horde::module::config{$nag_configs: }
-	}
-	if (kronolith_configs != 'absent') {
-	  horde::module::config{$kronolith_configs: }
-	}
+  if (turba_configs != 'absent') {
+    horde::module::config{$turba_configs: }
+  }
+  if (ingo_configs != 'absent') {
+    horde::module::config{$ingo_configs: }
+  }
+  if (passwd_configs != 'absent') {
+    horde::module::config{$passwd_configs: }
+  }
+  if (nag_configs != 'absent') {
+    horde::module::config{$nag_configs: }
+  }
+  if (kronolith_configs != 'absent') {
+    horde::module::config{$kronolith_configs: }
+  }
   }
   apache::vhost::php::standard{$name:
     ensure => $ensure,

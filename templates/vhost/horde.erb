@@ -14,7 +14,7 @@
     php_admin_flag display_errors off 
     php_admin_flag  register_globals off
 
-    php_admin_value open_basedir <%= documentroot %>/:/etc/horde/:/usr/share/pear/:/var/www/upload_tmp_dir/<%= name %>/:/var/www/session.save_path/<%= name %>:/var/log/httpd/
+    php_admin_value open_basedir /usr/share/php/:<%= documentroot %>/:/etc/horde/:/usr/share/pear/:/var/www/upload_tmp_dir/<%= name %>/:/var/www/session.save_path/<%= name %>:/var/www/vhosts/<%= name %>/logs/
     php_admin_value upload_tmp_dir /var/www/upload_tmp_dir/<%= name %>/
     php_admin_value session.save_path /var/www/session.save_path/<%= name %>/
     

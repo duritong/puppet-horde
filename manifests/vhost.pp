@@ -120,7 +120,7 @@ define horde::vhost(
     }
     nagios::service::http{"${real_monitor_url}":
       ensure => $ensure,
-      check_url => 'imp/login.php',
+      check_url => '/imp/login.php',
       ssl_mode => $ssl_mode,
     }
   }

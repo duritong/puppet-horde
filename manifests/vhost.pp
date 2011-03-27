@@ -45,7 +45,8 @@ define horde::vhost(
   $domainalias = 'absent',
   $ssl_mode = 'force',
   $monitor_url = 'absent',
-  $additional_options = 'absent'
+  $additional_options = 'absent',
+  $logmode = 'default'
 ){
   if $ensure == 'present' {
     file{"/etc/cron.hourly/horde_${name}_cache_cleanup.cron":
@@ -104,6 +105,7 @@ define horde::vhost(
       gentoo => '/var/log/apache2/',
       default => '/var/log/httpd'
     },
+    logmode => $logmode,
     manage_webdir => false,
     path_is_webdir => true,
     ssl_mode => $ssl_mode,

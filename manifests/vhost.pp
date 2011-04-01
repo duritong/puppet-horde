@@ -31,6 +31,7 @@ define horde::vhost(
     'ingo/prefs.php',
     'ingo/backends.php',
   ],
+  $ingo_manage_sieve = false,
   $passwd_configs = [
     'passwd/backends.php',
     'passwd/conf.php',
@@ -82,6 +83,9 @@ define horde::vhost(
   }
   if (ingo_configs != 'absent') {
     horde::module::config{$ingo_configs: }
+    if $ingo_manage_sieve {
+      include horde::ingo::managesieve
+    }
   }
   if (passwd_configs != 'absent') {
     horde::module::config{$passwd_configs: }

@@ -117,6 +117,7 @@ define horde::vhost(
     template_partial => 'horde/vhost/horde.erb',
     additional_options => $additional_options,
     require => Package['horde'],
+    mod_security => false,
   }
 
   if $use_nagios {

@@ -120,7 +120,7 @@ define horde::vhost(
     mod_security => false,
   }
 
-  if $use_nagios {
+  if hiera('use_nagios',false) {
     $real_monitor_url = $monitor_url ? {
       'absent' => $name,
       default => $monitor_url,
@@ -129,6 +129,10 @@ define horde::vhost(
       ensure => $ensure,
       check_url => '/imp/login.php',
       ssl_mode => $ssl_mode,
+      check_code => $horde::install_type ? {
+        'git4' => '301',
+        default => 'OK',
+      }
     }
   }
 }

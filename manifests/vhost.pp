@@ -127,7 +127,9 @@ define horde::vhost(
     ensure => $ensure,
     domainalias => $domainalias,
     manage_docroot => false,
-    path => $installroot,
+    path => $documentroot,
+    path_is_webdir => true,
+    manage_webdir => false,
     logpath => $operatingsystem ? {
       gentoo => '/var/log/apache2/',
       default => '/var/log/httpd'
@@ -136,8 +138,6 @@ define horde::vhost(
     run_mode => $run_mode,
     run_uid => $name,
     run_gid => $name,
-    manage_webdir => false,
-    path_is_webdir => true,
     ssl_mode => $ssl_mode,
     options => '+FollowSymLinks',
     php_settings => {

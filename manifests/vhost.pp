@@ -47,12 +47,22 @@ define horde::vhost(
   $ssl_mode = 'force',
   $monitor_url = 'absent',
   $additional_options = 'absent',
-  $logmode = 'default'
+  $logmode = 'default',
+  $run_mode = 'normal',
+  $run_uid = 'absent',
+  $run_gid = 'absent'
 ){
-  if $ensure == 'present' {
-    file{"/etc/cron.hourly/horde_${name}_cache_cleanup.cron":
-    content => "#!/bin/bash\n/usr/sbin/tmpwatch 24 /var/www/upload_tmp_dir/${name}/\n",
-    owner => apache, group => apache, mode => 0700;
+
+  $documentroot = $operatingsystem ? {
+    gentoo => '/var/www/localhost/htdocs/horde',
+    default => '/usr/share/horde'
+  }
+  if $horde::install_type == 'pkg' {
+    $srcroot = $documentroot
+    $additional_open_basedir = ''
+  } else {
+    $srcroot = '/usr/share/horde_framework'
+    $additional_open_basedir = ":${srcroot}"
   }
 
   include horde::vhost::absent_webconfig
@@ -96,28 +106,82 @@ define horde::vhost(
   if (kronolith_configs != 'absent') {
     horde::module::config{$kronolith_configs: }
   }
+
+  if ($run_mode == 'fcgid'){
+    if (($run_uid == 'absent') or ($run_gid == 'absent')) { fail("Need to configure \$run_uid and \$run_gid if you want to run Phpmyadmin::Vhost[${name}] as fcgid.") }
+
+    user::managed{$name:
+      ensure => $ensure,
+      uid => $run_uid,
+      gid => $run_gid,
+      shell => $operatingsystem ? {
+        debian => '/usr/sbin/nologin',
+        ubuntu => '/usr/sbin/nologin',
+        default => '/sbin/nologin'
+      },
+      before => Apache::Vhost::Php::Standard[$name],
+    }
   }
+
   apache::vhost::php::standard{$name:
     ensure => $ensure,
     domainalias => $domainalias,
     manage_docroot => false,
-    path => $operatingsystem ? {
-      gentoo => '/var/www/localhost/htdocs/horde',
-      default => '/usr/share/horde'
-    },
+    path => $installroot,
     logpath => $operatingsystem ? {
       gentoo => '/var/log/apache2/',
       default => '/var/log/httpd'
     },
     logmode => $logmode,
+    run_mode => $run_mode,
+    run_uid => $name,
+    run_gid => $name,
     manage_webdir => false,
     path_is_webdir => true,
     ssl_mode => $ssl_mode,
-    php_use_pear => true,
-    template_partial => 'horde/vhost/horde.erb',
-    additional_options => $additional_options,
+    options => '+FollowSymLinks',
+    php_settings => {
+      safe_mode               => 'Off',
+      register_globals        => 'Off',
+      magic_quotes_runtime    => 'Off',
+      'session.use_trans_sid' => 'Off',
+      'session.auto_start'    => 'Off',
+      file_uploads            => 'On',
+      display_errors          => 'Off',
+      register_globals        => 'Off',
+      open_basedir            => "/usr/share/php/:${documentroot}/:/etc/horde/:/usr/share/pear/:/var/www/upload_tmp_dir/${name}/:/var/www/session.save_path/${name}:/var/www/vhosts/${name}/logs/${additional_open_basedir}"
+    },
+    php_options => { use_pear => true },
+    additional_options => "
+  <Directory /etc/horde>
+      Order Deny,Allow
+      Deny from all
+  </Directory>
+
+  <DirectoryMatch \"^${documentroot}/(.*/)?(config|lib|locale|po|scripts|templates)/(.*)?\">
+    Order deny,allow
+    Deny  from all
+  </DirectoryMatch>
+
+  <LocationMatch \"^/(.*/)?test.php\">
+   Order deny,allow
+   Deny  from all
+   Allow from localhost
+  </LocationMatch>
+  ${additional_options}",
     require => Package['horde'],
     mod_security => false,
+  }
+  if $ensure == 'present' {
+    file{"/etc/cron.hourly/horde_${name}_cache_cleanup.cron":
+      content => "#!/bin/bash\n/usr/sbin/tmpwatch 24 /var/www/upload_tmp_dir/${name}/\n",
+      owner => apache, group => apache, mode => 0700;
+    }
+    if $horde::install_type == 'git4' {
+      Apache::Vhost::Php::Standard[$name]{
+        allow_override => 'FileInfo'
+      }
+    }
   }
 
   if hiera('use_nagios',false) {

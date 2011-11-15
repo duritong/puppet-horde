@@ -67,10 +67,18 @@ define horde::vhost(
 
   include horde::vhost::absent_webconfig
   horde::config{$horde_configs:
-      before => Service['apache']
+      before => Service['apache'],
+      gid => $run_mode ? {
+        'fcgid' => $name,
+        default => 'apache'
+      }
   }
   Horde::Module::Config{
-    before => Service['apache']
+    before => Service['apache'],
+    gid => $run_mode ? {
+      'fcgid' => $name,
+      default => 'apache'
+    }
   }
 
   if (imp_configs != 'absent') {
@@ -80,19 +88,20 @@ define horde::vhost(
     }
   }
   if (dimp_configs != 'absent') {
-      horde::module::config{$dimp_configs: }
-    }
+    horde::module::config{$dimp_configs: }
+  }
   if (mimp_configs != 'absent') {
-        horde::module::config{$mimp_configs: }
+    horde::module::config{$mimp_configs: }
   }
   if (mnemo_configs != 'absent') {
-      horde::module::config{$mnemo_configs: }
-    }
+    horde::module::config{$mnemo_configs: }
+  }
   if (turba_configs != 'absent') {
     horde::module::config{$turba_configs: }
   }
   if (ingo_configs != 'absent') {
     horde::module::config{$ingo_configs: }
+
     if $ingo_manage_sieve {
       include horde::ingo::managesieve
     }

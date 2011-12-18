@@ -50,7 +50,8 @@ define horde::vhost(
   $logmode = 'default',
   $run_mode = 'normal',
   $run_uid = 'absent',
-  $run_gid = 'absent'
+  $run_gid = 'absent',
+  $wwwmail = false
 ){
 
   $documentroot = $operatingsystem ? {
@@ -130,7 +131,24 @@ define horde::vhost(
       },
       before => Apache::Vhost::Php::Standard[$name],
     }
-  }
+
+    if $wwwmail {
+      user::groups::manage_user{"${name}_in_wwwmailers":
+        ensure => $ensure,
+        group => 'wwwmailers',
+        user => $name
+      }
+      if ($ensure == 'present') {
+        require webhosting::wwwmailers
+        User::Groups::Manage_user["${name}_in_wwwmailers"]{
+          require => User::Managed[$name],
+        }
+      }
+    }
+    $additional_fcgi_options = '    RewriteEngine On
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+'
+  } else { $additional_fcgi_options = '' }
 
   apache::vhost::php::standard{$name:
     ensure => $ensure,
@@ -177,6 +195,7 @@ define horde::vhost(
    Deny  from all
    Allow from localhost
   </LocationMatch>
+  ${additional_fcgi_options}
   ${additional_options}",
     require => Package['horde'],
     mod_security => false,
